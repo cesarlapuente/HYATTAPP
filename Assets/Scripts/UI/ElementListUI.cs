@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class ElementListUI : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public SubElementListUI _subElement;
+
+    /// <summary>
+    /// Display or hide the linked subElement
+    /// </summary>
+    public void ToggleSubElement()
+    {
+        _subElement.ToggleList();
+    }
 }
