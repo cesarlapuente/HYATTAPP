@@ -1,10 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class NestedListUI : MonoBehaviour {
-
+/// <summary>
+/// A nested list UI that allows you to hide the children by clicking on an element of the list.
+/// Usually used in a ScrollView, this script should be added to the "Content" GameObject of the ScrollView.
+/// Should be used with a VerticalLayoutGroup to place the elements properly.
+/// </summary>
+public class NestedListUI : MonoBehaviour
+{
     public ElementListUI _prefabElementList;
     public SubElementListUI _prefabSubElementList;
     public Button _prefabSubElementButton;
@@ -43,8 +46,8 @@ public class NestedListUI : MonoBehaviour {
     public void Awake()
     {
         Room[] rooms1 = { new Room("1", ""), new Room("2", ""), new Room("3", ""), new Room("4", "") };
-        Room[] rooms2 = { new Room("11", ""), new Room("22", "")};
-        Room[] rooms3 = { new Room("111", ""), new Room("222", ""), new Room("333", "")};
+        Room[] rooms2 = { new Room("11", ""), new Room("22", "") };
+        Room[] rooms3 = { new Room("111", ""), new Room("222", ""), new Room("333", "") };
 
         RoomCategory[] roomCategories = { new RoomCategory("Cat 1", rooms1), new RoomCategory("Cat 2", rooms2), new RoomCategory("Cat 3", rooms3) };
 

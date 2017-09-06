@@ -1,20 +1,17 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
-using System.Collections;
+﻿using System;
 using System.Collections.Generic;
-using System;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class LanguageManager : MonoBehaviourSingleton<LanguageManager>
 {
-    Dictionary<string, string> _texts = new Dictionary<string, string>();
+    private Dictionary<string, string> _texts = new Dictionary<string, string>();
     private string _keySeparator = "=";
     public List<TextTranslated> _registeredTextTranslated = new List<TextTranslated>();
 
     public GameObject _languagesGo;
     public Text _loadingText;
     public GameObject _languageSelectionPanel;
-
 
     public void LoadLanguage(string lang)
     {
@@ -39,11 +36,12 @@ public class LanguageManager : MonoBehaviourSingleton<LanguageManager>
     public void LoadLanguageAndStartApp(string lang)
     {
         _languagesGo.SetActive(false);
-        switch(lang)
+        switch (lang)
         {
             case "fr":
                 _loadingText.text = "Chargement en cours...";
                 break;
+
             case "en":
                 _loadingText.text = "Loading...";
                 break;
@@ -53,7 +51,7 @@ public class LanguageManager : MonoBehaviourSingleton<LanguageManager>
     public string GetText(string key)
     {
         string text;
-        if(!_texts.TryGetValue(key, out text))
+        if (!_texts.TryGetValue(key, out text))
         {
             Debug.LogError("The key '" + key + "' does not exist");
         }

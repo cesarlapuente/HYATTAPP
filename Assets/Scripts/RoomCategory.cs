@@ -1,8 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class RoomCategory {
+﻿public class RoomCategory
+{
     public string _name;
     public Room[] _rooms;
 

@@ -1,17 +1,19 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SubElementListUI : MonoBehaviour {
-
+/// <summary>
+/// A SubElement container used for the NestedListUI
+/// </summary>
+public class SubElementListUI : MonoBehaviour
+{
     private bool _isDisplayed = false;
     private RectTransform _rectTransform;
     public float _defaultHeight;
 
     public RectTransform _contentRectTransform;
 
-    void Awake()
+    private void Awake()
     {
         _rectTransform = GetComponent<RectTransform>();
     }

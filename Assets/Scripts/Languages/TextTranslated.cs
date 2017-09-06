@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class TextTranslated : MonoBehaviour {
-
+public class TextTranslated : MonoBehaviour
+{
     public string _textKey;
     private Text _textComponent;
 
@@ -25,7 +23,7 @@ public class TextTranslated : MonoBehaviour {
     {
         if (LanguageManager.Instance != null)
         {
-            _textComponent.text = LanguageManager.Instance.GetText(_textKey); 
+            _textComponent.text = LanguageManager.Instance.GetText(_textKey);
         }
         else
         {
