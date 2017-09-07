@@ -1,3 +1,4 @@
 0=3D View
 1=List of spaces
 2=Map
+3=Hotel Hyatt, Paris
