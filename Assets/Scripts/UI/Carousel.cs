@@ -39,6 +39,8 @@ public class Carousel : MonoBehaviour
     public int _dotOffset = 10;
     public int _currentImageIndex = 0;
 
+    public Color _dotColor;
+
     private void Start()
     {
         _contentInitialLocalPosition = _contentRectTransform.localPosition;
@@ -110,7 +112,7 @@ public class Carousel : MonoBehaviour
         _nextButton.SetActive(moreThanOneImage);
 
         // Set color of first dot to orange
-        _firstDot.CrossFadeColor(new Color(0.84375f, 0.40625f, 0f), 0.0f, false, false);
+        _firstDot.CrossFadeColor(_dotColor, 0.0f, false, false);
 
         // Move Dots Container so it stays justified on the right
         _firstDot.transform.parent.localPosition -= new Vector3((_firstDot.rectTransform.rect.width + _dotOffset) * (_dots.Count - 1), 0);
@@ -199,7 +201,7 @@ public class Carousel : MonoBehaviour
     {
         _dots[_currentImageIndex].CrossFadeColor(new Color(1.0f, 1.0f, 1.0f), 0.5f, false, false);
         _currentImageIndex = Mathf.Clamp(newIndex, 0, _images.Count - 1);
-        _dots[_currentImageIndex].CrossFadeColor(new Color(0.84375f, 0.40625f, 0f), 0.5f, false, false);
+        _dots[_currentImageIndex].CrossFadeColor(_dotColor, 0.5f, false, false);
         _imageTitle.text = _imagesContainer[_currentImageIndex]._name;
         _imageCopyright.text = _imagesContainer[_currentImageIndex]._copyright;
     }
