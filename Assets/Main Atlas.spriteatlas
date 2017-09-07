@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Main Atlas
+  m_EditorData:
+    textureSettings:
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      colorSpace: 1
+      filterMode: 2
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+    platformSettings: []
+    packingParameters:
+      paddingPower: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    packedHash:
+      serializedVersion: 2
+      Hash: 905d78afb177c521d5ef5e6c90ce9121
+    variantMultiplier: 1
+    bindAsDefault: 1
+    finalFormat: 4
+    hashString: 905d78afb177c521d5ef5e6c90ce9121
+    totalSpriteSurfaceArea: 1008409
+    packables:
+    - {fileID: 102900000, guid: 5b36d6a7e9ff31b4fbf38e91e2da4c98, type: 3}
+    packedSpriteRenderDataKeys:
+    - 8bfe049c392e02e4ebbd5860c8ccd533: 21300000
+    - f900166e0dff47e43ae63d270d86930d: 21300000
+    - 7103011b9644e3e4eb7f196088918531: 21300000
+    - 009b90842859f9d429efb879adf7b04d: 21300000
+    - f3f6187d9fb26b84cbc0cb1568dac128: 21300000
+    - 0654549f41b85e543a914b6741971abb: 21300000
+    - 73d1a178a0a482a418dfaee1eb532212: 21300000
+    - 75bbd8c27b86ecf46b1253d09521076a: 21300000
+    - 54c6537a92f999c4f8af1879c9ffec57: 21300000
+    - 69bf497bb1fb2e94199d413329fe1f36: 21300000
+    - 419d866a7514ce34d98c9fcaeb89bca3: 21300000
+    - 1b10f32214b6e694e8ecc93d50be755a: 21300000
+    - 58b3cffd30dcfcf448b916f52c65bb33: 21300000
+    - 774edf44b69cf9242af07dd85ca36a8c: 21300000
+    - 84e49e798402e214bbc2500e66a7eb49: 21300000
+    - 622a4599d75b0a640bc7775ed797c604: 21300000
+    - 8c6376339bb3e4043affc3b7fedba335: 21300000
+    - 79802576678c64d4a9b5c9f7f4fa068e: 21300000
+    - 7cc2787c9a6aebd4ca47bf19a60d8755: 21300000
+    - dc5dedb3fe1fea94c836619530e25872: 21300000
+    - 6ce76a1cbf752df4080b9accd6c036d6: 21300000
+    - 451392776b2c85140b604938f5b2f69e: 21300000
+    - 0f300cf1917aea940a87488bd316782c: 21300000
+    - c134875193ee3714c9e966e304d91ede: 21300000
+    - e18ead2fa598a2b418461366e9eb3d44: 21300000
+    - a05520ff2c7ad314383ecd471a745ab8: 21300000
+    - d7a292f76bce4264981bc3df1cd1da98: 21300000
+    - 6e12fcc6e120496488585ba9d0063e8a: 21300000
+    - 90210dfd59314424da7d8f25c9d2e73b: 21300000
+    - 26c9be18ecd17394f8fcc7fa25555644: 21300000
+    - efee6fe77b4b8bc4083e4b51ae6ebeea: 21300000
+    - 9c3b2645ae3e1724ea1c4b733efbfa82: 21300000
+    - fae666214be440d4684ce5b44bcff275: 21300000
+    - 296ca95ad926af740a144eaf9957b7a9: 21300000
+    - f8e0f26e23a0a45469ab78fbb40249e2: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8bfe049c392e02e4ebbd5860c8ccd533, type: 3}
+  - {fileID: 21300000, guid: f900166e0dff47e43ae63d270d86930d, type: 3}
+  - {fileID: 21300000, guid: 7103011b9644e3e4eb7f196088918531, type: 3}
+  - {fileID: 21300000, guid: 009b90842859f9d429efb879adf7b04d, type: 3}
+  - {fileID: 21300000, guid: f3f6187d9fb26b84cbc0cb1568dac128, type: 3}
+  - {fileID: 21300000, guid: 0654549f41b85e543a914b6741971abb, type: 3}
+  - {fileID: 21300000, guid: 73d1a178a0a482a418dfaee1eb532212, type: 3}
+  - {fileID: 21300000, guid: 75bbd8c27b86ecf46b1253d09521076a, type: 3}
+  - {fileID: 21300000, guid: 54c6537a92f999c4f8af1879c9ffec57, type: 3}
+  - {fileID: 21300000, guid: 69bf497bb1fb2e94199d413329fe1f36, type: 3}
+  - {fileID: 21300000, guid: 419d866a7514ce34d98c9fcaeb89bca3, type: 3}
+  - {fileID: 21300000, guid: 1b10f32214b6e694e8ecc93d50be755a, type: 3}
+  - {fileID: 21300000, guid: 58b3cffd30dcfcf448b916f52c65bb33, type: 3}
+  - {fileID: 21300000, guid: 774edf44b69cf9242af07dd85ca36a8c, type: 3}
+  - {fileID: 21300000, guid: 84e49e798402e214bbc2500e66a7eb49, type: 3}
+  - {fileID: 21300000, guid: 622a4599d75b0a640bc7775ed797c604, type: 3}
+  - {fileID: 21300000, guid: 8c6376339bb3e4043affc3b7fedba335, type: 3}
+  - {fileID: 21300000, guid: 79802576678c64d4a9b5c9f7f4fa068e, type: 3}
+  - {fileID: 21300000, guid: 7cc2787c9a6aebd4ca47bf19a60d8755, type: 3}
+  - {fileID: 21300000, guid: dc5dedb3fe1fea94c836619530e25872, type: 3}
+  - {fileID: 21300000, guid: 6ce76a1cbf752df4080b9accd6c036d6, type: 3}
+  - {fileID: 21300000, guid: 451392776b2c85140b604938f5b2f69e, type: 3}
+  - {fileID: 21300000, guid: 0f300cf1917aea940a87488bd316782c, type: 3}
+  - {fileID: 21300000, guid: c134875193ee3714c9e966e304d91ede, type: 3}
+  - {fileID: 21300000, guid: e18ead2fa598a2b418461366e9eb3d44, type: 3}
+  - {fileID: 21300000, guid: a05520ff2c7ad314383ecd471a745ab8, type: 3}
+  - {fileID: 21300000, guid: d7a292f76bce4264981bc3df1cd1da98, type: 3}
+  - {fileID: 21300000, guid: 6e12fcc6e120496488585ba9d0063e8a, type: 3}
+  - {fileID: 21300000, guid: 90210dfd59314424da7d8f25c9d2e73b, type: 3}
+  - {fileID: 21300000, guid: 26c9be18ecd17394f8fcc7fa25555644, type: 3}
+  - {fileID: 21300000, guid: efee6fe77b4b8bc4083e4b51ae6ebeea, type: 3}
+  - {fileID: 21300000, guid: 9c3b2645ae3e1724ea1c4b733efbfa82, type: 3}
+  - {fileID: 21300000, guid: fae666214be440d4684ce5b44bcff275, type: 3}
+  - {fileID: 21300000, guid: 296ca95ad926af740a144eaf9957b7a9, type: 3}
+  - {fileID: 21300000, guid: f8e0f26e23a0a45469ab78fbb40249e2, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Mapa@2x
+  - Logo_Hyatt@2x
+  - Icono_eiffel@2x
+  - Icono_notre@2x
+  - Icono_Hyatt@2x
+  - Icono_pantheon@2x
+  - Fondo_manu_actif@2x
+  - Icono_avion@2x
+  - Icono_arc@2x
+  - Icono_plaza_opera@2x
+  - Icono_louvre@2x
+  - plus_photo@2x
+  - poi_3dview_back_actif@2x
+  - poi_3dview_back_deactif@2x
+  - poi_3dview_deactif@2x
+  - poi_3dview_actif@2x
+  - Icono_coche@2x
+  - Map@2x
+  - Map_actif@2x
+  - pdf_indicador@2x
+  - 3d view_actif@2x
+  - 3d view@2x
+  - Dot_poi_mapa@2x
+  - Linea_separacion_menu@2x
+  - Icono_persona@2x
+  - Menu@2x
+  - Menu_actif@2x
+  - Flecha_izquierda@2x
+  - Flecha_derecha@2x
+  - Scroll_menu@2x
+  - More@2x
+  - Elipse_azul@2x
+  - Elipse_gris@2x
+  - Flecha_menu_up@2x
+  - Flecha_menu_down@2x
+  m_Tag: Main Atlas
+  m_IsVariant: 0
