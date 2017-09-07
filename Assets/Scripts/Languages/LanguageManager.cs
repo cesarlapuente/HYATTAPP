@@ -13,6 +13,11 @@ public class LanguageManager : MonoBehaviourSingleton<LanguageManager>
     public Text _loadingText;
     public GameObject _languageSelectionPanel;
 
+    public void Awake()
+    {
+        LoadLanguage("en");
+    }
+
     public void LoadLanguage(string lang)
     {
         _texts.Clear();
