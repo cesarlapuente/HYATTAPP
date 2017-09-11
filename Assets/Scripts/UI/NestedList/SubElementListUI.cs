@@ -42,12 +42,16 @@ public class SubElementListUI : MonoBehaviour
     {
         float currentHeight = _rectTransform.sizeDelta.y;
         float heightDifferential = currentHeight - newHeight;
-        float step = 500.0f / Mathf.Abs(heightDifferential) * Time.fixedDeltaTime;
-        float t = 0;
-        while (t <= 1.0f)
+
+        float timeBegin = Time.realtimeSinceStartup;
+
+        float i = 0.0f;
+        float time = 0.5f;
+        float rate = 1.0f / time;
+        while (i < 1.0)
         {
-            t += step;
-            _rectTransform.sizeDelta = new Vector2(_rectTransform.sizeDelta.x, Mathf.Lerp(_rectTransform.sizeDelta.y, newHeight, t));
+            i += Time.deltaTime * rate;
+            _rectTransform.sizeDelta = new Vector2(_rectTransform.sizeDelta.x, Mathf.Lerp(_rectTransform.sizeDelta.y, newHeight, i));
             LayoutRebuilder.ForceRebuildLayoutImmediate(_contentRectTransform);
             yield return new WaitForFixedUpdate();
         }

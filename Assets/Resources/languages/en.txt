@@ -2,3 +2,84 @@
 1=List of spaces
 2=Map
 3=Hotel Hyatt, Paris
+
+4=UNDER ONE ROOF
+5=Palais Des Congres Boutiques
+6=Movie Theater
+7=Metro Access 
+8=Parking
+9=Airport Shuttle
+10=Lobby
+11=Lobby Bar
+12=Lobby Restaurant
+13=Market
+14=Panoramic Bar
+15=Regency Club
+16=Business Center 
+17=Fitness Center
+
+18=ROOMS & SUITES
+19=Standard
+20=Standard Eiffel Tower View
+21=Deluxe
+22=Deluxe Eiffel Tower View
+23=Club
+24=Club Eiffel Tower View
+25=Regency Suite King
+26=Regency Suite King Eiffel Tower View
+27=Regency Executive Suite
+28=Loft suite
+29=Presidential Suite
+
+30=PALAIS DES CONGRES MEETING SPACES
+31=Grand Amphithéâtre
+32=Salle Passy
+33=Salle Maillot
+34=Hall Maillot
+35=Amphitheatre Bleu
+36=Hall Bordeaux
+37=Hall Havane
+38=Amphitheatre Bordeaux
+39=Amphitheatre Havane
+
+40=LABS MEETING SPACES
+41=Lab 1
+42=Lab 2
+43=Lab 3
+44=Lab 4
+45=Lab 5
+46=Lab 6
+47=Lab 7
+48=Lab 8
+49=Lab 9
+50=Lab 10
+51=Lab 11
+52=Lab 12
+
+53=ATELIER MEETING SPACES	
+54=Atelier 1
+55=Atelier 2
+56=Atelier 3
+57=Atelier 4
+58=Atelier 5
+59=Atelier 6
+60=Atelier 7
+61=Atelier 8
+62=Atelier 9
+63=Atelier 10
+64=Atelier 11
+65=Atelier 12
+66=Atelier 13
+67=Atelier 14
+
+68=TOWER MEETING SPACES
+69=Tower 1
+70=Tower 2
+71=Tower 3
+72=Tower 4
+73=Tower 5
+74=Tower 6
+
+75=MEETING SPACE CAPACITY
+76=English
+77=French
