@@ -140,15 +140,22 @@ public class NestedListUI : MonoBehaviour
             new Room(LanguageManager.Instance.GetText("77"), "")
         };
 
+        Room[] catering =
+        {
+            new Room(LanguageManager.Instance.GetText("79"), ""),
+            new Room(LanguageManager.Instance.GetText("80"), "")
+        };
+
         RoomCategory[] roomCategories =
         {
             new RoomCategory(LanguageManager.Instance.GetText("4"), underOneRoof),
             new RoomCategory(LanguageManager.Instance.GetText("18"), roomsAndSuites),
             new RoomCategory(LanguageManager.Instance.GetText("30"), palaisDesCongresMeetingSpaces),
             new RoomCategory(LanguageManager.Instance.GetText("40"), labsMeetingSpaces),
-            new RoomCategory(LanguageManager.Instance.GetText("52"), atelierMeetingSpaces),
+            new RoomCategory(LanguageManager.Instance.GetText("53"), atelierMeetingSpaces),
             new RoomCategory(LanguageManager.Instance.GetText("68"), towerMeetingSpaces),
-            new RoomCategory(LanguageManager.Instance.GetText("75"), meetingSpacesCapacity)
+            new RoomCategory(LanguageManager.Instance.GetText("75"), meetingSpacesCapacity),
+            new RoomCategory(LanguageManager.Instance.GetText("78"), catering)
         };
         
         InitList(roomCategories);

@@ -4,19 +4,19 @@
 3=Hotel Hyatt, Paris
 
 4=UNDER ONE ROOF
-5=Palais Des Congres Boutiques
-6=Movie Theater
-7=Metro Access 
-8=Parking
-9=Airport Shuttle
-10=Lobby
-11=Lobby Bar
-12=Lobby Restaurant
-13=Market
-14=Panoramic Bar
-15=Regency Club
-16=Business Center 
-17=Fitness Center
+5=Lobby
+6=Lobby Bar
+7=Lobby Restaurant
+8=Market
+9=Panoramic Bar
+10=Regency Club
+11=Business Center 
+12=Fitness Center
+13=Metro Access
+14=Parking
+15=Airport Shuttle
+16=Congress Center Boutiques
+17=Movie Theater
 
 18=ROOMS & SUITES
 19=Standard
@@ -28,7 +28,7 @@
 25=Regency Suite King
 26=Regency Suite King Eiffel Tower View
 27=Regency Executive Suite
-28=Loft suite
+28=Loft Suite
 29=Presidential Suite
 
 30=PALAIS DES CONGRES MEETING SPACES
@@ -83,3 +83,7 @@
 75=MEETING SPACE CAPACITY
 76=English
 77=French
+
+78=CATERING
+79=English
+80=French
