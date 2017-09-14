@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class InterestPoint : MonoBehaviour {
+
+    public string _name;
 	
 	void Update ()
     {
