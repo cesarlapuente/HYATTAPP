@@ -126,3 +126,16 @@
 
 102=STANDARD
 103=.Size of the rooms: 22 sq m\n.View of Paris\n.Walk-in shower or bath
+
+# Map
+
+104=Hyatt Regency Paris Etoile
+105=Arc of Triumph
+106=Eiffel Tower
+107=Opera Square
+108=Louvre Museum
+109=Notre Dame
+110=Pantheon
+111=Le Bourget
+112=Roissy CDG
+113=Orly
