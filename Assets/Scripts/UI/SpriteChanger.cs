@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class SpriteChanger : MonoBehaviour
 {
     private Image _imageComponent;
+    private SpriteRenderer _spriteRenderer;
     public Sprite[] _sprites;
     public bool _spriteEnabled = true;
 
@@ -15,7 +16,11 @@ public class SpriteChanger : MonoBehaviour
         _imageComponent = transform.GetComponent<Image>();
         if (_imageComponent == null)
         {
-            Debug.LogError("There is no image component attached to this GameObject");
+            _spriteRenderer = transform.GetComponent<SpriteRenderer>();
+            if (_spriteRenderer == null)
+            {
+                Debug.LogError("There is no Image or SpriteRenderer component attached to this GameObject");
+            }
         }
         if (!_spriteEnabled)
         {
@@ -28,12 +33,26 @@ public class SpriteChanger : MonoBehaviour
         if (!_spriteEnabled)
         {
             _spriteEnabled = true;
-            _imageComponent.color = new Color(_imageComponent.color.r, _imageComponent.color.g, _imageComponent.color.b, 1.0f);
+            if (_imageComponent != null)
+            {
+                _imageComponent.color = new Color(_imageComponent.color.r, _imageComponent.color.g, _imageComponent.color.b, 1.0f);
+            }
+            if (_spriteRenderer != null)
+            {
+                _spriteRenderer.color = new Color(_spriteRenderer.color.r, _spriteRenderer.color.g, _spriteRenderer.color.b, 1.0f);
+            }
         }
 
         if (spriteIndex < _sprites.Length)
         {
-            _imageComponent.sprite = _sprites[spriteIndex];
+            if (_imageComponent != null)
+            {
+                _imageComponent.sprite = _sprites[spriteIndex];
+            }
+            if (_spriteRenderer != null)
+            {
+                _spriteRenderer.sprite = _sprites[spriteIndex];
+            }
         }
         else
         {
@@ -44,7 +63,17 @@ public class SpriteChanger : MonoBehaviour
     public void DisableSprite()
     {
         _spriteEnabled = false;
-        _imageComponent.sprite = null;
-        _imageComponent.color = new Color(_imageComponent.color.r, _imageComponent.color.g, _imageComponent.color.b, 0.0f);
+
+        if (_imageComponent != null)
+        {
+            _imageComponent.sprite = null;
+            _imageComponent.color = new Color(_imageComponent.color.r, _imageComponent.color.g, _imageComponent.color.b, 0.0f);
+        }
+        if (_spriteRenderer != null)
+        {
+            _spriteRenderer.sprite = null;
+            _spriteRenderer.color = new Color(_spriteRenderer.color.r, _spriteRenderer.color.g, _spriteRenderer.color.b, 0.0f);
+        }
+
     }
 }

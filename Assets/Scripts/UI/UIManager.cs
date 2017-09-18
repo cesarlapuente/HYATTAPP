@@ -7,6 +7,8 @@ public class UIManager : MonoBehaviourSingleton<UIManager>
 {
     public enum Screen { HotelView, EspaceView, MapView};
 
+    private InterestPoint _currentInterestPoint;
+
     [Header("Menu")]
     public Text _title;
     public GameObject _hotelModel;
@@ -90,6 +92,12 @@ public class UIManager : MonoBehaviourSingleton<UIManager>
 
     public void OpenHotelViewPopUp(InterestPoint interestPoint)
     {
+        if (_currentInterestPoint)
+        {
+            _currentInterestPoint.GetComponent<SpriteChanger>().ChangeSprite(0); 
+        }
+        _currentInterestPoint = interestPoint;
+        interestPoint.GetComponent<SpriteChanger>().ChangeSprite(1);
         _hotelViewPopUp.SetActive(true);
         _hotelViewImage.sprite = Resources.Load<Sprite>("Images/" + interestPoint._imagePath);
         _hotelViewTitle.text = LanguageManager.Instance.GetText(interestPoint._titleKey);
