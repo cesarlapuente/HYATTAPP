@@ -177,7 +177,7 @@ public class NestedListUI : MonoBehaviour
             new RoomCategory(LanguageManager.Instance.GetText("18"), roomsAndSuites),
             new RoomCategory(LanguageManager.Instance.GetText("81"), eventSpacesCategories)
         };
-        
+
         InitList(roomCategories);
     }
 }

@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class Carousel : MonoBehaviour
 {
     public delegate void CarouselMoved();
+
     public static event CarouselMoved OnCarouselMoved;
 
     private List<Image> _dots = new List<Image>();
@@ -28,8 +29,10 @@ public class Carousel : MonoBehaviour
     public RectTransform _contentRectTransform;
     public Image _firstImage;
     public Image _firstDot;
+
     //public int _numberOfImages;
     public float _minDragDistance;
+
     public GameObject _initialDotsPosition;
     public Text _imageTitle;
     public Text _imageCopyright;

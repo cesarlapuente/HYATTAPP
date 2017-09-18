@@ -74,6 +74,5 @@ public class SpriteChanger : MonoBehaviour
             _spriteRenderer.sprite = null;
             _spriteRenderer.color = new Color(_spriteRenderer.color.r, _spriteRenderer.color.g, _spriteRenderer.color.b, 0.0f);
         }
-
     }
 }

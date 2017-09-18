@@ -1,11 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviourSingleton<UIManager>
 {
-    public enum Screen { HotelView, EspaceView, MapView};
+    public enum Screen { HotelView, EspaceView, MapView };
 
     private InterestPoint _currentInterestPoint;
 
@@ -15,10 +13,12 @@ public class UIManager : MonoBehaviourSingleton<UIManager>
     public SpriteChanger _hotelSprite;
     public SpriteChanger _espaceSprite;
     public SpriteChanger _mapSprite;
+
     [Header("Views")]
     public GameObject _hotelView;
     public GameObject _espaceView;
     public GameObject _mapView;
+
     [Header("Hotel View")]
     public GameObject _hotelViewPopUp;
     public Image _hotelViewImage;
@@ -83,7 +83,7 @@ public class UIManager : MonoBehaviourSingleton<UIManager>
         if (Input.GetMouseButtonUp(0))
         {
             RaycastHit raycastHit;
-            if(Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycastHit, Mathf.Infinity, LayerMask.GetMask("InterestPoints")))
+            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycastHit, Mathf.Infinity, LayerMask.GetMask("InterestPoints")))
             {
                 OpenHotelViewPopUp(raycastHit.collider.GetComponent<InterestPoint>());
             }
@@ -94,7 +94,7 @@ public class UIManager : MonoBehaviourSingleton<UIManager>
     {
         if (_currentInterestPoint)
         {
-            _currentInterestPoint.GetComponent<SpriteChanger>().ChangeSprite(0); 
+            _currentInterestPoint.GetComponent<SpriteChanger>().ChangeSprite(0);
         }
         _currentInterestPoint = interestPoint;
         interestPoint.GetComponent<SpriteChanger>().ChangeSprite(1);

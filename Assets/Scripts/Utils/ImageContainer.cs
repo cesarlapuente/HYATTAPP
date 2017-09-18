@@ -1,5 +1,4 @@
-﻿
-/// <summary>
+﻿/// <summary>
 /// Simple image container, mainly used in Carousel.cs
 /// </summary>
 public class ImageContainer

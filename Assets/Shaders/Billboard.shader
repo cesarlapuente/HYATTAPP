@@ -8,10 +8,10 @@
 		Pass{
 		CGPROGRAM
 
-#pragma vertex vert  
+#pragma vertex vert
 #pragma fragment frag
 
-		// User-specified uniforms            
+		// User-specified uniforms
 		uniform sampler2D _MainTex;
 	uniform float _ScaleX;
 	uniform float _ScaleY;

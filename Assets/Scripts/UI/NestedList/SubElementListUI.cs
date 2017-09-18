@@ -51,8 +51,6 @@ public class SubElementListUI : MonoBehaviour
             parentRectTransform.GetComponent<RectTransform>().sizeDelta = new Vector2(parentRectTransform.sizeDelta.x, parentRectTransform.sizeDelta.y - heightDifferential);
         }
 
-        float timeBegin = Time.realtimeSinceStartup;
-
         float i = 0.0f;
         float time = 0.5f;
         float rate = 1.0f / time;
