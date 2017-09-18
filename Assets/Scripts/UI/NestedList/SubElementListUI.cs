@@ -43,6 +43,14 @@ public class SubElementListUI : MonoBehaviour
         float currentHeight = _rectTransform.sizeDelta.y;
         float heightDifferential = currentHeight - newHeight;
 
+        // Resize the parent when it's different from the content
+        // Make sure the height of a SubElement is enough to display its elements
+        if (transform.parent != _contentRectTransform.transform)
+        {
+            RectTransform parentRectTransform = transform.parent.GetComponent<RectTransform>();
+            parentRectTransform.GetComponent<RectTransform>().sizeDelta = new Vector2(parentRectTransform.sizeDelta.x, parentRectTransform.sizeDelta.y - heightDifferential);
+        }
+
         float timeBegin = Time.realtimeSinceStartup;
 
         float i = 0.0f;
@@ -56,6 +64,7 @@ public class SubElementListUI : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
 
+        // Properly resize the content rectTransform
         _contentRectTransform.sizeDelta = new Vector2(_contentRectTransform.sizeDelta.x, _contentRectTransform.sizeDelta.y - heightDifferential);
     }
 }

@@ -1,11 +1,9 @@
-﻿public class RoomCategory
+﻿public class RoomCategory : RoomElement
 {
-    public string _name;
-    public Room[] _rooms;
+    public RoomElement[] _elements;
 
-    public RoomCategory(string name, Room[] rooms)
+    public RoomCategory(string name, RoomElement[] elements) : base(name)
     {
-        _name = name;
-        _rooms = rooms;
+        _elements = elements;
     }
 }

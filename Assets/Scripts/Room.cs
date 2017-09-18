@@ -1,12 +1,10 @@
-﻿public class Room
+﻿public class Room : RoomElement
 {
-    public string _name;
     public string _description;
     public string _imagePath;
 
-    public Room(string name, string description)
+    public Room(string name, string description) : base(name)
     {
-        _name = name;
         _description = description;
     }
 }

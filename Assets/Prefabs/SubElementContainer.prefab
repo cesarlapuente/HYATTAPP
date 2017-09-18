@@ -41,7 +41,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _defaultHeight: 0
-  _verticalLayoutGroup: {fileID: 0}
+  _contentRectTransform: {fileID: 0}
 --- !u!114 &114865735065014734
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
+  m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
   m_ChildControlHeight: 0
 --- !u!114 &114865948623168966
