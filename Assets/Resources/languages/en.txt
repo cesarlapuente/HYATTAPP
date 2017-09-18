@@ -3,6 +3,8 @@
 2=Map
 3=Hotel Hyatt, Paris
 
+# Espace View Menu
+
 4=UNDER ONE ROOF
 5=Lobby
 6=Lobby Bar
@@ -87,3 +89,40 @@
 78=CATERING
 79=English
 80=French
+
+81=EVENT SPACES
+
+# Hotel View Pop Up
+
+82=PRESIDENTIAL SUITE
+83=.Size of the rooms: 102 sq m\n.Panoramic view of Paris and the Eiffel Tower\n.Separate kitchenette and dining room\n.Large bathroom
+
+84=LOFT SUITE
+85=.Size of the rooms: From 57 to 70 sq m\n.Panoramic view of Paris or Montmartre\n.Bathtub and shower
+
+86=REGENCY EXECUTIVE SUITE
+87=.Size of the rooms: 70 sq m\n.Panoramic view of Paris\n.Separate Living room and Dining room\n.Two bathrooms with showers
+
+88=REGENCY SUITE KING EIFFEL TOWER
+89=.Size of the rooms: 44 sq m\n.Panoramic view of Paris and the Eiffel Tower\n.Separate Living room\n.Walk-in shower
+
+90=REGENCY SUITE KING 
+91=.Size of the rooms: 44 sq m\n.Panoramic view of Paris and Bois de Boulogne\n.Separate Living room\n.Walk-in shower
+
+92=CLUB EIFFEL TOWER 
+93=.Size of the rooms: 22 sq m\n.Panoramic view of Paris and Bois de Boulogne\n.Regency Club access\n.Walk-in shower
+
+94=CLUB 
+95=.Size of the rooms: 22 sq m\n.Panoramic view of Paris\n.Regency Club access\n.Walk-in shower
+
+96=DELUXE EIFFEL TOWER 
+97=.Size of the rooms: 22 sq m\n.Panoramic view of Paris and the Eiffel Tower\n.Walk-in shower
+
+98=DELUXE  
+99=.Size of the rooms: 22 sq m\n.Panoramic view of Paris\n.Walk-in shower
+
+100=EIFFEL TOWER VIEW
+101=.Size of the rooms: 22 sq m\n.View on Paris and the  Eiffel Tower\n.Walk-in shower or bath
+
+102=STANDARD
+103=.Size of the rooms: 22 sq m\n.View of Paris\n.Walk-in shower or bath
