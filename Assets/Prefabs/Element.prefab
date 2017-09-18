@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224787207388284968}
   - component: {fileID: 222817213784728360}
   - component: {fileID: 114120867386065812}
+  - component: {fileID: 114075745907838752}
   m_Layer: 5
   m_Name: Arrow
   m_TagString: Untagged
@@ -81,6 +82,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &114075745907838752
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1634584673584780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c52749d332a2684c8d0af1baaeda06a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sprites:
+  - {fileID: 21300000, guid: bcdf6cffddb801148a998b81c56ee9d7, type: 3}
+  - {fileID: 21300000, guid: 9d246d93f4f19e74a976b561621faebb, type: 3}
+  _spriteEnabled: 1
 --- !u!114 &114120867386065812
 MonoBehaviour:
   m_ObjectHideFlags: 1

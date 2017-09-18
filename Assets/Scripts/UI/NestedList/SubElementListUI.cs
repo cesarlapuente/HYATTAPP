@@ -7,7 +7,7 @@ using UnityEngine.UI;
 /// </summary>
 public class SubElementListUI : MonoBehaviour
 {
-    private bool _isDisplayed = false;
+    public bool _isDisplayed = false;
     private RectTransform _rectTransform;
     public float _defaultHeight;
 
@@ -29,7 +29,6 @@ public class SubElementListUI : MonoBehaviour
             newHeight = _defaultHeight;
         }
         _isDisplayed = !_isDisplayed;
-
         StartCoroutine(ChangeHeightCoroutine(newHeight));
     }
 

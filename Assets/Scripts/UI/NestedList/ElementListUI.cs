@@ -16,6 +16,13 @@ public class ElementListUI : MonoBehaviour
     /// </summary>
     public void ToggleSubElement()
     {
+        uint spriteId = 0;
+        if (!_subElement._isDisplayed)
+        {
+            spriteId = 1;
+        }
+        GetComponentInChildren<SpriteChanger>().ChangeSprite(spriteId);
+
         _subElement.ToggleList();
     }
 }
