@@ -13,7 +13,8 @@ public class Carousel : MonoBehaviour
 
     private List<Image> _dots = new List<Image>();
     private List<Image> _images = new List<Image>();
-    private List<ImageContainer> _imagesContainer = new List<ImageContainer>();
+    //private List<ImageContainer> _imagesContainer = new List<ImageContainer>();
+    private string[] _imagePath;
     private List<float> _distancesToCenter = new List<float>();
     private State _currentState;
     private Vector3 _contentInitialLocalPosition;
@@ -47,14 +48,6 @@ public class Carousel : MonoBehaviour
     private void Start()
     {
         _contentInitialLocalPosition = _contentRectTransform.localPosition;
-        ImageContainer test = new ImageContainer("test");
-        ImageContainer test2 = new ImageContainer("test");
-        ImageContainer test3 = new ImageContainer("test");
-        List<ImageContainer> listImages = new List<ImageContainer>();
-        listImages.Add(test);
-        listImages.Add(test2);
-        listImages.Add(test3);
-        Init(listImages);
     }
 
     /// <summary>
@@ -62,7 +55,7 @@ public class Carousel : MonoBehaviour
     /// Can be used to reset the Carousel with another list.
     /// </summary>
     /// <param name="images"></param>
-    public void Init(List<ImageContainer> images)
+    public void Init(string[] images)
     {
         // Remove previous images and dots
         for (int i = 1; i < _images.Count; i++)
@@ -72,28 +65,29 @@ public class Carousel : MonoBehaviour
         }
         _images.Clear();
         _dots.Clear();
+        _distancesToCenter.Clear();
 
-        _imagesContainer = images;
+        _imagePath = images;
 
         _currentImageIndex = 0;
         _contentRectTransform.localPosition = _contentInitialLocalPosition;
 
         _images.Add(_firstImage);
         _distancesToCenter.Add(0);
-        _firstImage.sprite = Resources.Load<Sprite>(images[0]._path);
-        _imageTitle.text = images[0]._name;
-        _imageCopyright.text = images[0]._copyright;
+        _firstImage.sprite = Resources.Load<Sprite>(images[0]);
+        //_imageTitle.text = images[0]._name;
+        //_imageCopyright.text = images[0]._copyright;
 
         _dots.Add(_firstDot);
 
         _firstDot.transform.parent.localPosition = _initialDotsPosition.transform.localPosition;
 
-        for (int i = 1; i < images.Count; i++)
+        for (int i = 1; i < images.Length; i++)
         {
             // Instantiates images
             Image image = Instantiate<Image>(_firstImage);
-            image.name = images[i]._path;
-            image.sprite = Resources.Load<Sprite>(images[i]._path);
+            image.name = images[i];
+            image.sprite = Resources.Load<Sprite>(images[i]);
             image.transform.SetParent(_contentRectTransform.transform);
             image.transform.localPosition = new Vector2((_firstImage.rectTransform.rect.width + 100) * i, _firstImage.rectTransform.localPosition.y);
             _images.Add(image);
@@ -109,7 +103,7 @@ public class Carousel : MonoBehaviour
         }
 
         // Enable scrolling and buttons when there is more than one image
-        bool moreThanOneImage = images.Count > 1;
+        bool moreThanOneImage = images.Length > 1;
         GetComponent<ScrollRect>().horizontal = moreThanOneImage;
         _previousButton.SetActive(moreThanOneImage);
         _nextButton.SetActive(moreThanOneImage);
@@ -205,7 +199,7 @@ public class Carousel : MonoBehaviour
         _dots[_currentImageIndex].CrossFadeColor(new Color(1.0f, 1.0f, 1.0f), 0.5f, false, false);
         _currentImageIndex = Mathf.Clamp(newIndex, 0, _images.Count - 1);
         _dots[_currentImageIndex].CrossFadeColor(_dotColor, 0.5f, false, false);
-        _imageTitle.text = _imagesContainer[_currentImageIndex]._name;
-        _imageCopyright.text = _imagesContainer[_currentImageIndex]._copyright;
+        //_imageTitle.text = _imagesContainer[_currentImageIndex]._name;
+        //_imageCopyright.text = _imagesContainer[_currentImageIndex]._copyright;
     }
 }

@@ -9,7 +9,7 @@ public class ElementListUI : MonoBehaviour
     /// <summary>
     /// The SubElement that will be opened when clicking on the ElementListUI Button
     /// </summary>
-    public SubElementListUI _subElement;
+    public SubElementContainerListUI _subElement;
 
     /// <summary>
     /// Display or hide the linked subElement

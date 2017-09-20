@@ -1,10 +1,12 @@
-﻿public class Room : RoomElement
+﻿/// <summary>
+/// A Room, the last element of a NestedListUI
+/// </summary>
+public class Room : RoomElement
 {
-    public string _description;
-    public string _imagePath;
+    public string[] _imagePaths;
 
-    public Room(string name, string description) : base(name)
+    public Room(string name, string[] imagePaths) : base(name)
     {
-        _description = description;
+        _imagePaths = imagePaths;
     }
 }
