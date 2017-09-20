@@ -82,20 +82,25 @@ public class NestedListUI : MonoBehaviour
             new Room(LanguageManager.Instance.GetText("17"), new string[]{underOneRoofPath + "L) MOVIE THEATER", underOneRoofPath + "L) MOVIE THEATER_LEFT_CHANGE", underOneRoofPath + "L) MOVIE THEATER_RIGHT_CHANGE", underOneRoofPath + "L) MOVIE THEATER_TOP_CHANGE"})
         };
 
+        string roomsAndSuitesPath = "Images/EspaceView/Room And Suites/";
+
         Room[] roomsAndSuites =
         {
-            new Room(LanguageManager.Instance.GetText("19"), new string[]{""}),
-            new Room(LanguageManager.Instance.GetText("20"), new string[]{""}),
-            new Room(LanguageManager.Instance.GetText("21"), new string[]{""}),
-            new Room(LanguageManager.Instance.GetText("22"), new string[]{""}),
-            new Room(LanguageManager.Instance.GetText("23"), new string[]{""}),
-            new Room(LanguageManager.Instance.GetText("24"), new string[]{""}),
-            new Room(LanguageManager.Instance.GetText("25"), new string[]{""}),
-            new Room(LanguageManager.Instance.GetText("26"), new string[]{""}),
-            new Room(LanguageManager.Instance.GetText("27"), new string[]{""}),
-            new Room(LanguageManager.Instance.GetText("28"), new string[]{""}),
-            new Room(LanguageManager.Instance.GetText("29"), new string[]{""})
+            new Room(LanguageManager.Instance.GetText("19"), new string[]{ roomsAndSuitesPath + "A) STANDAR_FRONT", roomsAndSuitesPath + "A) STANDARD", roomsAndSuitesPath + "A) STANDARD_"}),
+            new Room(LanguageManager.Instance.GetText("20"), new string[]{ roomsAndSuitesPath + "B) STANDARD EIFFEL TOWER", roomsAndSuitesPath + "B) STANDARD EIFFEL_TOWER"}),
+            new Room(LanguageManager.Instance.GetText("21"), new string[]{ roomsAndSuitesPath + "C) DELUXE", roomsAndSuitesPath + "C) DELUXE_", roomsAndSuitesPath + "C) DELUXE_FRONT"}),
+            new Room(LanguageManager.Instance.GetText("22"), new string[]{ roomsAndSuitesPath + "D) DELUXE EIFFEL TOWER", roomsAndSuitesPath + "D) DELUXE EIFFEL TOWER_"}),
+            new Room(LanguageManager.Instance.GetText("23"), new string[]{ roomsAndSuitesPath + "E) CLUB", roomsAndSuitesPath + "E) CLUB_"}),
+            new Room(LanguageManager.Instance.GetText("24"), new string[]{ roomsAndSuitesPath + "F) CLUB EIFFEL TOWER", roomsAndSuitesPath + "F) CLUB EIFFEL TOWER_"}),
+            new Room(LanguageManager.Instance.GetText("25"), new string[]{ roomsAndSuitesPath + "G) REGENCY SUITE KING", roomsAndSuitesPath + "G) REGENCY SUITE_KING"}),
+            new Room(LanguageManager.Instance.GetText("26"), new string[]{ roomsAndSuitesPath + "H) REGENCY SUITE KING EIFFEL TOWER", roomsAndSuitesPath + "H) REGENCY SUITE KING EIFFEL TOWER_"}),
+            new Room(LanguageManager.Instance.GetText("27"), new string[]{ roomsAndSuitesPath + "I) REGENCY EXECUTIVE", roomsAndSuitesPath + "I) REGENCY EXECUTIVE SUITE", roomsAndSuitesPath + "I) REGENCY EXECUTIVE SUITE_FRONT"}),
+            new Room(LanguageManager.Instance.GetText("28"), new string[]{ roomsAndSuitesPath + "J) LOFT_SUITE", roomsAndSuitesPath + "J) LOFT_SUITE_"}),
+            new Room(LanguageManager.Instance.GetText("29"), new string[]{ roomsAndSuitesPath + "K) PRESIDENTIAL SUITE", roomsAndSuitesPath + "K) PRESIDENTIAL_SUITE"})
         };
+
+        string eventSpacesPath = "Images/EspaceView/Event Spaces/";
+
 
         Room[] palaisDesCongresMeetingSpaces =
         {
