@@ -145,3 +145,52 @@ g-0=GENERAL
 111=Le Bourget
 112=Roissy CDG
 113=Orly
+
+# EVENT SPACES DESCRIPTION 
+
+114=CONGRESS CENTER MEETING SPACES
+115=.4 auditoriums on 3 levels\n.20 breakout rooms\n.85 meeting rooms
+
+116=LABS MEETING SPACES
+117=.12 meeting rooms\n.558 m2\n.357 pax (TH)
+
+118=STUDIO MEETING SPACES
+119=.14 meeting rooms\n.1,816 m2\n.3500 (TH)
+
+120=TOWER MEETING SPACES
+121=.7 meeting rooms\n.175 m2\n.70 pax (BOARD)
+
+# DESCRIPTION ESPACES UNDER ONE ROOF
+
+122=LOBBY BAR
+123=.101 pax \n.Café & lounge bar\n.All day dining with local products\n.Buzzing for afterwork - 6 pm to 9 pm
+
+124=LOBBY RESTAURANT
+125=.96 pax \n.Local artisan crafted food\n.Contemporary, indulging, polished industrial and vibrant spirit
+
+126=MARKET
+127=.24/7 grab & go\n.Open 24/7\n.Local fresh food \n.Local community: living and/or working in the area
+
+128=PANORAMIC BAR
+129=.34th floor rooftop bar for entertainment and private events\n.Premium & Mixology cocktail bar \n.180° view rooftop
+
+130=REGENCY CLUB
+131=.180° view rooftop \n.Regency Club lounge
+
+132=FITNESS CENTER
+133=.24-hour Fitness Center\n.Full range of the latest equipment
+
+134=METRO ACCESS
+135=.Metro lines: Porte Maillot (1)\n.Train station: RER C Neuilly Porte Maillot
+
+136=PARKING
+137=.24/7 public parking is available\n.2, Place de la Porte Maillot in front of the Paris Convention Center\n.24 hour parking fee is €40 (subject to changes without notice)
+
+138=AIRPORT SHUTTLE
+139=.Orly airport: 29 kilometers\n.Paris Charles de Gaulle airport: 31 kilometers\n.Gare Saint-Lazare: 4 kilometers\n.Gare Montparnasse: 6 kilometers\n.Gare de Lyon: 9 kilometers\n.Gare du Nord: 10 kilometers
+
+140=CONGRESS CENTER BOUTIQUES
+141=.40 shops\n.Hair Dresser\n.Pharmacy\n.Beauty Salon\n.Pastry Shop\n.Men & Women Fashion\n.Grocery Shop\n.Change\n.Restaurants
+
+142=MOVIE THEATER
+143=UGC movie theater

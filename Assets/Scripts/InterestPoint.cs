@@ -5,10 +5,13 @@
 /// </summary>
 public class InterestPoint : MonoBehaviour
 {
+    public enum Type { UnderOneRoof, RoomsAndSuites, EventSpaces }
+
     public string _name;
     public string _titleKey;
     public string _descriptionKey;
     public string _imagePath;
+    public Type _type;
 
     private void Update()
     {

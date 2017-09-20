@@ -99,7 +99,23 @@ public class UIManager : MonoBehaviourSingleton<UIManager>
         _currentInterestPoint = interestPoint;
         interestPoint.GetComponent<SpriteChanger>().ChangeSprite(1);
         _hotelViewPopUp.SetActive(true);
-        _hotelViewImage.sprite = Resources.Load<Sprite>("Images/" + interestPoint._imagePath);
+        string path = "";
+        switch (interestPoint._type)
+        {
+            case InterestPoint.Type.UnderOneRoof:
+                path = "Images/HotelView/Under One Roof/";
+                break;
+            case InterestPoint.Type.RoomsAndSuites:
+                path = "Images/HotelView/Rooms And Suites/";
+                break;
+            case InterestPoint.Type.EventSpaces:
+                path = "Images/HotelView/Event Spaces/";
+                break;
+            default:
+                break;
+        }
+        Debug.Log(path + interestPoint._imagePath);
+        _hotelViewImage.sprite = Resources.Load<Sprite>(path + interestPoint._imagePath);
         _hotelViewTitle.text = LanguageManager.Instance.GetText(interestPoint._titleKey);
         _hotelViewDescription.text = LanguageManager.Instance.GetText(interestPoint._descriptionKey);
     }
