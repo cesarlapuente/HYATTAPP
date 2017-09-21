@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class LanguageManager : MonoBehaviourSingleton<LanguageManager>
 {
+    private bool _isLoaded = false;
     private Dictionary<string, string> _texts = new Dictionary<string, string>();
     private string _keySeparator = "=";
     public List<TextTranslated> _registeredTextTranslated = new List<TextTranslated>();
@@ -35,6 +36,7 @@ public class LanguageManager : MonoBehaviourSingleton<LanguageManager>
             }
         }
 
+        _isLoaded = true;
         RefreshAllTexts();
     }
 
@@ -55,6 +57,10 @@ public class LanguageManager : MonoBehaviourSingleton<LanguageManager>
 
     public string GetText(string key)
     {
+        if(!_isLoaded)
+        {
+            return "";
+        }
         string text;
         if (!_texts.TryGetValue(key, out text))
         {

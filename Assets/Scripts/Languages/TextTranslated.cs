@@ -12,6 +12,7 @@ public class TextTranslated : MonoBehaviour
         if (LanguageManager.Instance != null)
         {
             LanguageManager.Instance.RegisterTextTranslated(this);
+            Refresh();
         }
         else
         {
