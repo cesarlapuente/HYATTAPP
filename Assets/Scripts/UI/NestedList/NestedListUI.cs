@@ -73,7 +73,6 @@ public class NestedListUI : MonoBehaviour
             new Room(LanguageManager.Instance.GetText("8"), new string[]{underOneRoofPath + "D) LOBBY MARKET_TOP_CHANGE", underOneRoofPath + "D) MARKET"}),
             new Room(LanguageManager.Instance.GetText("9"), new string[]{underOneRoofPath + "E) PANORAMIC BAR", underOneRoofPath + "E) PANORAMIC BAR_FRONT"}),
             new Room(LanguageManager.Instance.GetText("10"), new string[]{underOneRoofPath + "F) REGENCY CLUB"}),
-            new Room(LanguageManager.Instance.GetText("11"), new string[]{underOneRoofPath + ""}),
             new Room(LanguageManager.Instance.GetText("12"), new string[]{underOneRoofPath + "G) FITNESS CENTER", underOneRoofPath + "G) FITNESS CENTER_RIGHT", underOneRoofPath + "G) FITNESS CENTER_TOP"}),
             new Room(LanguageManager.Instance.GetText("13"), new string[]{underOneRoofPath + "H) METRO ACCESS 1", underOneRoofPath + "H) METRO ACCESS 2", underOneRoofPath + "H) METRO ACCESS_TOP"}),
             new Room(LanguageManager.Instance.GetText("14"), new string[]{underOneRoofPath + "I) PARKING", underOneRoofPath + "I) PARKING ACCESS_TOP"}),
@@ -101,44 +100,34 @@ public class NestedListUI : MonoBehaviour
 
         string eventSpacesPath = "Images/EspaceView/Event Spaces/";
 
-
-        Room[] palaisDesCongresMeetingSpaces =
+        Room[] eventSpaces =
         {
-            new Room(LanguageManager.Instance.GetText("31"), new string[]{ eventSpacesPath + "A1) GRAND AMPHITHEATRE"}),
-            new Room(LanguageManager.Instance.GetText("32"), new string[]{ eventSpacesPath + "A2) HALL NEULLY"}),
-            new Room(LanguageManager.Instance.GetText("33"), new string[]{ eventSpacesPath + "A3) HALL TERNES"}),
-            new Room(LanguageManager.Instance.GetText("34"), new string[]{ eventSpacesPath + "A4) HALL PARIS"}),
-            new Room(LanguageManager.Instance.GetText("35"), new string[]{ eventSpacesPath + "A5) HALL PASSY"}),
-            new Room(LanguageManager.Instance.GetText("36"), new string[]{ eventSpacesPath + "A6) SALLE PASSY"}),
-            new Room(LanguageManager.Instance.GetText("37"), new string[]{ eventSpacesPath + "A7) HALL MAILLOT"}),
-            new Room(LanguageManager.Instance.GetText("38"), new string[]{ eventSpacesPath + "A8) SALLE MAILLOT"}),
-            new Room(LanguageManager.Instance.GetText("39"), new string[]{ eventSpacesPath + "A9) AMPHITHEATRE BLEU"}),
-            new Room(LanguageManager.Instance.GetText("40-b"), new string[]{ eventSpacesPath + "A10) hall BORDEAUX"}),
-            new Room(LanguageManager.Instance.GetText("41-b"), new string[]{ eventSpacesPath + "A11) hall havana"}),
-            new Room(LanguageManager.Instance.GetText("42-b"), new string[]{ eventSpacesPath + "A12) AMPHITHEATRE  bordeaux"}),
-            new Room(LanguageManager.Instance.GetText("43-b"), new string[]{ eventSpacesPath + "A13) AMPHITHEATRE HAVANE"})
-        };
-
-        Room[] labsMeetingSpaces =
-        {
-            new Room(LanguageManager.Instance.GetText("g-0"), new string[]{ eventSpacesPath + "B) LAB MEETING SPACES", eventSpacesPath + "B) LAB MEETING SPACES (2)", eventSpacesPath + "B) LABS MEETING SPACES_LEFT", eventSpacesPath + "B) LABS MEETING SPACES_RIGHT", eventSpacesPath + "B) LABS MEETING SPACES_TOP_CHANGE"}),
-            new Room(LanguageManager.Instance.GetText("41"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("42"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("43"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("44"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("45"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("46"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("47"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("48"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("49"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("50"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("51"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("52"), new string[]{ eventSpacesPath + ""})
-        };
-
-        Room[] atelierMeetingSpaces =
-        {
-            new Room(LanguageManager.Instance.GetText("g-0"), new string[]{
+            new Room(LanguageManager.Instance.GetText("31"), new string[] {
+                eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES",
+                eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_",
+                eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES (2)",
+                eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_0",
+                eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_1",
+                eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_2",
+                eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_3",
+                eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES_RIGHT CHANGE",
+                eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES_TOP",
+                eventSpacesPath + "A1) GRAND AMPHITHEATRE",
+                eventSpacesPath + "A2) HALL NEULLY",
+                eventSpacesPath + "A3) HALL TERNES",
+                eventSpacesPath + "A4) HALL PARIS",
+                eventSpacesPath + "A5) HALL PASSY",
+                eventSpacesPath + "A6) SALLE PASSY",
+                eventSpacesPath + "A7) HALL MAILLOT",
+                eventSpacesPath + "A8) SALLE MAILLOT",
+                eventSpacesPath + "A9) AMPHITHEATRE BLEU",
+                eventSpacesPath + "A10) hall BORDEAUX",
+                eventSpacesPath + "A11) hall havana",
+                eventSpacesPath + "A12) AMPHITHEATRE  bordeaux",
+                eventSpacesPath + "A13) AMPHITHEATRE HAVANE"
+                }),
+            new Room(LanguageManager.Instance.GetText("32"), new string[]{ eventSpacesPath + "B) LAB MEETING SPACES", eventSpacesPath + "B) LAB MEETING SPACES (2)", eventSpacesPath + "B) LABS MEETING SPACES_LEFT", eventSpacesPath + "B) LABS MEETING SPACES_RIGHT", eventSpacesPath + "B) LABS MEETING SPACES_TOP_CHANGE"}),
+            new Room(LanguageManager.Instance.GetText("33"), new string[]{
                 eventSpacesPath + "C) STUDIO MEETING SPACE_BRIDGE",
                 eventSpacesPath + "C) STUDIO MEETING SPACES",
                 eventSpacesPath + "C) STUDIO MEETING SPACES_2",
@@ -152,64 +141,29 @@ public class NestedListUI : MonoBehaviour
                 eventSpacesPath + "C) STUDIO MEETING SPACES_TOILET LOUNGE AREA",
                 eventSpacesPath + "C) STUDIO MEETING SPACES_TOP_CHANGE"
                 }),
-            new Room(LanguageManager.Instance.GetText("54"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("55"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("56"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("57"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("58"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("59"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("60"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("61"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("62"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("63"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("64"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("65"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("66"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("67"), new string[]{ eventSpacesPath + ""})
-        };
-
-        Room[] towerMeetingSpaces =
-        {
-            new Room(LanguageManager.Instance.GetText("g-0"), new string[]{
+            new Room(LanguageManager.Instance.GetText("34"), new string[]{
                 eventSpacesPath + "D) TOWER MEETING ROOMS",
                 eventSpacesPath + "D) TOWER MEETING SPACES_FRONT",
                 eventSpacesPath + "D) TOWER MEETING SPACES_RIGHT"
                 }),
-            new Room(LanguageManager.Instance.GetText("69"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("70"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("71"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("72"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("73"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("74"), new string[]{ eventSpacesPath + ""}),
-        };
-
-        Room[] meetingSpacesCapacity =
-        {
-            new Room(LanguageManager.Instance.GetText("76"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("77"), new string[]{ eventSpacesPath + ""})
+            new Room(LanguageManager.Instance.GetText("35"), new string[] {""}),
+            new Room(LanguageManager.Instance.GetText("36"), new string[] {""})
         };
 
         Room[] catering =
         {
-            new Room(LanguageManager.Instance.GetText("79"), new string[]{ eventSpacesPath + ""}),
-            new Room(LanguageManager.Instance.GetText("80"), new string[]{ eventSpacesPath + ""})
-        };
-
-        RoomCategory[] eventSpacesCategories =
-        {
-            new RoomCategory(LanguageManager.Instance.GetText("30"), palaisDesCongresMeetingSpaces),
-            new RoomCategory(LanguageManager.Instance.GetText("40"), labsMeetingSpaces),
-            new RoomCategory(LanguageManager.Instance.GetText("53"), atelierMeetingSpaces),
-            new RoomCategory(LanguageManager.Instance.GetText("68"), towerMeetingSpaces),
-            new RoomCategory(LanguageManager.Instance.GetText("75"), meetingSpacesCapacity)
+            new Room(LanguageManager.Instance.GetText("38"), new string[] { "" }),
+            new Room(LanguageManager.Instance.GetText("39"), new string[] { "" }),
+            new Room(LanguageManager.Instance.GetText("40"), new string[] { "" }),
+            new Room(LanguageManager.Instance.GetText("41"), new string[] { "" })
         };
 
         RoomCategory[] roomCategories =
         {
             new RoomCategory(LanguageManager.Instance.GetText("4"), underOneRoof),
             new RoomCategory(LanguageManager.Instance.GetText("18"), roomsAndSuites),
-            new RoomCategory(LanguageManager.Instance.GetText("81"), eventSpacesCategories),
-            new RoomCategory(LanguageManager.Instance.GetText("78"), catering)
+            new RoomCategory(LanguageManager.Instance.GetText("30"), eventSpaces),
+            new RoomCategory(LanguageManager.Instance.GetText("37"), catering)
         };
 
         InitList(roomCategories);
