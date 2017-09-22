@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 7176428}
   - component: {fileID: 7176429}
   m_Layer: 9
-  m_Name: Interest Point (16)
+  m_Name: Back Standard Eiffel Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -222,11 +222,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 7176424}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -1.5289999, y: -1.045, z: -0.319}
+  m_LocalPosition: {x: -0.721, y: -0.834, z: -0.003}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 443636808}
-  m_RootOrder: 12
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &7176426
 MonoBehaviour:
@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b7851146e25c3f488afb0d227d86f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _name: Standard Eiffel Tower
+  _name: Back Standard Eiffel Tower
   _titleKey: 100
   _descriptionKey: 101
   _imagePath: EIFFEL TOWER VIEW
@@ -424,7 +424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b7851146e25c3f488afb0d227d86f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _name: Panramic Bar
+  _name: Panoramic Bar
   _titleKey: 128
   _descriptionKey: 129
   _imagePath: PANORAMIC BAR
@@ -969,7 +969,7 @@ GameObject:
   - component: {fileID: 148975569}
   - component: {fileID: 148975570}
   m_Layer: 9
-  m_Name: Interest Point (15)
+  m_Name: Back Regency Suite King
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -982,11 +982,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 148975565}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -1.5289999, y: 1.461, z: 0.393}
+  m_LocalPosition: {x: -0.709, y: 1.461, z: -0.32}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 443636808}
-  m_RootOrder: 11
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &148975567
 MonoBehaviour:
@@ -1288,7 +1288,7 @@ GameObject:
   - component: {fileID: 194348926}
   - component: {fileID: 194348927}
   m_Layer: 9
-  m_Name: Interest Point (6)
+  m_Name: Back Regency Executive
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1301,11 +1301,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 194348922}
   m_LocalRotation: {x: -0, y: -0.6427878, z: 0, w: -0.76604426}
-  m_LocalPosition: {x: -0.7, y: 1.647, z: 0.569}
+  m_LocalPosition: {x: -0.861, y: 1.647, z: 0.53}
   m_LocalScale: {x: 0.50000024, y: 0.5, z: 0.50000024}
   m_Children: []
   m_Father: {fileID: 443636808}
-  m_RootOrder: 2
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &194348924
 MonoBehaviour:
@@ -1473,7 +1473,7 @@ GameObject:
   - component: {fileID: 197276761}
   - component: {fileID: 197276762}
   m_Layer: 9
-  m_Name: Interest Point (12)
+  m_Name: Back Presidential Suite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1486,11 +1486,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 197276757}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -1.5289999, y: 1.656, z: -0.314}
+  m_LocalPosition: {x: -0.726, y: 1.701, z: 0.333}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 443636808}
-  m_RootOrder: 8
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &197276759
 MonoBehaviour:
@@ -1774,7 +1774,7 @@ GameObject:
   - component: {fileID: 218470909}
   - component: {fileID: 218470910}
   m_Layer: 9
-  m_Name: Interest Point (10)
+  m_Name: Back Deluxe Eiffel Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1787,11 +1787,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 218470905}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -1.5289999, y: 0.311, z: -0.215}
+  m_LocalPosition: {x: -0.726, y: 0.311, z: 0.329}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 443636808}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &218470907
 MonoBehaviour:
@@ -1804,7 +1804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b7851146e25c3f488afb0d227d86f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _name: Deluxe Eiffel Tower
+  _name: Back Deluxe Eiffel Tower
   _titleKey: 96
   _descriptionKey: 97
   _imagePath: DELUXE EIFFEL TOWER
@@ -2169,7 +2169,7 @@ GameObject:
   - component: {fileID: 310125808}
   - component: {fileID: 310125809}
   m_Layer: 9
-  m_Name: Interest Point (17)
+  m_Name: Front Standard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2182,11 +2182,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 310125804}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -1.5289999, y: -1.045, z: 0.359}
+  m_LocalPosition: {x: -1.5289999, y: -0.89, z: 0.359}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 443636808}
-  m_RootOrder: 13
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &310125806
 MonoBehaviour:
@@ -2596,7 +2596,7 @@ GameObject:
   - component: {fileID: 387720290}
   - component: {fileID: 387720291}
   m_Layer: 9
-  m_Name: Interest Point (4)
+  m_Name: Back Deluxe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2613,7 +2613,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 443636808}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &387720288
 MonoBehaviour:
@@ -2830,7 +2830,7 @@ GameObject:
   - component: {fileID: 390955558}
   - component: {fileID: 390955559}
   m_Layer: 9
-  m_Name: Interest Point (11)
+  m_Name: Front Deluxe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2847,7 +2847,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 443636808}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &390955556
 MonoBehaviour:
@@ -3147,20 +3147,20 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 387720287}
-  - {fileID: 903019314}
-  - {fileID: 194348923}
   - {fileID: 817406517}
-  - {fileID: 1315865367}
-  - {fileID: 1939288831}
-  - {fileID: 218470906}
-  - {fileID: 390955555}
-  - {fileID: 197276758}
-  - {fileID: 551465811}
-  - {fileID: 1049314429}
-  - {fileID: 148975566}
-  - {fileID: 7176425}
   - {fileID: 310125805}
+  - {fileID: 7176425}
+  - {fileID: 387720287}
+  - {fileID: 390955555}
+  - {fileID: 218470906}
+  - {fileID: 1939288831}
+  - {fileID: 1315865367}
+  - {fileID: 148975566}
+  - {fileID: 1049314429}
+  - {fileID: 194348923}
+  - {fileID: 551465811}
+  - {fileID: 903019314}
+  - {fileID: 197276758}
   m_Father: {fileID: 1380534968}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3402,7 +3402,7 @@ GameObject:
   - component: {fileID: 551465814}
   - component: {fileID: 551465815}
   m_Layer: 9
-  m_Name: Interest Point (13)
+  m_Name: Front Regency Executive Suite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3415,11 +3415,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 551465810}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -1.5289999, y: 1.587, z: -0.444}
+  m_LocalPosition: {x: -1.452, y: 1.587, z: -0.444}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 443636808}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &551465812
 MonoBehaviour:
@@ -4464,7 +4464,7 @@ GameObject:
   - component: {fileID: 817406520}
   - component: {fileID: 817406521}
   m_Layer: 9
-  m_Name: Interest Point (7)
+  m_Name: Back Standard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4481,7 +4481,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 443636808}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &817406518
 MonoBehaviour:
@@ -5105,7 +5105,7 @@ GameObject:
   - component: {fileID: 903019317}
   - component: {fileID: 903019318}
   m_Layer: 9
-  m_Name: Interest Point (5)
+  m_Name: Front Loft Suite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5118,11 +5118,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 903019313}
   m_LocalRotation: {x: -0, y: -0.6427878, z: 0, w: -0.76604426}
-  m_LocalPosition: {x: -0.6711525, y: 1.811, z: 0.111}
+  m_LocalPosition: {x: -1.552, y: 1.811, z: -0.058}
   m_LocalScale: {x: 0.50000024, y: 0.5, z: 0.50000024}
   m_Children: []
   m_Father: {fileID: 443636808}
-  m_RootOrder: 1
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &903019315
 MonoBehaviour:
@@ -5135,7 +5135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b7851146e25c3f488afb0d227d86f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _name: Back Loft Suite
+  _name: Front Loft Suite
   _titleKey: 84
   _descriptionKey: 85
   _imagePath: LOFT SUITE
@@ -5466,7 +5466,7 @@ GameObject:
   - component: {fileID: 1049314432}
   - component: {fileID: 1049314433}
   m_Layer: 9
-  m_Name: Interest Point (14)
+  m_Name: Back Regency Suite King Eiffel Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5479,11 +5479,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1049314428}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -1.5289999, y: 1.352, z: -0.385}
+  m_LocalPosition: {x: -0.796, y: 1.468, z: 0.434}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 443636808}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &1049314430
 MonoBehaviour:
@@ -6430,13 +6430,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1233110844}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0.663, y: -0.913, z: 0.24499989}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1167336994}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &1233110846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6648,7 +6648,7 @@ GameObject:
   - component: {fileID: 1315865370}
   - component: {fileID: 1315865371}
   m_Layer: 9
-  m_Name: Interest Point (8)
+  m_Name: Back Club Eiffel Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6661,11 +6661,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1315865366}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -1.529, y: 1.808, z: -0.032}
+  m_LocalPosition: {x: -0.66, y: 1.808, z: 0.165}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 443636808}
-  m_RootOrder: 4
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &1315865368
 MonoBehaviour:
@@ -6678,7 +6678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b7851146e25c3f488afb0d227d86f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _name: Club Eiffel Tower
+  _name: Back Club Eiffel Tower
   _titleKey: 100
   _descriptionKey: 101
   _imagePath: EIFFEL TOWER VIEW
@@ -9044,7 +9044,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.0000479}
+  m_AnchoredPosition: {x: 0, y: 0.00004130602}
   m_SizeDelta: {x: -22.7, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1814077267
@@ -9456,7 +9456,7 @@ GameObject:
   - component: {fileID: 1939288834}
   - component: {fileID: 1939288835}
   m_Layer: 9
-  m_Name: Interest Point (9)
+  m_Name: Front club
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9473,7 +9473,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 443636808}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &1939288832
 MonoBehaviour:
