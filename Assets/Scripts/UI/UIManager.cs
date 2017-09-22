@@ -25,6 +25,18 @@ public class UIManager : MonoBehaviourSingleton<UIManager>
     public Text _hotelViewTitle;
     public Text _hotelViewDescription;
 
+    [Header("Other")]
+    public Carousel _carousel;
+
+    [Header("Map View")]
+    public GameObject _mapViewPopUp;
+    public Image _mapViewImage;
+    public Text _mapViewTitle;
+    public Text _mapViewDistance;
+    public Text _mapViewCarTime;
+    public Text _mapViewWalkTime;
+    public GameObject _mapViewWalkIcon;
+
     public void ChangeScreen(int screenNumber)
     {
         ChangeScreen((Screen)screenNumber);
@@ -99,6 +111,7 @@ public class UIManager : MonoBehaviourSingleton<UIManager>
         _currentInterestPoint = interestPoint;
         interestPoint.GetComponent<SpriteChanger>().ChangeSprite(1);
         _hotelViewPopUp.SetActive(true);
+        _carousel.gameObject.SetActive(true);
         string path = "";
         switch (interestPoint._type)
         {
@@ -118,5 +131,16 @@ public class UIManager : MonoBehaviourSingleton<UIManager>
         _hotelViewImage.sprite = Resources.Load<Sprite>(path + interestPoint._imagePath);
         _hotelViewTitle.text = LanguageManager.Instance.GetText(interestPoint._titleKey);
         _hotelViewDescription.text = LanguageManager.Instance.GetText(interestPoint._descriptionKey);
+    }
+
+    public void OpenMapViewPopUp(MapInterestPoint mapInterestPoint)
+    {
+        _mapViewPopUp.SetActive(true);
+        _mapViewImage.sprite = Resources.Load<Sprite>("Images/MapView/" + mapInterestPoint._imagePath);
+        _mapViewTitle.text = LanguageManager.Instance.GetText(mapInterestPoint._nameKey);
+        _mapViewDistance.text = mapInterestPoint._distance;
+        _mapViewCarTime.text = mapInterestPoint._carTime;
+        _mapViewWalkTime.text = mapInterestPoint._walkTime;
+        _mapViewWalkIcon.SetActive(!string.IsNullOrEmpty(mapInterestPoint._walkTime));
     }
 }
