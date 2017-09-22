@@ -31,10 +31,13 @@ public class NestedListUI : MonoBehaviour
         ElementListUI element = Instantiate(_prefabElementList);
         element.GetComponentInChildren<Text>().text = roomCategory._name;
         element.transform.SetParent(parent);
+        // We need to set the scale at (1,1,1) because the Canvas scaler messes with the scale when using "Scale With Screen Size"
+        element.transform.localScale = Vector3.one;
 
         SubElementContainerListUI subElementContainer = Instantiate(_prefabSubElementList);
         subElementContainer.transform.SetParent(parent);
         subElementContainer._contentRectTransform = GetComponent<RectTransform>();
+        subElementContainer.transform.localScale = Vector3.one;
 
         element._subElement = subElementContainer;
 
@@ -57,6 +60,7 @@ public class NestedListUI : MonoBehaviour
                 subElement.transform.SetParent(subElementContainer.transform);
                 subElement.GetComponentInChildren<Text>().text = roomCategory._elements[i]._name;
                 subElementContainer._defaultHeight += _prefabSubElementButton.GetComponent<RectTransform>().sizeDelta.y;
+                subElement.transform.localScale = Vector3.one;
             }
         }
     }
@@ -68,7 +72,7 @@ public class NestedListUI : MonoBehaviour
         Room[] underOneRoof =
         {
             new Room(LanguageManager.Instance.GetText("5"), new string[]{underOneRoofPath + "A) LOBBY SPACE"}),
-            new Room(LanguageManager.Instance.GetText("6"), new string[]{underOneRoofPath + "B) LOBBY BAR -_TOP_CHANGE"}),
+            new Room(LanguageManager.Instance.GetText("6"), new string[]{underOneRoofPath + "B) LOBBY BAR -_TOP_CHANGE", "B) LOBBY BAR"}),
             new Room(LanguageManager.Instance.GetText("7"), new string[]{underOneRoofPath + "C) LOBBY RESTAURANT - TOP_CHANGE", underOneRoofPath + "C) LOBBY RESTAURANT - TOP_CHANGE", underOneRoofPath + "C) LOBBY RESTAURANT_RIGHT _CHANGE"}),
             new Room(LanguageManager.Instance.GetText("8"), new string[]{underOneRoofPath + "D) LOBBY MARKET_TOP_CHANGE", underOneRoofPath + "D) MARKET"}),
             new Room(LanguageManager.Instance.GetText("9"), new string[]{underOneRoofPath + "E) PANORAMIC BAR", underOneRoofPath + "E) PANORAMIC BAR_FRONT"}),
