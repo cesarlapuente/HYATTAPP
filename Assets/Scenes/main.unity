@@ -3160,7 +3160,7 @@ MonoBehaviour:
   _hotelViewImage: {fileID: 80348778}
   _hotelViewTitle: {fileID: 1537859688}
   _hotelViewDescription: {fileID: 555812743}
-  _carousel: {fileID: 798419615}
+  _carouselContainer: {fileID: 1548574653}
   _mapViewPopUp: {fileID: 1328824591}
   _mapViewImage: {fileID: 1053704999}
   _mapViewTitle: {fileID: 1723783906}
@@ -7806,6 +7806,10 @@ Prefab:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012590182498, guid: 649e8d79cc617ac418f7d5dbbd341344, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 649e8d79cc617ac418f7d5dbbd341344, type: 2}
   m_IsPrefabParent: 0
@@ -8288,6 +8292,11 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1537859686}
+--- !u!1 &1548574653 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000012590182498, guid: 649e8d79cc617ac418f7d5dbbd341344,
+    type: 2}
+  m_PrefabInternal: {fileID: 1346461273}
 --- !u!1 &1577885536
 GameObject:
   m_ObjectHideFlags: 0

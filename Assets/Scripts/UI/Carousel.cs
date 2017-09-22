@@ -90,6 +90,7 @@ public class Carousel : MonoBehaviour
             image.sprite = Resources.Load<Sprite>(images[i]);
             image.transform.SetParent(_contentRectTransform.transform);
             image.transform.localPosition = new Vector2((_firstImage.rectTransform.rect.width + 100) * i, _firstImage.rectTransform.localPosition.y);
+            image.transform.localScale = Vector3.one;
             _images.Add(image);
 
             float distanceToCenter = image.transform.localPosition.x - GetComponent<RectTransform>().anchoredPosition.x;
@@ -99,6 +100,7 @@ public class Carousel : MonoBehaviour
             Image dot = Instantiate<Image>(_firstDot);
             dot.transform.SetParent(_firstDot.transform.parent);
             dot.transform.localPosition = new Vector2((_firstDot.rectTransform.rect.width + _dotOffset) * i, _firstDot.rectTransform.localPosition.y);
+            dot.transform.localScale = Vector3.one;
             _dots.Add(dot);
         }
 
