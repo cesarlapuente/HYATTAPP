@@ -4,13 +4,28 @@ using UnityEngine;
 
 public class SubElementListUI : MonoBehaviour {
 
-    public Room _room;
+    public RoomElement _roomElement;
     public Carousel _carousel;
 
     public void OpenGalery()
     {
-        UIManager.Instance._carouselContainer.SetActive(true);
-        UIManager.Instance._espaceViewTitle.text = _room._name;
-        _carousel.Init(_room._imagePaths);
+        Room room = _roomElement as Room;
+        Debug.Log(_roomElement.GetType());
+        if (room != null)
+        {
+            UIManager.Instance._carouselContainer.SetActive(true);
+            UIManager.Instance._espaceViewTitle.text = _roomElement._name;
+            _carousel.Init(room._imagePaths);
+        }
+        else
+        {
+            RoomPdf roomPdf = _roomElement as RoomPdf;
+            if (roomPdf != null)
+            {
+                Debug.Log(Application.streamingAssetsPath + "/" + roomPdf._pdfPath);
+                Application.OpenURL(Application.streamingAssetsPath + "/" + roomPdf._pdfPath);
+            }
+        }
+
     }
 }

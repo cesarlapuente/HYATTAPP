@@ -55,7 +55,7 @@ public class NestedListUI : MonoBehaviour
             else
             {
                 SubElementListUI subElement = Instantiate(_prefabSubElementButton);
-                subElement._room = roomCategory._elements[i] as Room;
+                subElement._roomElement = roomCategory._elements[i];
                 subElement._carousel = _carousel;
                 subElement.transform.SetParent(subElementContainer.transform);
                 subElement.GetComponentInChildren<Text>().text = roomCategory._elements[i]._name;
@@ -104,7 +104,7 @@ public class NestedListUI : MonoBehaviour
 
         string eventSpacesPath = "Images/EspaceView/Event Spaces/";
 
-        Room[] eventSpaces =
+        RoomElement[] eventSpaces =
         {
             new Room(LanguageManager.Instance.GetText("31"), new string[] {
                 eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES",
@@ -156,16 +156,16 @@ public class NestedListUI : MonoBehaviour
                 eventSpacesPath + "D) TOWER MEETING SPACES_RIGHT",
                 eventSpacesPath + "D) TOWER MEETING ROOMS"
                 }),
-            new Room(LanguageManager.Instance.GetText("35"), new string[] {""}),
-            new Room(LanguageManager.Instance.GetText("36"), new string[] {""})
+            new RoomPdf(LanguageManager.Instance.GetText("35"), "StudiosCapacityEn"),
+            new RoomPdf(LanguageManager.Instance.GetText("36"), "StudiosCapaciteFr")
         };
 
-        Room[] catering =
+        RoomElement[] catering =
         {
-            new Room(LanguageManager.Instance.GetText("38"), new string[] { "" }),
-            new Room(LanguageManager.Instance.GetText("39"), new string[] { "" }),
-            new Room(LanguageManager.Instance.GetText("40"), new string[] { "" }),
-            new Room(LanguageManager.Instance.GetText("41"), new string[] { "" })
+            new RoomPdf(LanguageManager.Instance.GetText("38"), "CateringSpringSummerEn"),
+            new RoomPdf(LanguageManager.Instance.GetText("39"), "CateringFallWinterEn"),
+            new RoomPdf(LanguageManager.Instance.GetText("40"), "CateringPrintempsEteFr"),
+            new RoomPdf(LanguageManager.Instance.GetText("41"), "CateringAutomneHiverFr")
         };
 
         RoomCategory[] roomCategories =
