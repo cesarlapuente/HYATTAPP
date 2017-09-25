@@ -10,6 +10,7 @@ public class SubElementListUI : MonoBehaviour {
     public void OpenGalery()
     {
         UIManager.Instance._carouselContainer.SetActive(true);
+        UIManager.Instance._espaceViewTitle.text = _room._name;
         _carousel.Init(_room._imagePaths);
     }
 }

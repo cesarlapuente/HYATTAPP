@@ -25,8 +25,9 @@ public class UIManager : MonoBehaviourSingleton<UIManager>
     public Text _hotelViewTitle;
     public Text _hotelViewDescription;
 
-    [Header("Other")]
+    [Header("Espace View")]
     public GameObject _carouselContainer;
+    public Text _espaceViewTitle;
 
     [Header("Map View")]
     public GameObject _mapViewPopUp;
