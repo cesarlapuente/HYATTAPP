@@ -22,8 +22,9 @@ public class SubElementListUI : MonoBehaviour {
             RoomPdf roomPdf = _roomElement as RoomPdf;
             if (roomPdf != null)
             {
-                Debug.Log(Application.streamingAssetsPath + "/" + roomPdf._pdfPath);
-                Application.OpenURL(Application.streamingAssetsPath + "/" + roomPdf._pdfPath);
+                string path = "file://" + WWW.EscapeURL(Application.persistentDataPath) + "/" + roomPdf._pdfPath + ".pdf";
+                Debug.Log(path);
+                Application.OpenURL(path);
             }
         }
 
