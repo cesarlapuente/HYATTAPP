@@ -14,7 +14,6 @@ public class Carousel : MonoBehaviour
     private List<Image> _dots = new List<Image>();
     private List<Image> _images = new List<Image>();
     //private List<ImageContainer> _imagesContainer = new List<ImageContainer>();
-    private string[] _imagePath;
     private List<float> _distancesToCenter = new List<float>();
     private State _currentState;
     private Vector3 _contentInitialLocalPosition;
@@ -54,8 +53,8 @@ public class Carousel : MonoBehaviour
     /// Initialize and load images from the list.
     /// Can be used to reset the Carousel with another list.
     /// </summary>
-    /// <param name="images"></param>
-    public void Init(string[] images)
+    /// <param name="sprites"></param>
+    public void Init(Sprite[] sprites)
     {
         // Remove previous images and dots
         for (int i = 1; i < _images.Count; i++)
@@ -67,14 +66,12 @@ public class Carousel : MonoBehaviour
         _dots.Clear();
         _distancesToCenter.Clear();
 
-        _imagePath = images;
-
         _currentImageIndex = 0;
         _contentRectTransform.localPosition = _contentInitialLocalPosition;
 
         _images.Add(_firstImage);
         _distancesToCenter.Add(0);
-        _firstImage.sprite = Resources.Load<Sprite>(images[0]);
+        _firstImage.sprite = sprites[0];
         //_imageTitle.text = images[0]._name;
         //_imageCopyright.text = images[0]._copyright;
 
@@ -82,12 +79,12 @@ public class Carousel : MonoBehaviour
 
         _firstDot.transform.parent.localPosition = _initialDotsPosition.transform.localPosition;
 
-        for (int i = 1; i < images.Length; i++)
+        for (int i = 1; i < sprites.Length; i++)
         {
             // Instantiates images
             Image image = Instantiate<Image>(_firstImage);
-            image.name = images[i];
-            image.sprite = Resources.Load<Sprite>(images[i]);
+            image.name = sprites[i].name;
+            image.sprite = sprites[i];
             image.transform.SetParent(_contentRectTransform.transform);
             image.transform.localPosition = new Vector2((_firstImage.rectTransform.rect.width + 100) * i, _firstImage.rectTransform.localPosition.y);
             image.transform.localScale = Vector3.one;
@@ -105,7 +102,7 @@ public class Carousel : MonoBehaviour
         }
 
         // Enable scrolling and buttons when there is more than one image
-        bool moreThanOneImage = images.Length > 1;
+        bool moreThanOneImage = sprites.Length > 1;
         GetComponent<ScrollRect>().horizontal = moreThanOneImage;
         _previousButton.SetActive(moreThanOneImage);
         _nextButton.SetActive(moreThanOneImage);

@@ -156,16 +156,18 @@ public class NestedListUI : MonoBehaviour
                 eventSpacesPath + "D) TOWER MEETING SPACES_RIGHT",
                 eventSpacesPath + "D) TOWER MEETING ROOMS"
                 }),
-            new Room(LanguageManager.Instance.GetText("35"), new string[] {""}),
-            new Room(LanguageManager.Instance.GetText("36"), new string[] {""})
+            new Room(LanguageManager.Instance.GetText("35"), new string[] { eventSpacesPath + "STUDIOS CAPACITY FR"}),
+            new Room(LanguageManager.Instance.GetText("36"), new string[] { eventSpacesPath + "STUDIOS CAPACITY EN"})
         };
+
+        string cateringPath = "Images/EspaceView/Catering/";
 
         Room[] catering =
         {
-            new Room(LanguageManager.Instance.GetText("38"), new string[] { "" }),
-            new Room(LanguageManager.Instance.GetText("39"), new string[] { "" }),
-            new Room(LanguageManager.Instance.GetText("40"), new string[] { "" }),
-            new Room(LanguageManager.Instance.GetText("41"), new string[] { "" })
+            new Room(LanguageManager.Instance.GetText("38"), cateringPath + "Spring Summer/"),
+            new Room(LanguageManager.Instance.GetText("39"), cateringPath + "Fall Winter/"),
+            new Room(LanguageManager.Instance.GetText("40"), cateringPath + "Printemps Eté/"),
+            new Room(LanguageManager.Instance.GetText("41"), cateringPath + "Automne Hiver/")
         };
 
         RoomCategory[] roomCategories =

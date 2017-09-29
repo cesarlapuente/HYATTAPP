@@ -42,10 +42,10 @@
 36=Meeting Space Capacity Fr
 
 37=CATERING
-38=Spring/summer En
-39=fall/winter En
-40=spring/summer Fr
-41=fall/winter Fr
+38=Spring/Summer En
+39=Fall/Winter En
+40=Spring/Summer Fr
+41=Fall/Winter Fr
 
 81=EVENT SPACES
 
