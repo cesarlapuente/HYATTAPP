@@ -12,6 +12,8 @@ public class InterestPoint : MonoBehaviour
     public string _descriptionKey;
     public string _imagePath;
     public Type _type;
+    // Room ID used to display its galery
+    public int _roomId;
 
     private void Update()
     {
@@ -20,6 +22,7 @@ public class InterestPoint : MonoBehaviour
 
     public void OpenPopUp()
     {
-        UIManager.Instance.OpenHotelViewPopUp(this);
+        AppManager.Instance.OpenHotelViewPopUp(this);
     }
+
 }

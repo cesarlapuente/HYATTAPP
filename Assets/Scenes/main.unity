@@ -244,6 +244,7 @@ MonoBehaviour:
   _descriptionKey: 101
   _imagePath: EIFFEL TOWER VIEW
   _type: 1
+  _roomId: 13
 --- !u!212 &7176427
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -429,6 +430,7 @@ MonoBehaviour:
   _descriptionKey: 129
   _imagePath: PANORAMIC BAR
   _type: 0
+  _roomId: 4
 --- !u!212 &30955355
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -678,6 +680,7 @@ GameObject:
   - component: {fileID: 80348777}
   - component: {fileID: 80348779}
   - component: {fileID: 80348778}
+  - component: {fileID: 80348780}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -736,6 +739,58 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 80348776}
+--- !u!114 &80348780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 80348776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 80348778}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 424667274}
+        m_MethodName: OpenCurrentInterestPointGalery
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &135815641
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,6 +866,7 @@ MonoBehaviour:
   _descriptionKey: 127
   _imagePath: MARKET
   _type: 0
+  _roomId: 3
 --- !u!212 &135815646
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1057,6 +1113,7 @@ MonoBehaviour:
   _descriptionKey: 91
   _imagePath: REGENCY SUITE KING
   _type: 1
+  _roomId: 18
 --- !u!212 &148975568
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1429,6 +1486,7 @@ MonoBehaviour:
   _descriptionKey: 87
   _imagePath: REGENCY EXECUTIVE SUITE
   _type: 1
+  _roomId: 20
 --- !u!212 &194348925
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1614,6 +1672,7 @@ MonoBehaviour:
   _descriptionKey: 83
   _imagePath: PRESIDENTIAL SUITE
   _type: 1
+  _roomId: 22
 --- !u!212 &197276760
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1915,6 +1974,7 @@ MonoBehaviour:
   _descriptionKey: 97
   _imagePath: DELUXE EIFFEL TOWER
   _type: 1
+  _roomId: 15
 --- !u!212 &218470908
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2384,6 +2444,7 @@ MonoBehaviour:
   _descriptionKey: 103
   _imagePath: STANDARD
   _type: 1
+  _roomId: 12
 --- !u!212 &310125807
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2695,6 +2756,7 @@ MonoBehaviour:
   _descriptionKey: 141
   _imagePath: CONGRESS CENTER BOUTIQUES
   _type: 0
+  _roomId: 10
 --- !u!212 &356314573
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2812,6 +2874,7 @@ MonoBehaviour:
   _descriptionKey: 99
   _imagePath: DELUXE
   _type: 1
+  _roomId: 14
 --- !u!212 &387720289
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2929,6 +2992,7 @@ MonoBehaviour:
   _descriptionKey: 139
   _imagePath: AIRPORT SHUTTLE
   _type: 0
+  _roomId: 9
 --- !u!212 &389529518
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3046,6 +3110,7 @@ MonoBehaviour:
   _descriptionKey: 99
   _imagePath: DELUXE
   _type: 1
+  _roomId: 14
 --- !u!212 &390955557
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3237,6 +3302,7 @@ MonoBehaviour:
   _hotelViewDescription: {fileID: 555812743}
   _carouselContainer: {fileID: 1548574653}
   _espaceViewTitle: {fileID: 273999991}
+  _nestedListUI: {fileID: 1814077267}
   _mapViewPopUp: {fileID: 1328824591}
   _mapViewImage: {fileID: 1053704999}
   _mapViewTitle: {fileID: 1723783906}
@@ -3680,6 +3746,7 @@ MonoBehaviour:
   _descriptionKey: 87
   _imagePath: REGENCY EXECUTIVE SUITE
   _type: 1
+  _roomId: 20
 --- !u!212 &551465813
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3824,6 +3891,7 @@ MonoBehaviour:
   _descriptionKey: 125
   _imagePath: Restaurant
   _type: 0
+  _roomId: 2
 --- !u!212 &554071910
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4271,6 +4339,7 @@ MonoBehaviour:
   _descriptionKey: 115
   _imagePath: congress
   _type: 2
+  _roomId: 23
 --- !u!212 &655437526
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4456,6 +4525,7 @@ MonoBehaviour:
   _descriptionKey: 135
   _imagePath: METRO ACCESS
   _type: 0
+  _roomId: 7
 --- !u!212 &740471264
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4935,6 +5005,7 @@ MonoBehaviour:
   _descriptionKey: 103
   _imagePath: STANDARD
   _type: 1
+  _roomId: 12
 --- !u!212 &817406519
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5699,6 +5770,7 @@ MonoBehaviour:
   _descriptionKey: 85
   _imagePath: LOFT SUITE
   _type: 1
+  _roomId: 21
 --- !u!212 &903019316
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6060,6 +6132,7 @@ MonoBehaviour:
   _descriptionKey: 89
   _imagePath: REGENCY SUITE KING EIFFEL TOWER
   _type: 1
+  _roomId: 19
 --- !u!212 &1049314431
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6543,6 +6616,7 @@ MonoBehaviour:
   _descriptionKey: 131
   _imagePath: REGENCY CLUB
   _type: 0
+  _roomId: 5
 --- !u!212 &1139339702
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7012,6 +7086,7 @@ MonoBehaviour:
   _descriptionKey: 121
   _imagePath: towers
   _type: 2
+  _roomId: 34
 --- !u!212 &1233110847
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7295,6 +7370,7 @@ MonoBehaviour:
   _descriptionKey: 101
   _imagePath: EIFFEL TOWER VIEW
   _type: 1
+  _roomId: 17
 --- !u!212 &1315865369
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7452,6 +7528,7 @@ MonoBehaviour:
   _descriptionKey: 117
   _imagePath: labs
   _type: 2
+  _roomId: 32
 --- !u!212 &1335100900
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8158,6 +8235,7 @@ MonoBehaviour:
   _descriptionKey: 133
   _imagePath: FITNESS CENTER
   _type: 0
+  _roomId: 6
 --- !u!212 &1436785098
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9124,6 +9202,7 @@ MonoBehaviour:
   _descriptionKey: 123
   _imagePath: Bar
   _type: 0
+  _roomId: 0
 --- !u!212 &1706758608
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10028,6 +10107,7 @@ MonoBehaviour:
   _descriptionKey: 143
   _imagePath: MOVIE THEATER
   _type: 0
+  _roomId: 11
 --- !u!212 &1842077893
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10320,6 +10400,7 @@ MonoBehaviour:
   _descriptionKey: 137
   _imagePath: PARKING
   _type: 0
+  _roomId: 8
 --- !u!212 &1921029132
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10437,6 +10518,7 @@ MonoBehaviour:
   _descriptionKey: 95
   _imagePath: CLUB
   _type: 1
+  _roomId: 16
 --- !u!212 &1939288833
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11412,6 +11494,7 @@ MonoBehaviour:
   _descriptionKey: 119
   _imagePath: studio
   _type: 2
+  _roomId: 25
 --- !u!212 &2084583125
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -12,6 +12,6 @@ public class MapInterestPoint : MonoBehaviour
 
     public void OpenPopUp()
     {
-        UIManager.Instance.OpenMapViewPopUp(this);
+        AppManager.Instance.OpenMapViewPopUp(this);
     }
 }

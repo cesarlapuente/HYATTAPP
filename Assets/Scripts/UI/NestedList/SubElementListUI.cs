@@ -9,8 +9,8 @@ public class SubElementListUI : MonoBehaviour {
 
     public void OpenGalery()
     {
-        UIManager.Instance._carouselContainer.SetActive(true);
-        UIManager.Instance._espaceViewTitle.text = _room._name;
+        AppManager.Instance._carouselContainer.SetActive(true);
+        AppManager.Instance._espaceViewTitle.text = _room._name;
 
         Sprite[] sprites;
 
