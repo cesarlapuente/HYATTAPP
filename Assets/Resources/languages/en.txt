@@ -7,9 +7,9 @@
 
 4=UNDER ONE ROOF
 5=Lobby
-6=Lobby Bar
-7=Lobby Restaurant
-8=Market
+6=Bar
+7=Restaurant
+8=Grab And Go "C'est Prêt !"
 9=Panoramic Bar
 10=Regency Club
 11=Business Center 
@@ -17,7 +17,7 @@
 13=Metro Access
 14=Parking
 15=Airport Shuttle
-16=Congress Center Boutiques
+16=Shopping Center
 17=Movie Theater
 
 18=ROOMS & SUITES
@@ -35,8 +35,8 @@
 
 30=EVENT SPACES
 31=Congress Center Meeting Spaces
-32=Labs Meeting Spaces
-33=Studio Meeting Spaces
+32=Le Lab Meeting Spaces
+33=Regency Meeting Spaces
 34=Tower Meeting Spaces
 35=Meeting Space Capacity En
 36=Meeting Space Capacity Fr
@@ -52,22 +52,22 @@
 # Hotel View Pop Up
 
 82=PRESIDENTIAL SUITE
-83=.Size of the rooms: 102 sq m\n.Panoramic view of Paris and the Eiffel Tower\n.Separate kitchenette and dining room\n.Large bathroom
+83=.Size of the rooms: 102 sq m\n.Panoramic view of Paris and the Eiffel Tower\n.Private kitchen and dining room\n.Large bathroom\n.From 32nd to 33rd floor
 
 84=LOFT SUITE
-85=.Size of the rooms: From 57 to 70 sq m\n.Panoramic view of Paris or Montmartre\n.Bathtub and shower
+85=.Size of the rooms: From 57 to 70 sq m\n.Panoramic view of Paris or Montmartre\n.Bathtub and shower\n.34th floor
 
 86=REGENCY EXECUTIVE SUITE
-87=.Size of the rooms: 70 sq m\n.Panoramic view of Paris\n.Separate Living room and Dining room\n.Two bathrooms with showers
+87=.Size of the rooms: 70 sq m\n.Panoramic view of Paris\n.Separate Living room and Dining room\n.Two bathrooms with showers\n.From 32nd to 33rd floor
 
 88=REGENCY SUITE KING EIFFEL TOWER
-89=.Size of the rooms: 44 sq m\n.Panoramic view of Paris and the Eiffel Tower\n.Separate Living room\n.Walk-in shower
+89=.Size of the rooms: 44 sq m\n.Panoramic view of Paris and the Eiffel Tower\n.Separate Living room\n.Walk-in shower\n.From 32nd to 33rd floor
 
 90=REGENCY SUITE KING
-91=.Size of the rooms: 44 sq m\n.Panoramic view of Paris and Bois de Boulogne\n.Separate Living room\n.Walk-in shower
+91=.Size of the rooms: 44 sq m\n.Panoramic view of Paris and Bois de Boulogne\n.Separate Living room\n.Walk-in shower\n.From 32nd to 33rd floor
 
 92=CLUB EIFFEL TOWER
-93=.Size of the rooms: 22 sq m\n.Panoramic view of Paris and Bois de Boulogne\n.Regency Club access\n.Walk-in shower
+93=.Size of the rooms: 22 sq m\n.Panoramic view of Paris and Bois de Boulogne\n.Regency Club access\n.Walk-in shower\n.From 32nd to 33rd floor
 
 94=CLUB
 95=.Size of the rooms: 22 sq m\n.Panoramic view of Paris\n.Regency Club access\n.Walk-in shower
@@ -76,13 +76,13 @@
 97=.Size of the rooms: 22 sq m\n.Panoramic view of Paris and the Eiffel Tower\n.Walk-in shower
 
 98=DELUXE
-99=.Size of the rooms: 22 sq m\n.Panoramic view of Paris\n.Walk-in shower
+99=.Size of the rooms: 22 sq m\n.Panoramic view of Paris\n.Walk-in shower\n.From 9th to 31st floor
 
 100=EIFFEL TOWER VIEW
 101=.Size of the rooms: 22 sq m\n.View on Paris and the  Eiffel Tower\n.Walk-in shower or bath
 
 102=STANDARD
-103=.Size of the rooms: 22 sq m\n.View of Paris\n.Walk-in shower or bath
+103=.Size of the rooms: 22 sq m\n.View of Paris\n.bathtub\n.From 1st to 8th floor
 
 # Map
 
@@ -102,31 +102,31 @@
 114=CONGRESS CENTER MEETING SPACES
 115=.4 auditoriums on 3 levels\n.20 breakout rooms\n.85 meeting rooms
 
-116=LABS MEETING SPACES
-117=.12 meeting rooms\n.558 m2\n.357 pax (TH)
+116=LE LAB MEETING SPACES
+117=.12 meeting rooms\n.From 22sq m to 166sq m\n.Normal daylight
 
-118=STUDIO MEETING SPACES
-119=.14 meeting rooms\n.1,816 m2\n.3500 (TH)
+118=REGENCY MEETING SPACES
+119=.14 meeting rooms\n.1,816 sq m\n.3500 (TH)
 
 120=TOWER MEETING SPACES
-121=.7 meeting rooms\n.175 m2\n.70 pax (BOARD)
+121=.7 meeting rooms\n.175 sq m\n.70 pax (BOARD)
 
 # DESCRIPTION ESPACES UNDER ONE ROOF
 
-122=LOBBY BAR
-123=.101 pax \n.Café & lounge bar\n.All day dining with local products\n.Buzzing for afterwork - 6 pm to 9 pm
+122=BAR
+123=.Café & lounge bar\n.All day dining with local products\n.Buzzing for afterwork - 6 pm to 9 pm
 
-124=LOBBY RESTAURANT
-125=.96 pax \n.Local artisan crafted food\n.Contemporary, indulging, polished industrial and vibrant spirit
+124=RESTAURANT
+125=.Local artisan crafted food\n.Contemporary, indulging, polished industrial and vibrant spirit
 
-126=MARKET
-127=.24/7 grab & go\n.Open 24/7\n.Local fresh food \n.Local community: living and/or working in the area
+126=GRAB AND GO "C'EST PRÊT !"
+127=.24/7 grab & go\n.Open 24/7\n.Local fresh food
 
 128=PANORAMIC BAR
-129=.34th floor rooftop bar for entertainment and private events\n.Premium & Mixology cocktail bar \n.180° view rooftop
+129=.34th floor rooftop bar\n.Premium & Mixology cocktail bar \n.180° view rooftop
 
 130=REGENCY CLUB
-131=.180° view rooftop \n.Regency Club lounge
+131=.180° view rooftop \n.Regency Club lounge\n.34th floor
 
 132=FITNESS CENTER
 133=.24-hour Fitness Center\n.Full range of the latest equipment
@@ -140,8 +140,8 @@
 138=AIRPORT SHUTTLE
 139=.Orly airport: 29 kilometers\n.Paris Charles de Gaulle airport: 31 kilometers\n.Gare Saint-Lazare: 4 kilometers\n.Gare Montparnasse: 6 kilometers\n.Gare de Lyon: 9 kilometers\n.Gare du Nord: 10 kilometers
 
-140=CONGRESS CENTER BOUTIQUES
-141=.40 shops\n.Hair Dresser\n.Pharmacy\n.Beauty Salon\n.Pastry Shop\n.Men & Women Fashion\n.Grocery Shop\n.Change\n.Restaurants
+140=SHOPPING CENTER
+141=.40 shops\n.Hair Dresser\n.Pharmacy\n.Beauty Salon\n.Pastry Shop\n.Men & Women Fashion\n.Grocery Shop\n.Change\n.Restaurants\n.ATM
 
 142=MOVIE THEATER
 143=UGC movie theater

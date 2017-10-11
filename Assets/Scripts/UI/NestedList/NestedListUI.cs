@@ -73,7 +73,7 @@ public class NestedListUI : MonoBehaviour
         {
             new Room(LanguageManager.Instance.GetText("5"), new string[]{underOneRoofPath + "A) LOBBY SPACE"}),
             new Room(LanguageManager.Instance.GetText("6"), new string[]{underOneRoofPath + "B) LOBBY BAR -_TOP_CHANGE", underOneRoofPath + "B) LOBBY BAR"}),
-            new Room(LanguageManager.Instance.GetText("7"), new string[]{underOneRoofPath + "C) LOBBY RESTAURANT - TOP_CHANGE", underOneRoofPath + "C) LOBBY RESTAURANT - TOP_CHANGE", underOneRoofPath + "C) LOBBY RESTAURANT_RIGHT _CHANGE"}),
+            new Room(LanguageManager.Instance.GetText("7"), new string[]{underOneRoofPath + "C) LOBBY RESTAURANT - TOP_CHANGE", underOneRoofPath + "C) LOBBY RESTAURANT_RIGHT _CHANGE", underOneRoofPath + "C) LOBBY RESTAURANT"}),
             new Room(LanguageManager.Instance.GetText("8"), new string[]{underOneRoofPath + "D) LOBBY MARKET_TOP_CHANGE", underOneRoofPath + "D) MARKET"}),
             new Room(LanguageManager.Instance.GetText("9"), new string[]{underOneRoofPath + "E) PANORAMIC BAR_FRONT", underOneRoofPath + "E) PANORAMIC BAR"}),
             new Room(LanguageManager.Instance.GetText("10"), new string[]{underOneRoofPath + "F) REGENCY CLUB"}),
@@ -107,28 +107,28 @@ public class NestedListUI : MonoBehaviour
         Room[] eventSpaces =
         {
             new Room(LanguageManager.Instance.GetText("31"), new string[] {
-                eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES",
+                //eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES",
                 eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES (2)",
                 eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES_TOP",
-                eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES_RIGHT CHANGE",
-                eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_",
+                //eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES_RIGHT CHANGE",
+                //eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_",
                 eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_0",
                 eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_1",
                 eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_2",
                 eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_3",
                 eventSpacesPath + "A1) GRAND AMPHITHEATRE",
-                eventSpacesPath + "A2) HALL NEULLY",
-                eventSpacesPath + "A3) HALL TERNES",
-                eventSpacesPath + "A4) HALL PARIS",
-                eventSpacesPath + "A5) HALL PASSY",
-                eventSpacesPath + "A6) SALLE PASSY",
-                eventSpacesPath + "A7) HALL MAILLOT",
-                eventSpacesPath + "A8) SALLE MAILLOT",
-                eventSpacesPath + "A9) AMPHITHEATRE BLEU",
-                eventSpacesPath + "A10) hall BORDEAUX",
-                eventSpacesPath + "A11) hall havana",
-                eventSpacesPath + "A12) AMPHITHEATRE  bordeaux",
-                eventSpacesPath + "A13) AMPHITHEATRE HAVANE"
+                //eventSpacesPath + "A2) HALL NEULLY",
+                //eventSpacesPath + "A3) HALL TERNES",
+                //eventSpacesPath + "A4) HALL PARIS",
+                //eventSpacesPath + "A5) HALL PASSY",
+                //eventSpacesPath + "A6) SALLE PASSY",
+                //eventSpacesPath + "A7) HALL MAILLOT",
+                //eventSpacesPath + "A8) SALLE MAILLOT",
+                //eventSpacesPath + "A9) AMPHITHEATRE BLEU",
+                //eventSpacesPath + "A10) hall BORDEAUX",
+                //eventSpacesPath + "A11) hall havana",
+                eventSpacesPath + "A12) AMPHITHEATRE  bordeaux"
+                //eventSpacesPath + "A13) AMPHITHEATRE HAVANE"
                 }),
             new Room(LanguageManager.Instance.GetText("32"), new string[]{
                 eventSpacesPath + "B) LAB MEETING SPACES (2)",
