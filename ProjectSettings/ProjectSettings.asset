@@ -144,7 +144,7 @@ PlayerSettings:
     Android: com.screens.hyatt
     iOS: com.44screens.hyatt
   buildNumber:
-    iOS: 10
+    iOS: 9
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
   AndroidTargetSdkVersion: 0

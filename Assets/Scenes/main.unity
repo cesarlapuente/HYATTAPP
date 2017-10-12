@@ -7204,7 +7204,7 @@ MonoBehaviour:
   _descriptionKey: 121
   _imagePath: towers
   _type: 2
-  _roomId: 34
+  _roomId: 26
 --- !u!212 &1233110847
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7646,7 +7646,7 @@ MonoBehaviour:
   _descriptionKey: 117
   _imagePath: labs
   _type: 2
-  _roomId: 32
+  _roomId: 24
 --- !u!212 &1335100900
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9320,7 +9320,7 @@ MonoBehaviour:
   _descriptionKey: 123
   _imagePath: Bar
   _type: 0
-  _roomId: 0
+  _roomId: 1
 --- !u!212 &1706758608
 SpriteRenderer:
   m_ObjectHideFlags: 0
