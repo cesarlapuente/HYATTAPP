@@ -157,22 +157,63 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
 
     public void Awake()
     {
+        // Initialize the galeries displayed in the Espace View
+
+        // Some image paths are commented so they're not displayed. They were not deleted because the client might want them back (images are still stored in the resources folder).
+
         string underOneRoofPath = "Images/EspaceView/Under One Roof/";
+
 
         Room[] underOneRoof =
         {
             new Room(0, LanguageManager.Instance.GetText("5"), new string[]{underOneRoofPath + "A) LOBBY SPACE"}),
-            new Room(1, LanguageManager.Instance.GetText("6"), new string[]{underOneRoofPath + "B) LOBBY BAR -_TOP_CHANGE", underOneRoofPath + "B) LOBBY BAR"}),
-            new Room(2, LanguageManager.Instance.GetText("7"), new string[]{underOneRoofPath + "C) LOBBY RESTAURANT - TOP_CHANGE", underOneRoofPath + "C) LOBBY RESTAURANT_RIGHT _CHANGE", underOneRoofPath + "C) LOBBY RESTAURANT"}),
-            new Room(3, LanguageManager.Instance.GetText("8"), new string[]{underOneRoofPath + "D) LOBBY MARKET_TOP_CHANGE", underOneRoofPath + "D) MARKET"}),
-            new Room(4, LanguageManager.Instance.GetText("9"), new string[]{underOneRoofPath + "E) PANORAMIC BAR_FRONT", underOneRoofPath + "E) PANORAMIC BAR"}),
+            new Room(1, LanguageManager.Instance.GetText("6"), new string[]{
+                underOneRoofPath + "B) LOBBY BAR -_TOP_CHANGE",
+                underOneRoofPath + "B) LOBBY BAR"
+            }),
+            new Room(2, LanguageManager.Instance.GetText("7"), new string[]{
+                underOneRoofPath + "C) LOBBY RESTAURANT - TOP_CHANGE",
+                underOneRoofPath + "C) LOBBY RESTAURANT_RIGHT _CHANGE",
+                underOneRoofPath + "C) LOBBY RESTAURANT"
+            }),
+            new Room(3, LanguageManager.Instance.GetText("8"), new string[]{
+                underOneRoofPath + "D) LOBBY MARKET_TOP_CHANGE",
+                underOneRoofPath + "D) MARKET"
+            }),
+            new Room(4, LanguageManager.Instance.GetText("9"), new string[]{
+                underOneRoofPath + "E) PANORAMIC BAR_FRONT",
+                underOneRoofPath + "E) PANORAMIC BAR"
+            }),
             new Room(5, LanguageManager.Instance.GetText("10"), new string[]{underOneRoofPath + "F) REGENCY CLUB"}),
-            new Room(6, LanguageManager.Instance.GetText("12"), new string[]{ underOneRoofPath + "G) FITNESS CENTER_RIGHT", underOneRoofPath + "G) FITNESS CENTER_TOP", underOneRoofPath + "G) FITNESS CENTER"}),
-            new Room(7, LanguageManager.Instance.GetText("13"), new string[]{underOneRoofPath + "H) METRO ACCESS 2", underOneRoofPath + "H) METRO ACCESS_TOP", underOneRoofPath + "H) METRO ACCESS 1"}),
-            new Room(8, LanguageManager.Instance.GetText("14"), new string[]{underOneRoofPath + "I) PARKING ACCESS_TOP", underOneRoofPath + "I) PARKING"}),
-            new Room(9, LanguageManager.Instance.GetText("15"), new string[]{underOneRoofPath + "J) AIRPORT SHUTLE_TOP_CHANGE", underOneRoofPath + "J) AIRPORT SHUTTLE"}),
-            new Room(10, LanguageManager.Instance.GetText("16"), new string[]{underOneRoofPath + "K) PALAIS DES CONGRES-BOUTIQUES_LEFT_CHANGE", underOneRoofPath + "K) PALAIS DES CONGRES-BOUTIQUES_RIGHT_CHANGE", underOneRoofPath + "K) PALAIS DES CONGRES-BOUTIQUES_TOP_CHANGE", underOneRoofPath + "K) CONGRESS CENTER BOUTIQUES"}),
-            new Room(11, LanguageManager.Instance.GetText("17"), new string[]{underOneRoofPath + "L) MOVIE THEATER_LEFT_CHANGE", underOneRoofPath + "L) MOVIE THEATER_RIGHT_CHANGE", underOneRoofPath + "L) MOVIE THEATER_TOP_CHANGE", underOneRoofPath + "L) MOVIE THEATER"})
+            new Room(6, LanguageManager.Instance.GetText("12"), new string[]{
+                underOneRoofPath + "G) FITNESS CENTER_RIGHT",
+                underOneRoofPath + "G) FITNESS CENTER_TOP",
+                underOneRoofPath + "G) FITNESS CENTER"
+            }),
+            new Room(7, LanguageManager.Instance.GetText("13"), new string[]{
+                underOneRoofPath + "H) METRO ACCESS 2",
+                //underOneRoofPath + "H) METRO ACCESS_TOP",
+                underOneRoofPath + "H) METRO ACCESS 1"}),
+            new Room(8, LanguageManager.Instance.GetText("14"), new string[]{
+                underOneRoofPath + "I) PARKING ACCESS_TOP"
+                //underOneRoofPath + "I) PARKING"
+            }),
+            new Room(9, LanguageManager.Instance.GetText("15"), new string[]{
+                underOneRoofPath + "J) AIRPORT SHUTLE_TOP_CHANGE",
+                underOneRoofPath + "J) AIRPORT SHUTTLE"
+            }),
+            new Room(10, LanguageManager.Instance.GetText("16"), new string[]{
+                underOneRoofPath + "K) PALAIS DES CONGRES-BOUTIQUES_LEFT_CHANGE",
+                underOneRoofPath + "K) PALAIS DES CONGRES-BOUTIQUES_RIGHT_CHANGE",
+                //underOneRoofPath + "K) PALAIS DES CONGRES-BOUTIQUES_TOP_CHANGE",
+                underOneRoofPath + "K) CONGRESS CENTER BOUTIQUES"
+            }),
+            new Room(11, LanguageManager.Instance.GetText("17"), new string[]{
+                //underOneRoofPath + "L) MOVIE THEATER_LEFT_CHANGE",
+                //underOneRoofPath + "L) MOVIE THEATER_RIGHT_CHANGE",
+                underOneRoofPath + "L) MOVIE THEATER_TOP_CHANGE",
+                underOneRoofPath + "L) MOVIE THEATER"
+            })
         };
 
         string roomsAndSuitesPath = "Images/EspaceView/Room And Suites/";
@@ -221,17 +262,17 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 //eventSpacesPath + "A13) AMPHITHEATRE HAVANE"
                 }),
             new Room(24, LanguageManager.Instance.GetText("32"), new string[]{
-                eventSpacesPath + "B) LAB MEETING SPACES (2)",
                 eventSpacesPath + "B) LABS MEETING SPACES_LEFT",
                 eventSpacesPath + "B) LABS MEETING SPACES_RIGHT",
                 eventSpacesPath + "B) LABS MEETING SPACES_TOP_CHANGE",
+                eventSpacesPath + "B) LAB MEETING SPACES (2)",
                 eventSpacesPath + "B) LAB MEETING SPACES"
             }),
             new Room(25, LanguageManager.Instance.GetText("33"), new string[]{
                 eventSpacesPath + "C) STUDIO MEETING SPACES_LEFT",
                 eventSpacesPath + "C) STUDIO MEETING SPACES_TOP_CHANGE",
                 eventSpacesPath + "C) STUDIO MEETING SPACES_RIGHT",
-                eventSpacesPath + "C) STUDIO MEETING SPACES_2",
+                //eventSpacesPath + "C) STUDIO MEETING SPACES_2",
                 eventSpacesPath + "C) STUDIO MEETING SPACES",
                 eventSpacesPath + "C) STUDIO MEETING SPACE_BRIDGE",
                 eventSpacesPath + "C) STUDIO MEETING SPACES_Prefunction-Rendering",

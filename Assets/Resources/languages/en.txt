@@ -145,3 +145,6 @@
 
 142=MOVIE THEATER
 143=UGC movie theater
+
+144=LOBBY
+145=Contemporary lobby area including restaurant & bar, and a Grab and Go market "C’est Prêt!"
