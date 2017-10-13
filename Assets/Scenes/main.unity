@@ -3418,7 +3418,7 @@ Transform:
   - {fileID: 903019314}
   - {fileID: 197276758}
   m_Father: {fileID: 1380534968}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &465842133
 GameObject:
@@ -4733,6 +4733,68 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1001 &779742077
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1380534968}
+    m_Modifications:
+    - target: {fileID: 400002, guid: 62bc5818c1ff1b94dbf6e248acbe0f80, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00000011921
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 62bc5818c1ff1b94dbf6e248acbe0f80, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 62bc5818c1ff1b94dbf6e248acbe0f80, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 62bc5818c1ff1b94dbf6e248acbe0f80, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 62bc5818c1ff1b94dbf6e248acbe0f80, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 62bc5818c1ff1b94dbf6e248acbe0f80, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 62bc5818c1ff1b94dbf6e248acbe0f80, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 62bc5818c1ff1b94dbf6e248acbe0f80, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 62bc5818c1ff1b94dbf6e248acbe0f80, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 62bc5818c1ff1b94dbf6e248acbe0f80, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4233339
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 62bc5818c1ff1b94dbf6e248acbe0f80, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4233339
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 62bc5818c1ff1b94dbf6e248acbe0f80, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4233339
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 62bc5818c1ff1b94dbf6e248acbe0f80, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &779742078 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400002, guid: 62bc5818c1ff1b94dbf6e248acbe0f80, type: 3}
+  m_PrefabInternal: {fileID: 779742077}
 --- !u!1 &796756834
 GameObject:
   m_ObjectHideFlags: 0
@@ -7057,7 +7119,7 @@ Transform:
   - {fileID: 1335100898}
   - {fileID: 1233110845}
   m_Father: {fileID: 1380534968}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1179193646
 GameObject:
@@ -8187,7 +8249,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bfc51fabb9ba3a488745aa77420abf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 50
+  _speedOnTablet: 25
+  _speedInEditor: 150
 --- !u!65 &1380534967
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8211,6 +8274,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1163222611}
+  - {fileID: 779742078}
   - {fileID: 2144157126}
   - {fileID: 1167336994}
   - {fileID: 443636808}
@@ -9589,7 +9653,7 @@ Transform:
   - {fileID: 356314571}
   - {fileID: 1842077891}
   m_Father: {fileID: 1380534968}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1771681428
 GameObject:
@@ -11910,7 +11974,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 46e1d2157cd051e478b17b058c7549a5, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 46e1d2157cd051e478b17b058c7549a5, type: 3}
       propertyPath: m_LocalScale.x
