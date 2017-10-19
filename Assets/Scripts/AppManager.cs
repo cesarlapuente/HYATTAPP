@@ -168,51 +168,52 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
         {
             new Room(0, LanguageManager.Instance.GetText("5"), new string[]{underOneRoofPath + "A) LOBBY SPACE"}),
             new Room(1, LanguageManager.Instance.GetText("6"), new string[]{
-                underOneRoofPath + "B) LOBBY BAR -_TOP_CHANGE",
-                underOneRoofPath + "B) LOBBY BAR"
+                underOneRoofPath + "B) LOBBY BAR",
+                underOneRoofPath + "B) LOBBY BAR -_TOP_CHANGE"
             }),
             new Room(2, LanguageManager.Instance.GetText("7"), new string[]{
+                underOneRoofPath + "C) LOBBY RESTAURANT",
                 underOneRoofPath + "C) LOBBY RESTAURANT - TOP_CHANGE",
-                underOneRoofPath + "C) LOBBY RESTAURANT_RIGHT _CHANGE",
-                underOneRoofPath + "C) LOBBY RESTAURANT"
+                underOneRoofPath + "C) LOBBY RESTAURANT_RIGHT _CHANGE"
             }),
             new Room(3, LanguageManager.Instance.GetText("8"), new string[]{
-                underOneRoofPath + "D) LOBBY MARKET_TOP_CHANGE",
-                underOneRoofPath + "D) MARKET"
+                underOneRoofPath + "D) MARKET",
+                underOneRoofPath + "D) LOBBY MARKET_TOP_CHANGE"
             }),
             new Room(4, LanguageManager.Instance.GetText("9"), new string[]{
-                underOneRoofPath + "E) PANORAMIC BAR_FRONT",
-                underOneRoofPath + "E) PANORAMIC BAR"
+                underOneRoofPath + "E) PANORAMIC BAR",
+                underOneRoofPath + "E) PANORAMIC BAR_FRONT"
             }),
             new Room(5, LanguageManager.Instance.GetText("10"), new string[]{underOneRoofPath + "F) REGENCY CLUB"}),
             new Room(6, LanguageManager.Instance.GetText("12"), new string[]{
+                underOneRoofPath + "G) FITNESS CENTER",
                 underOneRoofPath + "G) FITNESS CENTER_RIGHT",
-                underOneRoofPath + "G) FITNESS CENTER_TOP",
-                underOneRoofPath + "G) FITNESS CENTER"
+                underOneRoofPath + "G) FITNESS CENTER_TOP"
             }),
             new Room(7, LanguageManager.Instance.GetText("13"), new string[]{
-                underOneRoofPath + "H) METRO ACCESS 2",
+                underOneRoofPath + "H) METRO ACCESS 1",
+                underOneRoofPath + "H) METRO ACCESS 2"
                 //underOneRoofPath + "H) METRO ACCESS_TOP",
-                underOneRoofPath + "H) METRO ACCESS 1"}),
+                }),
             new Room(8, LanguageManager.Instance.GetText("14"), new string[]{
                 underOneRoofPath + "I) PARKING ACCESS_TOP"
                 //underOneRoofPath + "I) PARKING"
             }),
             new Room(9, LanguageManager.Instance.GetText("15"), new string[]{
-                underOneRoofPath + "J) AIRPORT SHUTLE_TOP_CHANGE",
-                underOneRoofPath + "J) AIRPORT SHUTTLE"
+                underOneRoofPath + "J) AIRPORT SHUTTLE",
+                underOneRoofPath + "J) AIRPORT SHUTLE_TOP_CHANGE"
             }),
             new Room(10, LanguageManager.Instance.GetText("16"), new string[]{
+                underOneRoofPath + "K) CONGRESS CENTER BOUTIQUES",
                 underOneRoofPath + "K) PALAIS DES CONGRES-BOUTIQUES_LEFT_CHANGE",
-                underOneRoofPath + "K) PALAIS DES CONGRES-BOUTIQUES_RIGHT_CHANGE",
+                underOneRoofPath + "K) PALAIS DES CONGRES-BOUTIQUES_RIGHT_CHANGE"
                 //underOneRoofPath + "K) PALAIS DES CONGRES-BOUTIQUES_TOP_CHANGE",
-                underOneRoofPath + "K) CONGRESS CENTER BOUTIQUES"
             }),
             new Room(11, LanguageManager.Instance.GetText("17"), new string[]{
                 //underOneRoofPath + "L) MOVIE THEATER_LEFT_CHANGE",
                 //underOneRoofPath + "L) MOVIE THEATER_RIGHT_CHANGE",
-                underOneRoofPath + "L) MOVIE THEATER_TOP_CHANGE",
-                underOneRoofPath + "L) MOVIE THEATER"
+                underOneRoofPath + "L) MOVIE THEATER",
+                underOneRoofPath + "L) MOVIE THEATER_TOP_CHANGE"
             })
         };
 
@@ -220,17 +221,53 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
 
         Room[] roomsAndSuites =
         {
-            new Room(12, LanguageManager.Instance.GetText("19"), new string[]{ roomsAndSuitesPath + "A) STANDAR_FRONT", roomsAndSuitesPath + "A) STANDARD", roomsAndSuitesPath + "A) STANDARD_"}),
-            new Room(13, LanguageManager.Instance.GetText("20"), new string[]{ roomsAndSuitesPath + "B) STANDARD EIFFEL TOWER", roomsAndSuitesPath + "B) STANDARD EIFFEL_TOWER"}),
-            new Room(14, LanguageManager.Instance.GetText("21"), new string[]{ roomsAndSuitesPath + "C) DELUXE", roomsAndSuitesPath + "C) DELUXE_FRONT", roomsAndSuitesPath + "C) DELUXE_"}),
-            new Room(15, LanguageManager.Instance.GetText("22"), new string[]{ roomsAndSuitesPath + "D) DELUXE EIFFEL TOWER", roomsAndSuitesPath + "D) DELUXE EIFFEL TOWER_"}),
-            new Room(16, LanguageManager.Instance.GetText("23"), new string[]{ roomsAndSuitesPath + "E) CLUB", roomsAndSuitesPath + "E) CLUB_"}),
-            new Room(17, LanguageManager.Instance.GetText("24"), new string[]{ roomsAndSuitesPath + "F) CLUB EIFFEL TOWER_", roomsAndSuitesPath + "F) CLUB EIFFEL TOWER"}),
-            new Room(18, LanguageManager.Instance.GetText("25"), new string[]{ roomsAndSuitesPath + "G) REGENCY SUITE KING", roomsAndSuitesPath + "G) REGENCY SUITE_KING"}),
-            new Room(19, LanguageManager.Instance.GetText("26"), new string[]{ roomsAndSuitesPath + "H) REGENCY SUITE KING EIFFEL TOWER_", roomsAndSuitesPath + "H) REGENCY SUITE KING EIFFEL TOWER"}),
-            new Room(20, LanguageManager.Instance.GetText("27"), new string[]{ roomsAndSuitesPath + "I) REGENCY EXECUTIVE SUITE", roomsAndSuitesPath + "I) REGENCY EXECUTIVE SUITE_FRONT", roomsAndSuitesPath + "I) REGENCY EXECUTIVE"}),
-            new Room(21, LanguageManager.Instance.GetText("28"), new string[]{ roomsAndSuitesPath + "J) LOFT_SUITE_", roomsAndSuitesPath + "J) LOFT_SUITE"}),
-            new Room(22, LanguageManager.Instance.GetText("29"), new string[]{ roomsAndSuitesPath + "K) PRESIDENTIAL SUITE", roomsAndSuitesPath + "K) PRESIDENTIAL_SUITE"})
+            new Room(12, LanguageManager.Instance.GetText("19"), new string[]{
+                roomsAndSuitesPath + "A) STANDARD_",
+                roomsAndSuitesPath + "A) STANDAR_FRONT",
+                roomsAndSuitesPath + "A) STANDARD"
+                }),
+            new Room(13, LanguageManager.Instance.GetText("20"), new string[]{
+                roomsAndSuitesPath + "B) STANDARD EIFFEL_TOWER",
+                roomsAndSuitesPath + "B) STANDARD EIFFEL TOWER"
+                }),
+            new Room(14, LanguageManager.Instance.GetText("21"), new string[]{
+                roomsAndSuitesPath + "C) DELUXE_",
+                roomsAndSuitesPath + "C) DELUXE",
+                roomsAndSuitesPath + "C) DELUXE_FRONT"
+                }),
+            new Room(15, LanguageManager.Instance.GetText("22"), new string[]{
+                roomsAndSuitesPath + "D) DELUXE EIFFEL TOWER_",
+                roomsAndSuitesPath + "D) DELUXE EIFFEL TOWER"
+                }),
+            new Room(16, LanguageManager.Instance.GetText("23"), new string[]{
+                roomsAndSuitesPath + "E) CLUB_",
+                roomsAndSuitesPath + "E) CLUB"
+                }),
+            new Room(17, LanguageManager.Instance.GetText("24"), new string[]{
+                roomsAndSuitesPath + "F) CLUB EIFFEL TOWER",
+                roomsAndSuitesPath + "F) CLUB EIFFEL TOWER_"
+                }),
+            new Room(18, LanguageManager.Instance.GetText("25"), new string[]{
+                roomsAndSuitesPath + "G) REGENCY SUITE_KING",
+                roomsAndSuitesPath + "G) REGENCY SUITE KING"
+                }),
+            new Room(19, LanguageManager.Instance.GetText("26"), new string[]{
+                roomsAndSuitesPath + "H) REGENCY SUITE KING EIFFEL TOWER",
+                roomsAndSuitesPath + "H) REGENCY SUITE KING EIFFEL TOWER_"
+                }),
+            new Room(20, LanguageManager.Instance.GetText("27"), new string[]{
+                roomsAndSuitesPath + "I) REGENCY EXECUTIVE",
+                roomsAndSuitesPath + "I) REGENCY EXECUTIVE SUITE",
+                roomsAndSuitesPath + "I) REGENCY EXECUTIVE SUITE_FRONT"
+                }),
+            new Room(21, LanguageManager.Instance.GetText("28"), new string[]{
+                roomsAndSuitesPath + "J) LOFT_SUITE",
+                roomsAndSuitesPath + "J) LOFT_SUITE_"
+                }),
+            new Room(22, LanguageManager.Instance.GetText("29"), new string[]{
+                roomsAndSuitesPath + "K) PRESIDENTIAL_SUITE",
+                roomsAndSuitesPath + "K) PRESIDENTIAL SUITE"
+                })
         };
 
         string eventSpacesPath = "Images/EspaceView/Event Spaces/";
@@ -239,6 +276,8 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
         {
             new Room(23, LanguageManager.Instance.GetText("31"), new string[] {
                 //eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES",
+                eventSpacesPath + "A1) GRAND AMPHITHEATRE",
+                eventSpacesPath + "A12) AMPHITHEATRE  bordeaux",
                 eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES (2)",
                 eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES_TOP",
                 //eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES_RIGHT CHANGE",
@@ -246,8 +285,7 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_0",
                 eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_1",
                 eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_2",
-                eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_3",
-                eventSpacesPath + "A1) GRAND AMPHITHEATRE",
+                eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_3"
                 //eventSpacesPath + "A2) HALL NEULLY",
                 //eventSpacesPath + "A3) HALL TERNES",
                 //eventSpacesPath + "A4) HALL PARIS",
@@ -258,34 +296,33 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 //eventSpacesPath + "A9) AMPHITHEATRE BLEU",
                 //eventSpacesPath + "A10) hall BORDEAUX",
                 //eventSpacesPath + "A11) hall havana",
-                eventSpacesPath + "A12) AMPHITHEATRE  bordeaux"
                 //eventSpacesPath + "A13) AMPHITHEATRE HAVANE"
                 }),
             new Room(24, LanguageManager.Instance.GetText("32"), new string[]{
+                eventSpacesPath + "B) LAB MEETING SPACES (2)",
                 eventSpacesPath + "B) LABS MEETING SPACES_LEFT",
                 eventSpacesPath + "B) LABS MEETING SPACES_RIGHT",
                 eventSpacesPath + "B) LABS MEETING SPACES_TOP_CHANGE",
-                eventSpacesPath + "B) LAB MEETING SPACES (2)",
                 eventSpacesPath + "B) LAB MEETING SPACES"
             }),
             new Room(25, LanguageManager.Instance.GetText("33"), new string[]{
-                eventSpacesPath + "C) STUDIO MEETING SPACES_LEFT",
-                eventSpacesPath + "C) STUDIO MEETING SPACES_TOP_CHANGE",
-                eventSpacesPath + "C) STUDIO MEETING SPACES_RIGHT",
-                //eventSpacesPath + "C) STUDIO MEETING SPACES_2",
-                eventSpacesPath + "C) STUDIO MEETING SPACES",
                 eventSpacesPath + "C) STUDIO MEETING SPACE_BRIDGE",
                 eventSpacesPath + "C) STUDIO MEETING SPACES_Prefunction-Rendering",
                 eventSpacesPath + "C) STUDIO MEETING SPACES_Ballroom-3D-Rendering",
                 eventSpacesPath + "C) STUDIO MEETING SPACES_CONGRESS CORRIDOR",
                 eventSpacesPath + "C) STUDIO MEETING SPACES_CONGRESS ENTRY",
                 eventSpacesPath + "C) STUDIO MEETING SPACES_meeting room_1",
-                eventSpacesPath + "C) STUDIO MEETING SPACES_TOILET LOUNGE AREA"
+                eventSpacesPath + "C) STUDIO MEETING SPACES_TOILET LOUNGE AREA",
+                eventSpacesPath + "C) STUDIO MEETING SPACES_LEFT",
+                eventSpacesPath + "C) STUDIO MEETING SPACES_TOP_CHANGE",
+                eventSpacesPath + "C) STUDIO MEETING SPACES_RIGHT",
+                //eventSpacesPath + "C) STUDIO MEETING SPACES_2",
+                eventSpacesPath + "C) STUDIO MEETING SPACES"
                 }),
             new Room(26, LanguageManager.Instance.GetText("34"), new string[]{
+                eventSpacesPath + "D) TOWER MEETING ROOMS",
                 eventSpacesPath + "D) TOWER MEETING SPACES_FRONT",
-                eventSpacesPath + "D) TOWER MEETING SPACES_RIGHT",
-                eventSpacesPath + "D) TOWER MEETING ROOMS"
+                eventSpacesPath + "D) TOWER MEETING SPACES_RIGHT"
                 }),
             new Room(27, LanguageManager.Instance.GetText("35"), new string[] { eventSpacesPath + "STUDIOS CAPACITY FR"}),
             new Room(28, LanguageManager.Instance.GetText("36"), new string[] { eventSpacesPath + "STUDIOS CAPACITY EN"})
