@@ -56,6 +56,8 @@ public class Carousel : MonoBehaviour
     /// <param name="sprites"></param>
     public void Init(Sprite[] sprites)
     {
+        Resources.UnloadUnusedAssets();
+
         // Remove previous images and dots
         for (int i = 1; i < _images.Count; i++)
         {
