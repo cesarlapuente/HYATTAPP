@@ -7047,7 +7047,7 @@ MonoBehaviour:
   m_HorizontalScrollbar: {fileID: 253234107}
   m_VerticalScrollbar: {fileID: 208529095}
   m_HorizontalScrollbarVisibility: 2
-  m_VerticalScrollbarVisibility: 0
+  m_VerticalScrollbarVisibility: 2
   m_HorizontalScrollbarSpacing: -3
   m_VerticalScrollbarSpacing: -3
   m_OnValueChanged:
@@ -10186,6 +10186,7 @@ MonoBehaviour:
   _prefabSubElementButton: {fileID: 114764426351762612, guid: abfa6950eaab7be46b745d48dfee2524,
     type: 2}
   _carousel: {fileID: 798419615}
+  _elements: []
 --- !u!114 &1814077268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10891,6 +10892,7 @@ MonoBehaviour:
     type: 2}
   _prefabSubElementButton: {fileID: 0}
   _carousel: {fileID: 0}
+  _elements: []
 --- !u!1 &1991682239
 GameObject:
   m_ObjectHideFlags: 0
