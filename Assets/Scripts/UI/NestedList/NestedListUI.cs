@@ -14,6 +14,7 @@ public class NestedListUI : MonoBehaviour
     public SubElementListUI _prefabSubElementButton;
     public Carousel _carousel;
 
+    public List<ElementListUI> _elements = new List<ElementListUI>();
     public Dictionary<int, SubElementListUI> _subElementsDictionnary = new Dictionary<int, SubElementListUI>();
 
     public void InitList(RoomCategory[] _roomCategories)
@@ -43,6 +44,9 @@ public class NestedListUI : MonoBehaviour
         subElementContainer.transform.localScale = Vector3.one;
 
         element._subElement = subElementContainer;
+        element._parentNestedList = this;
+
+        _elements.Add(element);
 
         for (int i = 0; i < roomCategory._elements.Length; i++)
         {
@@ -68,12 +72,16 @@ public class NestedListUI : MonoBehaviour
                 // We had all the subElements to the dictionnary to make it easier to retrive them
                 // The Dictionnary is essential to the interaction with Interest Points, it allows us to open the gallery when viewing an Interest Point
                 _subElementsDictionnary.Add(subElement._room._id, subElement);
+                subElement._parentElement = element;
             }
         }
     }
 
-    public void Awake()
+    public void HideAllElements()
     {
-
+        for (int i = 0; i < _elements.Count; i++)
+        {
+            _elements[i].DisplaySubElement(false);
+        }
     }
 }

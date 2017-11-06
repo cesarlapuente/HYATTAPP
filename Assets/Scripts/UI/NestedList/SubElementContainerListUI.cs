@@ -23,13 +23,22 @@ public class SubElementContainerListUI : MonoBehaviour
     /// </summary>
     public void ToggleList()
     {
-        float newHeight = 0;
-        if (!_isDisplayed)
+        DisplayList(!_isDisplayed);
+    }
+
+    public void DisplayList(bool display)
+    {
+        if (_isDisplayed != display)
         {
-            newHeight = _defaultHeight;
+            _isDisplayed = display;
+            float newHeight = 0;
+
+            if (display)
+            {
+                newHeight = _defaultHeight;
+            }
+            StartCoroutine(ChangeHeightCoroutine(newHeight));
         }
-        _isDisplayed = !_isDisplayed;
-        StartCoroutine(ChangeHeightCoroutine(newHeight));
     }
 
     /// <summary>

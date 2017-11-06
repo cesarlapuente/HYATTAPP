@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SubElementListUI : MonoBehaviour {
 
     public Room _room;
     public Carousel _carousel;
+    public ElementListUI _parentElement;
 
     public void OpenGalery()
     {
@@ -26,6 +28,8 @@ public class SubElementListUI : MonoBehaviour {
                 sprites[i] = Resources.Load<Sprite>(_room._imagePaths[i]);
             }
         }
+        gameObject.GetComponent<Button>().Select();
         _carousel.Init(sprites);
+        _parentElement.DisplaySubElement(true);
     }
 }
