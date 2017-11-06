@@ -126,6 +126,7 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 path = "Images/HotelView/Event Spaces/";
                 break;
             default:
+                path = "Images/HotelView/Other/";
                 break;
         }
         Debug.Log(path + interestPoint._imagePath);

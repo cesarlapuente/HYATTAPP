@@ -5,7 +5,7 @@
 /// </summary>
 public class InterestPoint : MonoBehaviour
 {
-    public enum Type { UnderOneRoof, RoomsAndSuites, EventSpaces }
+    public enum Type { UnderOneRoof, RoomsAndSuites, EventSpaces, Other }
 
     public string _name;
     public string _titleKey;

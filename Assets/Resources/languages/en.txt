@@ -148,3 +148,6 @@
 
 144=LOBBY
 145=Contemporary lobby area including restaurant & bar, and a Grab and Go market "C’est Prêt!"
+
+146=HOTEL HYATT
+147=3 Place du Général Koenig 75017 Paris
