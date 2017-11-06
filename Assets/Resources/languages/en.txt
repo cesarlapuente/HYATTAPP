@@ -21,7 +21,7 @@
 17=Movie Theater
 
 18=ROOMS & SUITES
-19=Standard
+19=King/Twin
 20=Standard Eiffel Tower View
 21=Deluxe
 22=Deluxe Eiffel Tower View
@@ -81,7 +81,7 @@
 100=EIFFEL TOWER VIEW
 101=.Size of the rooms: 22 sq m\n.View on Paris and the  Eiffel Tower\n.Walk-in shower or bath
 
-102=STANDARD
+102=KING/TWIN
 103=.Size of the rooms: 22 sq m\n.View of Paris\n.bathtub\n.From 1st to 8th floor
 
 # Map
