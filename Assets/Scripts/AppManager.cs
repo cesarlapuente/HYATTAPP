@@ -342,7 +342,7 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
         {
             new Room(29, LanguageManager.Instance.GetText("38"), cateringPath + "Spring Summer/"),
             new Room(30, LanguageManager.Instance.GetText("39"), cateringPath + "Fall Winter/"),
-            new Room(31, LanguageManager.Instance.GetText("40"), cateringPath + "Printemps Eté/"),
+            new Room(31, LanguageManager.Instance.GetText("40"), cateringPath + "Printemps Ete/"),
             new Room(32, LanguageManager.Instance.GetText("41"), cateringPath + "Automne Hiver/")
         };
 
