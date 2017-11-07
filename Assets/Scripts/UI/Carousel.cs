@@ -120,6 +120,15 @@ public class Carousel : MonoBehaviour
         else _dotsContainer.SetActive(true);
     }
 
+    private void OnEnable()
+    {
+        // When switching screen the dots color are reseted. The following code is to prevent this.
+        if (_dots.Count > 0)
+        {
+            _dots[_currentImageIndex].CrossFadeColor(_dotColor, 0.0f, false, false);
+        }
+    }
+
     private void Update()
     {
         switch (_currentState)
