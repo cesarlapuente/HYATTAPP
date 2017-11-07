@@ -222,7 +222,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 7176424}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -0.7210001, y: -0.56100005, z: 0.14899969}
+  m_LocalPosition: {x: -0.7210001, y: -0.56100005, z: 0.254}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 716860556}
@@ -408,7 +408,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 30955352}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.683, y: 1.819, z: 0.006}
+  m_LocalPosition: {x: -0.683, y: 1.827, z: 0.029}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1766174218}
@@ -761,7 +761,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1091,11 +1091,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 148975565}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -0.709, y: 1.46, z: 0.03999996}
+  m_LocalPosition: {x: -0.709, y: 1.46, z: -0.211}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 716860556}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &148975567
 MonoBehaviour:
@@ -1464,11 +1464,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 194348922}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -0.86099994, y: 1.6470001, z: 0.5300002}
+  m_LocalPosition: {x: -0.86099994, y: 1.708, z: 0.5300002}
   m_LocalScale: {x: 0.50000024, y: 0.5, z: 0.50000024}
   m_Children: []
   m_Father: {fileID: 716860556}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &194348924
 MonoBehaviour:
@@ -1650,11 +1650,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 197276757}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -0.72599995, y: 1.701, z: 0.33300018}
+  m_LocalPosition: {x: -0.72599995, y: 1.701, z: 0.376}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 716860556}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &197276759
 MonoBehaviour:
@@ -1952,7 +1952,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 218470905}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -0.72599995, y: 0.42700005, z: 0.329}
+  m_LocalPosition: {x: -0.72599995, y: 0.42700005, z: 0.256}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 716860556}
@@ -2970,7 +2970,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 387720286}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -0.66414845, y: 0.42700005, z: 0.025000095}
+  m_LocalPosition: {x: -0.66414845, y: 0.42700005, z: -0.21}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 716860556}
@@ -3560,6 +3560,124 @@ Transform:
   m_Father: {fileID: 1380534968}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &451455928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 451455929}
+  - component: {fileID: 451455933}
+  - component: {fileID: 451455932}
+  - component: {fileID: 451455931}
+  - component: {fileID: 451455930}
+  m_Layer: 9
+  m_Name: Back Club
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &451455929
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 451455928}
+  m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
+  m_LocalPosition: {x: -0.65999997, y: 1.7120001, z: -0.126}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 716860556}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
+--- !u!114 &451455930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 451455928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c52749d332a2684c8d0af1baaeda06a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sprites:
+  - {fileID: 21300000, guid: 80f3068dad512714e9af8f2d6c3a27f1, type: 3}
+  - {fileID: 21300000, guid: 5c2e25d2139fe244f8e91a3aad161ba0, type: 3}
+  _spriteEnabled: 1
+--- !u!65 &451455931
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 451455928}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.41, y: 0.52, z: 0.2}
+  m_Center: {x: 0, y: 0, z: -0.00000047683716}
+--- !u!114 &451455932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 451455928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b7851146e25c3f488afb0d227d86f74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _name: Club
+  _titleKey: 94
+  _descriptionKey: 95
+  _imagePath: CLUB
+  _type: 1
+  _roomId: 16
+--- !u!212 &451455933
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 451455928}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 954bc009ba3cb77488272a57d4ffe2a2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 80f3068dad512714e9af8f2d6c3a27f1, type: 3}
+  m_Color: {r: 0.15408735, g: 0.16435987, b: 0.6985294, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.41, y: 0.52}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &465842133
 GameObject:
   m_ObjectHideFlags: 0
@@ -4444,7 +4562,7 @@ GameObject:
   - component: {fileID: 655437527}
   - component: {fileID: 655437528}
   m_Layer: 9
-  m_Name: Interest Point (1)
+  m_Name: Congress
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4578,10 +4696,12 @@ Transform:
   - {fileID: 7176425}
   - {fileID: 387720287}
   - {fileID: 218470906}
+  - {fileID: 451455929}
   - {fileID: 1315865367}
   - {fileID: 148975566}
   - {fileID: 1049314429}
   - {fileID: 194348923}
+  - {fileID: 1455783376}
   - {fileID: 197276758}
   m_Father: {fileID: 443636808}
   m_RootOrder: 1
@@ -5188,7 +5308,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 817406516}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -0.6999999, y: -0.558, z: -0.14800024}
+  m_LocalPosition: {x: -0.6999999, y: -0.558, z: -0.209}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 716860556}
@@ -6344,11 +6464,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1049314428}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -0.796, y: 1.46, z: 0.43400002}
+  m_LocalPosition: {x: -0.764, y: 1.46, z: 0.252}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 716860556}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &1049314430
 MonoBehaviour:
@@ -6733,7 +6853,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1075694295}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.203, y: -1.43, z: 0.318}
+  m_LocalPosition: {x: -2.203, y: -1.43, z: 0.03}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1766174218}
@@ -6919,7 +7039,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1139339697}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.732, y: 1.819, z: -0.423}
+  m_LocalPosition: {x: -0.732, y: 1.819, z: -0.408}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1766174218}
@@ -7403,7 +7523,7 @@ GameObject:
   - component: {fileID: 1233110848}
   - component: {fileID: 1233110849}
   m_Layer: 9
-  m_Name: Interest Point (3)
+  m_Name: Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7818,11 +7938,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1315865366}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -0.65999997, y: 1.8079998, z: 0.16499996}
+  m_LocalPosition: {x: -0.65999997, y: 1.712, z: 0.179}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 716860556}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
 --- !u!114 &1315865368
 MonoBehaviour:
@@ -7963,7 +8083,7 @@ GameObject:
   - component: {fileID: 1335100901}
   - component: {fileID: 1335100902}
   m_Layer: 9
-  m_Name: Interest Point (2)
+  m_Name: Labs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8778,6 +8898,124 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.41, y: 0.52, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1455783375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1455783376}
+  - component: {fileID: 1455783380}
+  - component: {fileID: 1455783379}
+  - component: {fileID: 1455783378}
+  - component: {fileID: 1455783377}
+  m_Layer: 9
+  m_Name: Back Regency Executive (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1455783376
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1455783375}
+  m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
+  m_LocalPosition: {x: -0.86099994, y: 1.614, z: -0.483}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 716860556}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
+--- !u!114 &1455783377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1455783375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c52749d332a2684c8d0af1baaeda06a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sprites:
+  - {fileID: 21300000, guid: 80f3068dad512714e9af8f2d6c3a27f1, type: 3}
+  - {fileID: 21300000, guid: 5c2e25d2139fe244f8e91a3aad161ba0, type: 3}
+  _spriteEnabled: 1
+--- !u!65 &1455783378
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1455783375}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.41, y: 0.52, z: 0.2}
+  m_Center: {x: -0.0000009536743, y: 0, z: 0.00000011920929}
+--- !u!114 &1455783379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1455783375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b7851146e25c3f488afb0d227d86f74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _name: Back Regency Executive
+  _titleKey: 86
+  _descriptionKey: 87
+  _imagePath: REGENCY EXECUTIVE SUITE
+  _type: 1
+  _roomId: 20
+--- !u!212 &1455783380
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1455783375}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 954bc009ba3cb77488272a57d4ffe2a2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 80f3068dad512714e9af8f2d6c3a27f1, type: 3}
+  m_Color: {r: 0.3633218, g: 0.6005218, b: 0.8235294, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.41, y: 0.52}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1519757869
 GameObject:
   m_ObjectHideFlags: 0
@@ -10931,7 +11169,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1921029129}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 3.04, y: -1.67, z: 0.05}
+  m_LocalPosition: {x: 3.04, y: -1.67, z: -1.433}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1766174218}
@@ -10951,8 +11189,8 @@ MonoBehaviour:
   _name: Parking
   _titleKey: 136
   _descriptionKey: 137
-  _imagePath: PARKING
-  _type: 0
+  _imagePath: hyatt
+  _type: 3
   _roomId: 8
 --- !u!212 &1921029132
 SpriteRenderer:
@@ -12026,7 +12264,7 @@ GameObject:
   - component: {fileID: 2084583127}
   - component: {fileID: 2084583128}
   m_Layer: 9
-  m_Name: Interest Point
+  m_Name: Studio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

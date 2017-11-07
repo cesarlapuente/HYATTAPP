@@ -130,7 +130,14 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 break;
         }
         Debug.Log(path + interestPoint._imagePath);
-        _hotelViewImage.sprite = Resources.Load<Sprite>(path + interestPoint._imagePath);
+        if (!string.IsNullOrEmpty(interestPoint._imagePath))
+        {
+            _hotelViewImage.sprite = Resources.Load<Sprite>(path + interestPoint._imagePath); 
+        }
+
+        // Enable the button only if it is linked to an element in the galery/espace view
+        _hotelViewImage.GetComponent<Button>().interactable = _nestedListUI._subElementsDictionnary.ContainsKey(_currentInterestPoint._roomId);
+
         _hotelViewTitle.text = LanguageManager.Instance.GetText(interestPoint._titleKey);
         _hotelViewDescription.text = LanguageManager.Instance.GetText(interestPoint._descriptionKey);
     }
