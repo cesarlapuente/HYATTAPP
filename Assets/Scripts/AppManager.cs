@@ -208,8 +208,8 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 //underOneRoofPath + "I) PARKING"
             }),
             new Room(9, LanguageManager.Instance.GetText("15"), new string[]{
-                underOneRoofPath + "J) AIRPORT SHUTTLE",
-                underOneRoofPath + "J) AIRPORT SHUTLE_TOP_CHANGE"
+                underOneRoofPath + "J) AIRPORT SHUTTLE"
+                //underOneRoofPath + "J) AIRPORT SHUTLE_TOP_CHANGE"
             }),
             new Room(10, LanguageManager.Instance.GetText("16"), new string[]{
                 underOneRoofPath + "K) CONGRESS CENTER BOUTIQUES",
@@ -286,7 +286,7 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 //eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES",
                 eventSpacesPath + "A1) GRAND AMPHITHEATRE",
                 eventSpacesPath + "A12) AMPHITHEATRE  bordeaux",
-                eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES (2)",
+                //eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES (2)",
                 eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES_TOP",
                 //eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES_RIGHT CHANGE",
                 //eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_",
