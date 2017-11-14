@@ -1,7 +1,7 @@
 0=3D View
 1=List of spaces
 2=Map
-3=Hotel Hyatt, Paris
+3=Hyatt Regency Paris Etoile
 
 # Espace View Menu
 
@@ -78,7 +78,7 @@
 98=DELUXE
 99=.Size of the rooms: 22 sq m\n.Panoramic view of Paris\n.Walk-in shower\n.From 9th to 31st floor
 
-100=EIFFEL TOWER VIEW
+100=CLUB EIFFEL TOWER VIEW
 101=.Size of the rooms: 22 sq m\n.View on Paris and the  Eiffel Tower\n.Walk-in shower or bath
 
 102=KING/TWIN
