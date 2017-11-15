@@ -79,7 +79,7 @@
 99=.Size of the rooms: 22 sq m\n.Panoramic view of Paris\n.Walk-in shower\n.From 9th to 31st floor
 
 100=CLUB EIFFEL TOWER VIEW
-101=.Size of the rooms: 22 sq m\n.View on Paris and the  Eiffel Tower\n.Walk-in shower or bath
+101=.Size of the rooms: 22 sq m\n.View on Paris and the Eiffel Tower\n.Walk-in shower or bath
 
 102=KING/TWIN
 103=.Size of the rooms: 22 sq m\n.View of Paris\n.bathtub\n.From 1st to 8th floor
