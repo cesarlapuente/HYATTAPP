@@ -8,7 +8,6 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
     private InterestPoint _currentInterestPoint;
 
     [Header("Menu")]
-    public Text _title;
     public GameObject _hotelModel;
     public SpriteChanger _hotelSprite;
     public SpriteChanger _espaceSprite;
@@ -58,7 +57,6 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 _espaceView.SetActive(false);
                 _mapView.SetActive(false);
                 _hotelModel.SetActive(true);
-                _title.text = LanguageManager.Instance.GetText("0");
                 _hotelSprite.ChangeSprite(0);
                 _espaceSprite.ChangeSprite(1);
                 _mapSprite.ChangeSprite(1);
@@ -69,7 +67,6 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 _espaceView.SetActive(true);
                 _mapView.SetActive(false);
                 _hotelModel.SetActive(false);
-                _title.text = LanguageManager.Instance.GetText("1");
                 _hotelSprite.ChangeSprite(1);
                 _espaceSprite.ChangeSprite(0);
                 _mapSprite.ChangeSprite(1);
@@ -80,7 +77,6 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 _espaceView.SetActive(false);
                 _mapView.SetActive(true);
                 _hotelModel.SetActive(false);
-                _title.text = LanguageManager.Instance.GetText("2");
                 _hotelSprite.ChangeSprite(1);
                 _espaceSprite.ChangeSprite(1);
                 _mapSprite.ChangeSprite(0);
