@@ -45,6 +45,7 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
 
     public void Start()
     {
+        InputManager.SingleClickTriggered += OpenPopUpIfOnMouse;
         ChangeScreen(Screen.HotelView);
     }
 
@@ -87,16 +88,12 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
         }
     }
 
-    public void Update()
+    private void OpenPopUpIfOnMouse()
     {
-        // Cast a ray to check if we the user clicked on an InterestPoint
-        if (Input.GetMouseButtonUp(0))
+        RaycastHit raycastHit;
+        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycastHit, Mathf.Infinity, LayerMask.GetMask("InterestPoints")))
         {
-            RaycastHit raycastHit;
-            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycastHit, Mathf.Infinity, LayerMask.GetMask("InterestPoints")))
-            {
-                OpenHotelViewPopUp(raycastHit.collider.GetComponent<InterestPoint>());
-            }
+            OpenHotelViewPopUp(raycastHit.collider.GetComponent<InterestPoint>());
         }
     }
 
