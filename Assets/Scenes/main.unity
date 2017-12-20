@@ -6449,7 +6449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c85e61b1e9e42944b86f33cc34a9a443, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timeToWaitForDoubleClick: 0.5
+  _timeToWaitForDoubleClick: 0.2
 --- !u!1 &1000676094
 GameObject:
   m_ObjectHideFlags: 0
