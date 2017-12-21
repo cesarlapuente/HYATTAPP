@@ -128,8 +128,8 @@ public class CameraManager : MonoBehaviour
         if (_MoveObjectCoroutine != null)
         {
             StopCoroutine(_MoveObjectCoroutine);
-            _MoveObjectCoroutine = StartCoroutine(MoveObjectCoroutine(_targetPosition, 1.0f));
         }
+        _MoveObjectCoroutine = StartCoroutine(MoveObjectCoroutine(_targetPosition, 1.0f));
     }
 
     private IEnumerator MoveObjectCoroutine(Vector3 destination, float time)
@@ -149,7 +149,7 @@ public class CameraManager : MonoBehaviour
         if (_MoveObjectCoroutine != null)
         {
             StopCoroutine(_MoveObjectCoroutine);
-            StartCoroutine(MoveObjectCoroutine(_originalPosition, 1.0f));
         }
+        _MoveObjectCoroutine = StartCoroutine(MoveObjectCoroutine(_originalPosition, 1.0f));
     }
 }
