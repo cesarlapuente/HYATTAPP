@@ -12,6 +12,8 @@ public class CameraManager : MonoBehaviour
 
     private bool _isZoomedIn = false;
 
+    private Coroutine _MoveObjectCoroutine;
+
     private enum PinchState { Empty, PinchStarted, Pinching }
 
     private PinchState _currentPinchState;
@@ -54,49 +56,48 @@ public class CameraManager : MonoBehaviour
     void Start()
     {
         _originalPosition = transform.position;
-        //InputManager.DoubleClickTriggered += ToggleCameraZoom;
+        InputManager.DoubleClickTriggered += ToggleCameraZoom;
     }
 
     private void Update()
     {
-        if (CurrentPinchState == PinchState.Pinching)
-        {
-            if (Input.touchCount == 2)
-            {
-                // Store both touches.
-                Touch touchZero = Input.GetTouch(0);
-                Touch touchOne = Input.GetTouch(1);
+        //if (CurrentPinchState == PinchState.Pinching)
+        //{
+        //    if (Input.touchCount == 2)
+        //    {
+        //        // Store both touches.
+        //        Touch touchZero = Input.GetTouch(0);
+        //        Touch touchOne = Input.GetTouch(1);
 
-                // Find the position in the previous frame of each touch.
-                Vector2 touchZeroPrevPos = touchZero.position - touchZero.deltaPosition;
-                Vector2 touchOnePrevPos = touchOne.position - touchOne.deltaPosition;
+        //        // Find the position in the previous frame of each touch.
+        //        Vector2 touchZeroPrevPos = touchZero.position - touchZero.deltaPosition;
+        //        Vector2 touchOnePrevPos = touchOne.position - touchOne.deltaPosition;
 
-                // Find the magnitude of the vector (the distance) between the touches in each frame.
-                float prevTouchDeltaMag = (touchZeroPrevPos - touchOnePrevPos).magnitude;
-                float touchDeltaMag = (touchZero.position - touchOne.position).magnitude;
+        //        // Find the magnitude of the vector (the distance) between the touches in each frame.
+        //        float prevTouchDeltaMag = (touchZeroPrevPos - touchOnePrevPos).magnitude;
+        //        float touchDeltaMag = (touchZero.position - touchOne.position).magnitude;
 
-                // Find the difference in the distances between each frame.
-                float deltaMagnitudeDiff = prevTouchDeltaMag - touchDeltaMag;
+        //        // Find the difference in the distances between each frame.
+        //        float deltaMagnitudeDiff = prevTouchDeltaMag - touchDeltaMag;
 
-                Vector3 currentPosition = transform.position;
+        //        Vector3 currentPosition = transform.position;
 
-                float zoomValue = - deltaMagnitudeDiff / 100.0f;
-                Vector3 newPosition = currentPosition + (_targetPosition - currentPosition) * zoomValue;
-                if (Vector3.Dot(_targetPosition - _originalPosition, newPosition - _originalPosition) >= 0)
-                {
-                    transform.position = newPosition;
-                }
-            }
-            else
-            {
-                CurrentPinchState = PinchState.Empty;
-            }
-        }
-        else if (Input.touchCount == 2)
-        {
-            CurrentPinchState = PinchState.PinchStarted;
-        }
-
+        //        float zoomValue = - deltaMagnitudeDiff / 100.0f;
+        //        Vector3 newPosition = currentPosition + (_targetPosition - currentPosition) * zoomValue;
+        //        if (Vector3.Dot(_targetPosition - _originalPosition, newPosition - _originalPosition) >= 0)
+        //        {
+        //            transform.position = newPosition;
+        //        }
+        //    }
+        //    else
+        //    {
+        //        CurrentPinchState = PinchState.Empty;
+        //    }
+        //}
+        //else if (Input.touchCount == 2)
+        //{
+        //    CurrentPinchState = PinchState.PinchStarted;
+        //}
     }
 
     private void ToggleCameraZoom()
@@ -111,7 +112,7 @@ public class CameraManager : MonoBehaviour
                 Vector3 cameraHitVector = raycastHit.point - transform.position;
                 float distanceBetweenHitAndCameraPlane = Vector3.Dot(cameraHitVector, transform.forward);
                 Vector3 newCameraPos = raycastHit.point - distanceBetweenHitAndCameraPlane * transform.forward;
-                transform.position = newCameraPos;
+                _targetPosition = transform.forward * _maxZoomValue + newCameraPos;
             }
             ZoomIn();
         }
@@ -124,11 +125,31 @@ public class CameraManager : MonoBehaviour
     
     private void ZoomIn()
     {
-        transform.position = transform.position + transform.forward * _maxZoomValue;
+        if (_MoveObjectCoroutine != null)
+        {
+            StopCoroutine(_MoveObjectCoroutine);
+            _MoveObjectCoroutine = StartCoroutine(MoveObjectCoroutine(_targetPosition, 1.0f));
+        }
+    }
+
+    private IEnumerator MoveObjectCoroutine(Vector3 destination, float time)
+    {
+        float i = 0.0f;
+        float rate = 1.0f / time;
+        while (i < 1.0)
+        {
+            i += Time.deltaTime * rate;
+            transform.position = Vector3.Lerp(transform.position, destination, i);
+            yield return new WaitForFixedUpdate();
+        }
     }
 
     private void Reset()
     {
-        transform.position = _originalPosition;
+        if (_MoveObjectCoroutine != null)
+        {
+            StopCoroutine(_MoveObjectCoroutine);
+            StartCoroutine(MoveObjectCoroutine(_originalPosition, 1.0f));
+        }
     }
 }
