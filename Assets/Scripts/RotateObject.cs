@@ -10,7 +10,10 @@ public class RotateObject : MonoBehaviour, IDragHandler
     {
         if (Input.touchSupported)
         {
-            transform.Rotate(new Vector3(0, -Input.touches[0].deltaPosition.x, 0) * Time.deltaTime * _speedOnTablet);
+            if (Input.touchCount == 1)
+            {
+                transform.Rotate(new Vector3(0, -Input.touches[0].deltaPosition.x, 0) * Time.deltaTime * _speedOnTablet); 
+            }
         }
         else
         {
