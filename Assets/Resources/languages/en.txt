@@ -9,7 +9,7 @@
 5=Lobby
 6=Bar
 7=Restaurant
-8=Grab And Go "C'est Prêt !"
+8=Mayo "C'est Prêt !"
 9=Panoramic Bar
 10=Regency Club
 11=Business Center 
@@ -119,8 +119,8 @@
 124=RESTAURANT
 125=.Local artisan crafted food\n.Contemporary, indulging, polished industrial and vibrant spirit
 
-126=GRAB AND GO "C'EST PRÊT !"
-127=.24/7 grab & go\n.Open 24/7\n.Local fresh food
+126=MAYO "C'EST PRÊT !"
+127=.24/7 Mayo\n.Open 24/7\n.Local fresh food
 
 128=PANORAMIC BAR
 129=.34th floor rooftop bar\n.Premium & Mixology cocktail bar \n.180° view rooftop
