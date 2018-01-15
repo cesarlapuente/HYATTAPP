@@ -1,23 +1,25 @@
 fileFormatVersion: 2
-guid: 4d8add60aaf54c64085801c660813ea2
-timeCreated: 1504796892
+guid: 3881670424b15914f9d7f076f4ac5562
+timeCreated: 1516032237
 licenseType: Free
 TrueTypeFontImporter:
+  externalObjects: {}
   serializedVersion: 4
   fontSize: 16
   forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Roboto
+  fontName: Whitney
   fontNames:
-  - Roboto
+  - Whitney
   fallbackFontReferences:
-  - {fileID: 12800000, guid: 39418d740db1db848b9494970c4a43e6, type: 3}
-  - {fileID: 12800000, guid: 370826fa7c8c09f4b998c603fdcc539a, type: 3}
+  - {fileID: 12800000, guid: 295e4e6488ab68b439fe9934c180b64e, type: 3}
+  - {fileID: 12800000, guid: 09c9db6b56f04c643876bd03b29874d2, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
