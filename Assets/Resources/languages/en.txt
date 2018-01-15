@@ -7,8 +7,7 @@
 
 4=UNDER ONE ROOF
 5=Lobby
-6=Bar
-7=Restaurant
+6=Bar & Restaurant Mayo
 8=Mayo "C'est Prêt !"
 9=Panoramic Bar Là-Haut
 10=Regency Club
@@ -113,11 +112,8 @@
 
 # DESCRIPTION ESPACES UNDER ONE ROOF
 
-122=BAR
-123=.Café & lounge bar\n.All day dining with local products\n.Buzzing for afterwork - 6 pm to 9 pm
-
-124=RESTAURANT
-125=.Local artisan crafted food\n.Contemporary, indulging, polished industrial and vibrant spirit
+124=BAR & RESTAURANT MAYO
+125=.Café & lounge bar\n.All day dining with local products\n.Buzzing for afterwork - 6 pm to 9 pm\n.Local artisan crafted food\n.Contemporary, indulging, polished industrial and vibrant spirit
 
 126=MAYO "C'EST PRÊT !"
 127=.24/7 Mayo\n.Open 24/7\n.Local fresh food

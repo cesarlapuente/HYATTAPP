@@ -169,11 +169,9 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
         {
             new Room(0, LanguageManager.Instance.GetText("5"), new string[]{underOneRoofPath + "A) LOBBY SPACE"}),
             new Room(1, LanguageManager.Instance.GetText("6"), new string[]{
-                underOneRoofPath + "B) LOBBY BAR",
-                underOneRoofPath + "B) LOBBY BAR -_TOP_CHANGE"
-            }),
-            new Room(2, LanguageManager.Instance.GetText("7"), new string[]{
                 underOneRoofPath + "C) LOBBY RESTAURANT",
+                underOneRoofPath + "B) LOBBY BAR",
+                underOneRoofPath + "B) LOBBY BAR -_TOP_CHANGE",
                 underOneRoofPath + "C) LOBBY RESTAURANT - TOP_CHANGE",
                 underOneRoofPath + "C) LOBBY RESTAURANT_RIGHT _CHANGE"
             }),
