@@ -191,7 +191,7 @@ MonoBehaviour:
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Point d'int\xE9r\xEAt"
@@ -537,11 +537,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1328824592}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 30.799927, y: -57.750065}
+  m_AnchoredPosition: {x: 30.799927, y: -109.4}
   m_SizeDelta: {x: 21.700012, y: 36.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &52359620
@@ -1102,7 +1102,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 148975565}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -0.709, y: 1.46, z: -0.211}
+  m_LocalPosition: {x: -0.709, y: 1.525, z: -0.211}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 716860556}
@@ -1261,7 +1261,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -234.4, y: -79}
+  m_AnchoredPosition: {x: -234.39844, y: -79}
   m_SizeDelta: {x: 71.4, y: 71.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &181762434
@@ -2332,7 +2332,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 799.8, y: -1350.7}
+  m_AnchoredPosition: {x: 799.7969, y: -1350.7}
   m_SizeDelta: {x: 1461.2, y: 75.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &273999991
@@ -2426,7 +2426,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 716.02, y: 636}
+  m_AnchoredPosition: {x: 716.02344, y: 636}
   m_SizeDelta: {x: 1346.72, y: 882.27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &276880169
@@ -2582,6 +2582,74 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 80f3068dad512714e9af8f2d6c3a27f1, type: 3}
   - {fileID: 21300000, guid: 5c2e25d2139fe244f8e91a3aad161ba0, type: 3}
   _spriteEnabled: 1
+--- !u!1 &317586665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 317586666}
+  - component: {fileID: 317586668}
+  - component: {fileID: 317586667}
+  m_Layer: 5
+  m_Name: Bus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &317586666
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 317586665}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999344, y: 0.99999344, z: 0.99999344}
+  m_Children: []
+  m_Father: {fileID: 1328824592}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 30.799866, y: -60.400013}
+  m_SizeDelta: {x: 48.386, y: 48.39}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &317586667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 317586665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.38431376, g: 0.38823533, b: 0.5921569, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 11a4391e6c1423348a31c9c95d0e652a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &317586668
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 317586665}
 --- !u!1 &343126876
 GameObject:
   m_ObjectHideFlags: 0
@@ -2802,7 +2870,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 356314570}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.14, y: -1.17, z: 1.6}
+  m_LocalPosition: {x: 2.14, y: -1.465, z: 1.6}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1766174218}
@@ -3284,7 +3352,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1328824592}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -3384,6 +3452,7 @@ MonoBehaviour:
   _mapViewDistance: {fileID: 821637402}
   _mapViewCarTime: {fileID: 933316809}
   _mapViewWalkTime: {fileID: 1771681430}
+  _mapViewBusTime: {fileID: 1787706807}
   _mapViewWalkIcon: {fileID: 52359618}
 --- !u!1 &431379864
 GameObject:
@@ -3817,7 +3886,7 @@ MonoBehaviour:
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Point d'int\xE9r\xEAt"
@@ -4463,8 +4532,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _nameKey: 106
   _distance: 3 km
-  _carTime: 15 minutes
+  _carTime: 20 minutes
   _walkTime: 40 minutes
+  _busTime: 20 minutes
   _imagePath: TOUR EIFFEL
 --- !u!114 &611879725
 MonoBehaviour:
@@ -4950,6 +5020,7 @@ MonoBehaviour:
   _distance: 5 km
   _carTime: 20 minutes
   _walkTime: 1 hour
+  _busTime: 25 minutes
   _imagePath: LOUVRE
 --- !u!114 &777361110
 MonoBehaviour:
@@ -5080,7 +5151,7 @@ MonoBehaviour:
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Point d'int\xE9r\xEAt"
@@ -5131,7 +5202,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -286.88, y: 75.70001}
+  m_AnchoredPosition: {x: -286.8828, y: 75.70001}
   m_SizeDelta: {x: 573.8, y: 150.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &805678105
@@ -5458,8 +5529,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _nameKey: 105
   _distance: 1 km
-  _carTime: 8 minutes
-  _walkTime: 13 minutes
+  _carTime: 7 minutes
+  _walkTime: 15 minutes
+  _busTime: 10 minutes
   _imagePath: ARC DE TRIOMPHE
 --- !u!114 &818415429
 MonoBehaviour:
@@ -5851,7 +5923,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 117.29999, y: -125.8999}
+  m_AnchoredPosition: {x: 117.296875, y: -125.8999}
   m_SizeDelta: {x: 234.5, y: 251.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &858977159
@@ -6109,7 +6181,7 @@ MonoBehaviour:
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Point d'int\xE9r\xEAt"
@@ -6550,7 +6622,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1049314428}
   m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -0.733, y: 1.46, z: 0.257}
+  m_LocalPosition: {x: -0.733, y: 1.5249999, z: 0.257}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 716860556}
@@ -7406,7 +7478,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -257.8, y: -41.599976}
+  m_AnchoredPosition: {x: -257.79688, y: -41.599976}
   m_SizeDelta: {x: 517.6, y: 1304.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1165721977
@@ -8142,7 +8214,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1328824592
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8158,14 +8230,16 @@ RectTransform:
   - {fileID: 821637401}
   - {fileID: 933316808}
   - {fileID: 1771681429}
+  - {fileID: 1787706806}
   - {fileID: 406322423}
   - {fileID: 52359619}
+  - {fileID: 317586666}
   m_Father: {fileID: 1916477765}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -288.8, y: -0.025024414}
+  m_AnchoredPosition: {x: -288.79688, y: -0.025024414}
   m_SizeDelta: {x: 519.4, y: -0.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1335100897
@@ -8365,7 +8439,7 @@ MonoBehaviour:
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Point d'int\xE9r\xEAt"
@@ -8475,12 +8549,12 @@ Prefab:
     - target: {fileID: 224000014051315848, guid: 649e8d79cc617ac418f7d5dbbd341344,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 202.24
+      value: 202.24023
       objectReference: {fileID: 0}
     - target: {fileID: 224000014051315848, guid: 649e8d79cc617ac418f7d5dbbd341344,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -107.54
+      value: -107.53998
       objectReference: {fileID: 0}
     - target: {fileID: 114000013123346640, guid: 649e8d79cc617ac418f7d5dbbd341344,
         type: 2}
@@ -8633,7 +8707,7 @@ Prefab:
     - target: {fileID: 224000011560694166, guid: 649e8d79cc617ac418f7d5dbbd341344,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 1.9
+      value: 1.9000015
       objectReference: {fileID: 0}
     - target: {fileID: 224000011560694166, guid: 649e8d79cc617ac418f7d5dbbd341344,
         type: 2}
@@ -8656,7 +8730,7 @@ Prefab:
     - target: {fileID: 224000012164565080, guid: 649e8d79cc617ac418f7d5dbbd341344,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -12.46
+      value: -12.460022
       objectReference: {fileID: 0}
     - target: {fileID: 224000012164565080, guid: 649e8d79cc617ac418f7d5dbbd341344,
         type: 2}
@@ -8666,7 +8740,7 @@ Prefab:
     - target: {fileID: 224000012993264130, guid: 649e8d79cc617ac418f7d5dbbd341344,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -22.239014
+      value: -22.242188
       objectReference: {fileID: 0}
     - target: {fileID: 224000012993264130, guid: 649e8d79cc617ac418f7d5dbbd341344,
         type: 2}
@@ -8845,7 +8919,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 920.9, y: -52.050037}
+  m_AnchoredPosition: {x: 920.89844, y: -52.050037}
   m_SizeDelta: {x: 1327.3, y: 103.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1409161432
@@ -9432,7 +9506,7 @@ MonoBehaviour:
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Point d'int\xE9r\xEAt"
@@ -9581,7 +9655,7 @@ MonoBehaviour:
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Point d'int\xE9r\xEAt"
@@ -10191,7 +10265,7 @@ MonoBehaviour:
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Point d'int\xE9r\xEAt"
@@ -10347,7 +10421,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 46.500008, y: -59.10005}
+  m_AnchoredPosition: {x: 46.500008, y: -110.74996}
   m_SizeDelta: {x: -93.20001, y: 38.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1771681430
@@ -10424,7 +10498,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 157, y: 506}
-  m_SizeDelta: {x: 185.1, y: 64.4}
+  m_SizeDelta: {x: 180, y: 63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1779802781
 MonoBehaviour:
@@ -10472,8 +10546,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _nameKey: 111
   _distance: 17 km
-  _carTime: 27 minutes
+  _carTime: 20 minutes
   _walkTime: 
+  _busTime: 1 hour
   _imagePath: LE BOURGET
 --- !u!114 &1779802784
 MonoBehaviour:
@@ -10689,6 +10764,80 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1787706805
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1787706806}
+  - component: {fileID: 1787706808}
+  - component: {fileID: 1787706807}
+  m_Layer: 5
+  m_Name: Time bus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1787706806
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1787706805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999344, y: 0.99999344, z: 0.99999344}
+  m_Children: []
+  m_Father: {fileID: 1328824592}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 46.50006, y: -60.4}
+  m_SizeDelta: {x: -93.20001, y: 38.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1787706807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1787706805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 7afbebb149ce98b4da3ae53c430b32a2, type: 3}
+    m_FontSize: 25
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: 00:20 minutes
+--- !u!222 &1787706808
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1787706805}
 --- !u!1 &1801871301
 GameObject:
   m_ObjectHideFlags: 0
@@ -10724,7 +10873,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 306.4, y: -418.84}
-  m_SizeDelta: {x: 128.08, y: 44.6}
+  m_SizeDelta: {x: 180, y: 63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1801871303
 MonoBehaviour:
@@ -10774,6 +10923,7 @@ MonoBehaviour:
   _distance: 21 km
   _carTime: 35 minutes
   _walkTime: 
+  _busTime: 1h15
   _imagePath: ORLY
 --- !u!114 &1801871306
 MonoBehaviour:
@@ -11171,7 +11321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1916477765
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11244,8 +11394,8 @@ MonoBehaviour:
   _name: Parking
   _titleKey: 136
   _descriptionKey: 137
-  _imagePath: hyatt
-  _type: 3
+  _imagePath: parking
+  _type: 0
   _roomId: 8
 --- !u!212 &1921029132
 SpriteRenderer:
@@ -11676,7 +11826,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 462, y: 493}
-  m_SizeDelta: {x: 152.8, y: 53.2}
+  m_SizeDelta: {x: 180, y: 63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1994964584
 MonoBehaviour:
@@ -11724,8 +11874,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _nameKey: 112
   _distance: 31 km
-  _carTime: 35 minutes
+  _carTime: 23 minutes
   _walkTime: 
+  _busTime: 45 minutes
   _imagePath: ROISSY
 --- !u!114 &1994964587
 MonoBehaviour:
@@ -11856,7 +12007,7 @@ MonoBehaviour:
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Point d'int\xE9r\xEAt"
@@ -11949,8 +12100,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _nameKey: 107
   _distance: 4 km
-  _carTime: 20 minutes
+  _carTime: 24 minutes
   _walkTime: 50 minutes
+  _busTime: 20 minutes
   _imagePath: OPERA
 --- !u!114 &2022624967
 MonoBehaviour:
@@ -12177,6 +12329,7 @@ MonoBehaviour:
   _distance: 6 km
   _carTime: 25 minutes
   _walkTime: 1 hours 20 minutes
+  _busTime: 30 minutes
   _imagePath: NOTRE DAME
 --- !u!114 &2059722004
 MonoBehaviour:
@@ -12314,7 +12467,8 @@ MonoBehaviour:
   _nameKey: 110
   _distance: 6 km
   _carTime: 30 minutes
-  _walkTime: 1 hour 25 minutes
+  _walkTime: 
+  _busTime: 40 minutes
   _imagePath: PANTHEON
 --- !u!114 &2072700471
 MonoBehaviour:

@@ -7,21 +7,21 @@
 
 4=UNDER ONE ROOF
 5=Lobby
-6=Bar & Restaurant Mayo
-8=Mayo "C'est Prêt !"
-9=Panoramic Bar Là-Haut
-10=Regency Club
+6=MAYO Bar & Restaurant
+8=MAYO, C'est Prêt !
+9=Panoramic Bar
+10=Regency Club Lounge
 11=Business Center 
 12=Fitness Center
-13=Metro Access
-14=Parking
+13=Public Transportation Access
+14=Public Parking
 15=Airport Shuttle
 16=Shopping Center
 17=Movie Theater
 
 18=ROOMS & SUITES
 19=King/Twin
-20=King/Twin Tower View
+20=King/Twin Eiffel Tower View
 21=Deluxe
 22=Deluxe Eiffel Tower View
 23=Club
@@ -33,8 +33,8 @@
 29=Presidential Suite
 
 30=EVENT SPACES
-31=Congress Center Meeting Spaces
-32=Le Lab Meeting Spaces
+31=Congress Center Spaces
+32=Lab Meeting Spaces
 33=Regency Meeting Spaces
 34=Tower Meeting Spaces
 35=Meeting Space Capacity En
@@ -51,47 +51,47 @@
 # Hotel View Pop Up
 
 82=PRESIDENTIAL SUITE
-83=.Size of the rooms: 102 sq m\n.Panoramic view of Paris and the Eiffel Tower\n.Private kitchen and dining room\n.Large bathroom\n.From 32nd to 33rd floor
+83=•Size of the rooms: 102 sq m\n•Panoramic view of Paris and the Eiffel Tower\n•Private kitchen and dining room\n•Large bathroom\n•From 32nd to 33rd floor
 
 84=LOFT SUITE
-85=.Size of the rooms: From 57 to 70 sq m\n.Panoramic view of Paris or Montmartre\n.Bathtub and shower\n.34th floor
+85=• On the 34th floor\n• Size of the rooms: from 57 to 70sq m \n• Panoramic views over Paris \n• Bathtub and shower \n• Apple TV and Chrome Cast 
 
 86=REGENCY EXECUTIVE SUITE
-87=.Size of the rooms: 70 sq m\n.Panoramic view of Paris\n.Separate Living room and Dining room\n.Two bathrooms with showers\n.From 32nd to 33rd floor
+87=• On the 31st and 32nd floor\n• Size of the rooms 70sq m\n• Panoramic views over Paris\n• Separate work area\n• Two bathrooms – Walk-in shower\n• Apple TV and Chrome Cast 
 
 88=REGENCY SUITE KING EIFFEL TOWER
-89=.Size of the rooms: 44 sq m\n.Panoramic view of Paris and the Eiffel Tower\n.Separate Living room\n.Walk-in shower\n.From 32nd to 33rd floor
+89=•Size of the rooms: 44 sq m\n•Panoramic view of Paris and the Eiffel Tower\n•Separate Living room\n•Walk-in shower\n•From 32nd to 33rd floor
 
 90=REGENCY SUITE KING
-91=.Size of the rooms: 44 sq m\n.Panoramic view of Paris and Bois de Boulogne\n.Separate Living room\n.Walk-in shower\n.From 32nd to 33rd floor
+91=• On the 32th and 33th floor\n• Size of the rooms: 44sq m\n• Panoramic views over Paris \n• Separate work area\n• Walk-in shower \n• Apple TV and Chrome Cast
 
 92=CLUB EIFFEL TOWER
-93=.Size of the rooms: 22 sq m\n.Panoramic view of Paris and Bois de Boulogne\n.Regency Club access\n.Walk-in shower\n.From 32nd to 33rd floor
+93=•Size of the rooms: 22 sq m\n•Panoramic view of Paris and Bois de Boulogne\n•Regency Club access\n•Walk-in shower\n•From 32nd to 33rd floor
 
 94=CLUB
-95=.Size of the rooms: 22 sq m\n.Panoramic view of Paris\n.Regency Club access\n.Walk-in shower
+95=• On the 32nd and 33rd floor\n• Regency Club access\n• Size of the rooms: 22sq m\n• Panoramic views over Paris\n• Walk-in shower \n• Apple TV and Chrome Cast 
 
 96=DELUXE EIFFEL TOWER
-97=.Size of the rooms: 22 sq m\n.Panoramic view of Paris and the Eiffel Tower\n.Walk-in shower
+97=•Size of the rooms: 22 sq m\n•Panoramic view of Paris and the Eiffel Tower\n•Walk-in shower
 
 98=DELUXE
-99=.Size of the rooms: 22 sq m\n.Panoramic view of Paris\n.Walk-in shower\n.From 9th to 31st floor
+99=• From 9th to 31st floor\n• Size of the rooms: 22sq m\n• Panoramic view over Paris\n• Walk-in shower \n• Apple TV and Chrome Cast 
 
 100=KING/TWIN TOWER VIEW
-101=.Size of the rooms: 22 sq m\n.View on Paris and the Eiffel Tower\n.Walk-in shower or bath
+101=•Size of the rooms: 22 sq m\n•View on Paris and the Eiffel Tower\n•Walk-in shower or bath
 
 102=KING/TWIN
-103=.Size of the rooms: 22 sq m\n.View of Paris\n.bathtub\n.From 1st to 8th floor
+103=•Size of the rooms: 22 sq m\n•View of Paris\n•bathtub\n•From 1st to 8th floor
 
 # Map
 
 104=Hyatt Regency Paris Etoile
-105=Arc of Triumph
+105=Arc de Triomphe
 106=Eiffel Tower
-107=Opera Square
+107=Opéra Garnier
 108=Louvre Museum
-109=Notre Dame
-110=Pantheon
+109=Notre Dame Cathedral
+110=Panthéon
 111=Le Bourget
 112=Roissy CDG
 113=Orly
@@ -99,51 +99,51 @@
 # EVENT SPACES DESCRIPTION 
 
 114=CONGRESS CENTER MEETING SPACES
-115=.4 auditoriums on 3 levels\n.20 breakout rooms\n.85 meeting rooms
+115=• 4 auditoriums on 3 levels\n• 20 breakout rooms\n• 85 meeting rooms
 
 116=LE LAB MEETING SPACES
-117=.12 meeting rooms\n.From 22sq m to 166sq m\n.Normal daylight
+117=• 14 meeting rooms\n• From 25sq m to 170sq m\n• High-end AV equipment\n• Daylight exposure
 
 118=REGENCY MEETING SPACES
-119=.14 meeting rooms\n.1,816 sq m\n.3500 (TH)
+119=• 15 meeting rooms\n• More than 1800sq m\n• Maximal capacity : 2800 pax
 
 120=TOWER MEETING SPACES
-121=.7 meeting rooms\n.175 sq m\n.70 pax (BOARD)
+121=• 7 meeting rooms\n• 22sq m each\n• 8 pax (U set-up)
 
 # DESCRIPTION ESPACES UNDER ONE ROOF
 
-124=BAR & RESTAURANT MAYO
-125=.Café & lounge bar\n.All day dining with local products\n.Buzzing for afterwork - 6 pm to 9 pm\n.Local artisan crafted food\n.Contemporary, indulging, polished industrial and vibrant spirit
+124=MAYO\nBAR & RESTAURANT
+125=• Opening March 2018\n• All day dining\n• Local fresh cuisine to share\n• Spaces can be privatized
 
 126=MAYO "C'EST PRÊT !"
-127=.24/7 Mayo\n.Open 24/7\n.Local fresh food
+127=• Opening March 2018 \n• 24/7 \n• Fresh food to take away
 
-128=PANORAMIC BAR LA-HAUT
-129=.34th floor rooftop bar\n.Premium & Mixology cocktail bar \n.180° view rooftop
+128=PANORAMIC BAR
+129=• Opening March 2018\n• Cocktail bar\n• 34th floor, at the very top of the hotel\n• 180° view over Paris \n• Apple TV and Chrome Cast 
 
-130=REGENCY CLUB
-131=.180° view rooftop \n.Regency Club lounge\n.34th floor
+130=REGENCY CLUB LOUNGE
+131=• On the 34th floor, at the very top of the hotel\n• 180° view over Paris
 
 132=FITNESS CENTER
-133=.24-hour Fitness Center\n.Full range of the latest equipment
+133=• 24/7\n• State of the art equipment\n• Hotel guests only
 
-134=METRO ACCESS
-135=.Metro lines: Porte Maillot (1)\n.Train station: RER C Neuilly Porte Maillot
+134=PUBLIC TRANSPORTATION ACCESS
+135=• Subway line 1 (Porte Maillot)\n• RER C (Neuilly - Porte Maillot)\n• Direct access by the Congress Center\n• Saint-Lazare train station: 4 Km\n• Montparnasse train station: 6 km\n• Gare de Lyon train station: 9 km\n• Gare du Nord train station: 10 km
 
-136=PARKING
-137=.24/7 public parking is available\n.2, Place de la Porte Maillot in front of the Paris Convention Center\n.24 hour parking fee is €40 (subject to changes without notice)
+136=PUBLIC PARKING
+137=• 24/7\n• Entrance : 2 Place de la porte Maillot, in front of the Convention Center\n• €40 fee a day (subject to changes without notice)
 
 138=AIRPORT SHUTTLE
-139=.Orly airport: 29 kilometers\n.Paris Charles de Gaulle airport: 31 kilometers\n.Gare Saint-Lazare: 4 kilometers\n.Gare Montparnasse: 6 kilometers\n.Gare de Lyon: 9 kilometers\n.Gare du Nord: 10 kilometers
+139=• Orly airport: 29 km\n• Charles de Gaule airport: 31km
 
 140=SHOPPING CENTER
-141=.40 shops\n.Hair Dresser\n.Pharmacy\n.Beauty Salon\n.Pastry Shop\n.Men & Women Fashion\n.Grocery Shop\n.Change\n.Restaurants\n.ATM
+141=• Restaurants, coffee & pastry shops\n• 40 shops (fashion, grocery, cosmetics…)\n• Drugstore\n• Hair Dresser, Beauty Salon\n• Change, ATM
 
 142=MOVIE THEATER
-143=UGC movie theater
+143=• UGC\n• Direct access by the Congress Center
 
 144=LOBBY
-145=Contemporary lobby area including restaurant & bar, and a Grab and Go market "C’est Prêt!"
+145=Including:\n• MAYO restaurant & bar \n• MAYO C’est Prêt grab & go\n• Business Center
 
-146=HOTEL HYATT
+146=HYATT REGENCY PARIS ETOILE
 147=3 Place du Général Koenig 75017 Paris

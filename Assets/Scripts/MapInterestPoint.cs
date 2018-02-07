@@ -8,6 +8,7 @@ public class MapInterestPoint : MonoBehaviour
     public string _distance;
     public string _carTime;
     public string _walkTime;
+    public string _busTime;
     public string _imagePath;
 
     public void OpenPopUp()
