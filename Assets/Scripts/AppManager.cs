@@ -229,22 +229,26 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 roomsAndSuitesPath + "A) STANDAR_FRONT",
                 roomsAndSuitesPath + "A) STANDARD"
                 }),
-            new Room(13, LanguageManager.Instance.GetText("20"), new string[]{
-                roomsAndSuitesPath + "B) STANDARD EIFFEL_TOWER",
-                roomsAndSuitesPath + "B) STANDARD EIFFEL TOWER"
-                }),
             new Room(14, LanguageManager.Instance.GetText("21"), new string[]{
                 roomsAndSuitesPath + "C) DELUXE_",
                 roomsAndSuitesPath + "C) DELUXE",
                 roomsAndSuitesPath + "C) DELUXE_FRONT"
                 }),
-            new Room(15, LanguageManager.Instance.GetText("22"), new string[]{
-                roomsAndSuitesPath + "D) DELUXE EIFFEL TOWER_",
-                roomsAndSuitesPath + "D) DELUXE EIFFEL TOWER"
-                }),
             new Room(16, LanguageManager.Instance.GetText("23"), new string[]{
                 roomsAndSuitesPath + "E) CLUB_",
                 roomsAndSuitesPath + "E) CLUB"
+                }),
+            new Room(21, LanguageManager.Instance.GetText("28"), new string[]{
+                roomsAndSuitesPath + "J) LOFT_SUITE",
+                roomsAndSuitesPath + "J) LOFT_SUITE_"
+                }),
+            new Room(13, LanguageManager.Instance.GetText("20"), new string[]{
+                roomsAndSuitesPath + "B) STANDARD EIFFEL_TOWER",
+                roomsAndSuitesPath + "B) STANDARD EIFFEL TOWER"
+                }),
+            new Room(15, LanguageManager.Instance.GetText("22"), new string[]{
+                roomsAndSuitesPath + "D) DELUXE EIFFEL TOWER_",
+                roomsAndSuitesPath + "D) DELUXE EIFFEL TOWER"
                 }),
             new Room(17, LanguageManager.Instance.GetText("24"), new string[]{
                 roomsAndSuitesPath + "F) CLUB EIFFEL TOWER",
@@ -262,10 +266,6 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 roomsAndSuitesPath + "I) REGENCY EXECUTIVE",
                 roomsAndSuitesPath + "I) REGENCY EXECUTIVE SUITE",
                 roomsAndSuitesPath + "I) REGENCY EXECUTIVE SUITE_FRONT"
-                }),
-            new Room(21, LanguageManager.Instance.GetText("28"), new string[]{
-                roomsAndSuitesPath + "J) LOFT_SUITE",
-                roomsAndSuitesPath + "J) LOFT_SUITE_"
                 }),
             new Room(22, LanguageManager.Instance.GetText("29"), new string[]{
                 roomsAndSuitesPath + "K) PRESIDENTIAL_SUITE",

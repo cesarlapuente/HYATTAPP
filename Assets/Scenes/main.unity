@@ -1470,7 +1470,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &194348923
 Transform:
   m_ObjectHideFlags: 0
@@ -4009,13 +4009,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 551465810}
-  m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -1.3819999, y: 1.612, z: -0.46899986}
+  m_LocalRotation: {x: -0, y: 0.04156433, z: -0, w: -0.99913585}
+  m_LocalPosition: {x: -1.094, y: 1.72, z: -0.697}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 441724292}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -364.764, z: 0}
 --- !u!114 &551465812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7897,13 +7897,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1294370264}
-  m_LocalRotation: {x: -0, y: -0.6427878, z: -0, w: -0.76604426}
-  m_LocalPosition: {x: -1.4009999, y: 1.72, z: 0.52199984}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: -1.142, y: 1.643, z: 0.733}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 441724292}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: -280, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!114 &1294370266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7943,8 +7943,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: Regency Executive Suite
-  _titleKey: 86
-  _descriptionKey: 87
+  _titleKey: 86b
+  _descriptionKey: 87b
   _imagePath: REGENCY EXECUTIVE SUITE
   _type: 1
   _roomId: 20
@@ -8124,8 +8124,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: Back Club Eiffel Tower
-  _titleKey: 100
-  _descriptionKey: 101
+  _titleKey: 92
+  _descriptionKey: 93
   _imagePath: CLUB EIFFEL TOWER
   _type: 1
   _roomId: 17
@@ -9111,7 +9111,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1455783376
 Transform:
   m_ObjectHideFlags: 0

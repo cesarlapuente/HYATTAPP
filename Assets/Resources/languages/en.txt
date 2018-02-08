@@ -20,8 +20,8 @@
 17=Movie Theater
 
 18=ROOMS & SUITES
-19=King/Twin
-20=King/Twin Eiffel Tower View
+19=Standard
+20=Standard Eiffel Tower View
 21=Deluxe
 22=Deluxe Eiffel Tower View
 23=Club
@@ -50,8 +50,8 @@
 
 # Hotel View Pop Up
 
-82=PRESIDENTIAL SUITE
-83=•Size of the rooms: 102 sq m\n•Panoramic view of Paris and the Eiffel Tower\n•Private kitchen and dining room\n•Large bathroom\n•From 32nd to 33rd floor
+82=PRESIDENTIAL SUITE EIFFEL TOWER
+83=• On the 32nd floor\n• Size of the room: 102sq m \n• Panoramic view over Paris and the Eiffel Tower\n• Private kitchen and dining room\n• Large bathroom including bathtub and shower\n• Apple TV and Chrome Cast 
 
 84=LOFT SUITE
 85=• On the 34th floor\n• Size of the rooms: from 57 to 70sq m \n• Panoramic views over Paris \n• Bathtub and shower \n• Apple TV and Chrome Cast 
@@ -59,29 +59,32 @@
 86=REGENCY EXECUTIVE SUITE
 87=• On the 31st and 32nd floor\n• Size of the rooms 70sq m\n• Panoramic views over Paris\n• Separate work area\n• Two bathrooms – Walk-in shower\n• Apple TV and Chrome Cast 
 
+86b=REGENCY EXECUTIVE SUITE EIFFEL TOWER
+87b=• On the 31st and 32nd floor\n• Size of the rooms 70sq m\n• Panoramic views over Paris and the Eiffel Tower\n• Separate work area\n• Two bathrooms – Walk-in shower\n• Apple TV and Chrome Cast 
+
 88=REGENCY SUITE KING EIFFEL TOWER
-89=•Size of the rooms: 44 sq m\n•Panoramic view of Paris and the Eiffel Tower\n•Separate Living room\n•Walk-in shower\n•From 32nd to 33rd floor
+89=• On the 32th and 33th floor \n• Size of the rooms: 44sq m\n• Panoramic view over Paris and the Eiffel Tower\n• Separate work area\n• Walk-in shower \n• Apple TV and Chrome Cast 
 
 90=REGENCY SUITE KING
 91=• On the 32th and 33th floor\n• Size of the rooms: 44sq m\n• Panoramic views over Paris \n• Separate work area\n• Walk-in shower \n• Apple TV and Chrome Cast
 
 92=CLUB EIFFEL TOWER
-93=•Size of the rooms: 22 sq m\n•Panoramic view of Paris and Bois de Boulogne\n•Regency Club access\n•Walk-in shower\n•From 32nd to 33rd floor
+93=• On the 32nd and 33rd floor\n• Regency Club access\n• Size of the rooms : 22sq m\n• Panoramic views over Paris and the Eiffel Tower\n• Walk-in shower \n• Apple TV and Chrome Cast 
 
 94=CLUB
 95=• On the 32nd and 33rd floor\n• Regency Club access\n• Size of the rooms: 22sq m\n• Panoramic views over Paris\n• Walk-in shower \n• Apple TV and Chrome Cast 
 
 96=DELUXE EIFFEL TOWER
-97=•Size of the rooms: 22 sq m\n•Panoramic view of Paris and the Eiffel Tower\n•Walk-in shower
+97=• From 9th to 31st floor \n• Size of the rooms: 22sq m\n• Panoramic view over Paris and the Eiffel Tower\n• Walk-in shower \n• Apple TV and Chrome Cast 
 
 98=DELUXE
 99=• From 9th to 31st floor\n• Size of the rooms: 22sq m\n• Panoramic view over Paris\n• Walk-in shower \n• Apple TV and Chrome Cast 
 
-100=KING/TWIN TOWER VIEW
+100=STANDARD TOWER VIEW
 101=•Size of the rooms: 22 sq m\n•View on Paris and the Eiffel Tower\n•Walk-in shower or bath
 
-102=KING/TWIN
-103=•Size of the rooms: 22 sq m\n•View of Paris\n•bathtub\n•From 1st to 8th floor
+102=STANDARD
+103=• From 2nd to 8th floor\n• Size of the rooms: 22sq m\n• Panoramic view over Paris\n• Bathtub\n• Apple TV and Chrome Cast
 
 # Map
 
