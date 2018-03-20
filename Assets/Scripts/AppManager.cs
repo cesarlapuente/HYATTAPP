@@ -179,7 +179,10 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 //underOneRoofPath + "C) LOBBY RESTAURANT_RIGHT _CHANGE"
             }),
             new Room(3, LanguageManager.Instance.GetText("8"), new string[]{
-                underOneRoofPath + "D) MAYO"
+                underOneRoofPath + "D) MAYO",
+                underOneRoofPath + "Mayo 1",
+                underOneRoofPath + "Mayo 2",
+                underOneRoofPath + "Mayo 3",
                 //underOneRoofPath + "D) MARKET",
                 //underOneRoofPath + "D) LOBBY MARKET_TOP_CHANGE"
             }),
@@ -229,26 +232,22 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 roomsAndSuitesPath + "A) STANDAR_FRONT",
                 roomsAndSuitesPath + "A) STANDARD"
                 }),
+            new Room(13, LanguageManager.Instance.GetText("20"), new string[]{
+                roomsAndSuitesPath + "B) STANDARD EIFFEL_TOWER",
+                roomsAndSuitesPath + "B) STANDARD EIFFEL TOWER"
+                }),
             new Room(14, LanguageManager.Instance.GetText("21"), new string[]{
                 roomsAndSuitesPath + "C) DELUXE_",
                 roomsAndSuitesPath + "C) DELUXE",
                 roomsAndSuitesPath + "C) DELUXE_FRONT"
                 }),
-            new Room(16, LanguageManager.Instance.GetText("23"), new string[]{
-                roomsAndSuitesPath + "E) CLUB_",
-                roomsAndSuitesPath + "E) CLUB"
-                }),
-            new Room(21, LanguageManager.Instance.GetText("28"), new string[]{
-                roomsAndSuitesPath + "J) LOFT_SUITE",
-                roomsAndSuitesPath + "J) LOFT_SUITE_"
-                }),
-            new Room(13, LanguageManager.Instance.GetText("20"), new string[]{
-                roomsAndSuitesPath + "B) STANDARD EIFFEL_TOWER",
-                roomsAndSuitesPath + "B) STANDARD EIFFEL TOWER"
-                }),
             new Room(15, LanguageManager.Instance.GetText("22"), new string[]{
                 roomsAndSuitesPath + "D) DELUXE EIFFEL TOWER_",
                 roomsAndSuitesPath + "D) DELUXE EIFFEL TOWER"
+                }),
+            new Room(16, LanguageManager.Instance.GetText("23"), new string[]{
+                roomsAndSuitesPath + "E) CLUB_",
+                roomsAndSuitesPath + "E) CLUB"
                 }),
             new Room(17, LanguageManager.Instance.GetText("24"), new string[]{
                 roomsAndSuitesPath + "F) CLUB EIFFEL TOWER",
@@ -261,6 +260,10 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
             new Room(19, LanguageManager.Instance.GetText("26"), new string[]{
                 roomsAndSuitesPath + "H) REGENCY SUITE KING EIFFEL TOWER",
                 roomsAndSuitesPath + "H) REGENCY SUITE KING EIFFEL TOWER_"
+                }),
+            new Room(21, LanguageManager.Instance.GetText("28"), new string[]{
+                roomsAndSuitesPath + "J) LOFT_SUITE",
+                roomsAndSuitesPath + "J) LOFT_SUITE_"
                 }),
             new Room(20, LanguageManager.Instance.GetText("27"), new string[]{
                 roomsAndSuitesPath + "I) REGENCY EXECUTIVE",
@@ -278,12 +281,12 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
         Room[] eventSpaces =
         {
             new Room(24, LanguageManager.Instance.GetText("32"), new string[]{
-                eventSpacesPath + "B) LAB MEETING SPACES NEW",
+                eventSpacesPath + "B) Plan LAB",
                 //eventSpacesPath + "B) LAB MEETING SPACES (2)",
                 //eventSpacesPath + "B) LABS MEETING SPACES_LEFT",
                 //eventSpacesPath + "B) LABS MEETING SPACES_RIGHT",
                 eventSpacesPath + "B) LABS MEETING SPACES_TOP_CHANGE",
-                eventSpacesPath + "B) LAB MEETING SPACES"
+                eventSpacesPath + "B) Capacites Tower"
             }),
             new Room(25, LanguageManager.Instance.GetText("33"), new string[]{
                 eventSpacesPath + "C) STUDIO MEETING SPACE_BRIDGE",
@@ -297,10 +300,12 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 eventSpacesPath + "C) STUDIO MEETING SPACES_TOP_CHANGE",
                 //eventSpacesPath + "C) STUDIO MEETING SPACES_RIGHT",
                 //eventSpacesPath + "C) STUDIO MEETING SPACES_2",
-                eventSpacesPath + "C) STUDIO MEETING SPACES"
+                eventSpacesPath + "C) Plans REGENCY",
+                eventSpacesPath + "C) Capacités Regency ",
                 }),
             new Room(26, LanguageManager.Instance.GetText("34"), new string[]{
-                eventSpacesPath + "D) TOWER MEETING ROOMS",
+                eventSpacesPath + "D) Plan TOWER",
+                eventSpacesPath + "D) Capacités TOWER",
                 //eventSpacesPath + "D) TOWER MEETING SPACES_FRONT",
                 //eventSpacesPath + "D) TOWER MEETING SPACES_RIGHT"
                 }),
@@ -328,18 +333,16 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 //eventSpacesPath + "A11) hall havana",
                 //eventSpacesPath + "A13) AMPHITHEATRE HAVANE"
                 }),
-            new Room(27, LanguageManager.Instance.GetText("35"), new string[] { eventSpacesPath + "STUDIOS CAPACITY FR"}),
-            new Room(28, LanguageManager.Instance.GetText("36"), new string[] { eventSpacesPath + "STUDIOS CAPACITY EN"})
         };
 
         string cateringPath = "Images/EspaceView/Catering/";
 
         Room[] catering =
         {
-            new Room(29, LanguageManager.Instance.GetText("38"), cateringPath + "Spring Summer/"),
             new Room(30, LanguageManager.Instance.GetText("39"), cateringPath + "Fall Winter/"),
+            new Room(32, LanguageManager.Instance.GetText("41"), cateringPath + "Automne Hiver/"),
+            new Room(29, LanguageManager.Instance.GetText("38"), cateringPath + "Spring Summer/"),
             new Room(31, LanguageManager.Instance.GetText("40"), cateringPath + "Printemps Ete/"),
-            new Room(32, LanguageManager.Instance.GetText("41"), cateringPath + "Automne Hiver/")
         };
 
         RoomCategory[] roomCategories =

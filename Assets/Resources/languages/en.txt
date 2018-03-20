@@ -21,13 +21,13 @@
 
 18=ROOMS & SUITES
 19=Standard
-20=Standard Eiffel Tower View
+20=Standard Eiffel Tower
 21=Deluxe
-22=Deluxe Eiffel Tower View
+22=Deluxe Eiffel Tower
 23=Club
-24=Club Eiffel Tower View
-25=Regency Suite King
-26=Regency Suite King Eiffel Tower View
+24=Club Eiffel Tower
+25=Regency Suite
+26=Regency Suite Eiffel Tower
 27=Regency Executive Suite
 28=Loft Suite
 29=Presidential Suite
@@ -62,11 +62,11 @@
 86b=REGENCY EXECUTIVE SUITE EIFFEL TOWER
 87b=• On the 31st and 32nd floor\n• Size of the rooms 70sq m\n• Panoramic views over Paris and the Eiffel Tower\n• Separate work area\n• Two bathrooms – Walk-in shower\n• Apple TV and Chrome Cast 
 
-88=REGENCY SUITE KING EIFFEL TOWER
-89=• On the 32th and 33th floor \n• Size of the rooms: 44sq m\n• Panoramic view over Paris and the Eiffel Tower\n• Separate work area\n• Walk-in shower \n• Apple TV and Chrome Cast 
+88=REGENCY SUITE EIFFEL TOWER
+89=• From the 27th and 30th floor \n• Size of the rooms: 44sq m\n• Panoramic view over Paris and the Eiffel Tower\n• Separate work area\n• Walk-in shower \n• Apple TV and Chrome Cast 
 
-90=REGENCY SUITE KING
-91=• On the 32th and 33th floor\n• Size of the rooms: 44sq m\n• Panoramic views over Paris \n• Separate work area\n• Walk-in shower \n• Apple TV and Chrome Cast
+90=REGENCY SUITE
+91=• From the 28th to the 31st floor, or on the 1st and 2nd\n• Size of the rooms: 44sq m\n• Panoramic views over Paris \n• Separate work area\n• Walk-in shower \n• Apple TV and Chrome Cast
 
 92=CLUB EIFFEL TOWER
 93=• On the 32nd and 33rd floor\n• Regency Club access\n• Size of the rooms : 22sq m\n• Panoramic views over Paris and the Eiffel Tower\n• Walk-in shower \n• Apple TV and Chrome Cast 
@@ -80,8 +80,8 @@
 98=DELUXE
 99=• From 9th to 31st floor\n• Size of the rooms: 22sq m\n• Panoramic view over Paris\n• Walk-in shower \n• Apple TV and Chrome Cast 
 
-100=STANDARD TOWER VIEW
-101=•Size of the rooms: 22 sq m\n•View on Paris and the Eiffel Tower\n•Walk-in shower or bath
+100=STANDARD EIFFEL TOWER
+101=• From 2nd to 8th floor\n• Size of the rooms: 22sq m\n• Panoramic view over Paris and the Eiffel Tower\n• Bathtub\n• Apple TV and Chrome Cast 
 
 102=STANDARD
 103=• From 2nd to 8th floor\n• Size of the rooms: 22sq m\n• Panoramic view over Paris\n• Bathtub\n• Apple TV and Chrome Cast
@@ -116,13 +116,13 @@
 # DESCRIPTION ESPACES UNDER ONE ROOF
 
 124=MAYO\nBAR & RESTAURANT
-125=• Opening March 2018\n• All day dining\n• Local fresh cuisine to share\n• Spaces can be privatized
+125=• All day dining\n• Local fresh cuisine to share\n• Spaces can be privatized
 
 126=MAYO "C'EST PRÊT !"
-127=• Opening March 2018 \n• 24/7 \n• Fresh food to take away
+127=• 24/7 \n• Fresh food to take away
 
 128=PANORAMIC BAR
-129=• Opening March 2018\n• Cocktail bar\n• 34th floor, at the very top of the hotel\n• 180° view over Paris \n• Apple TV and Chrome Cast 
+129=• Cocktail bar\n• 34th floor, at the very top of the hotel\n• 180° view over Paris \n• Spaces can be privatized
 
 130=REGENCY CLUB LOUNGE
 131=• On the 34th floor, at the very top of the hotel\n• 180° view over Paris
@@ -131,7 +131,7 @@
 133=• 24/7\n• State of the art equipment\n• Hotel guests only
 
 134=PUBLIC TRANSPORTATION ACCESS
-135=• Subway line 1 (Porte Maillot)\n• RER C (Neuilly - Porte Maillot)\n• Direct access by the Congress Center\n• Saint-Lazare train station: 4 Km\n• Montparnasse train station: 6 km\n• Gare de Lyon train station: 9 km\n• Gare du Nord train station: 10 km
+135=• Direct access by the Congress Center\n• Subway line 1 (Porte Maillot)\n• RER C (Neuilly - Porte Maillot)\n\n• Saint-Lazare train station: 4 Km\n• Montparnasse train station: 6 km\n• Gare de Lyon train station: 9 km\n• Gare du Nord train station: 10 km
 
 136=PUBLIC PARKING
 137=• 24/7\n• Entrance : 2 Place de la porte Maillot, in front of the Convention Center\n• €40 fee a day (subject to changes without notice)
@@ -148,5 +148,6 @@
 144=LOBBY
 145=Including:\n• MAYO restaurant & bar \n• MAYO C’est Prêt grab & go\n• Business Center
 
-146=HYATT REGENCY PARIS ETOILE
+#HYATT REGENCY PARIS ETOILE
+146=
 147=3 Place du Général Koenig 75017 Paris
