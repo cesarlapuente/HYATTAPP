@@ -247,7 +247,8 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 }),
             new Room(16, LanguageManager.Instance.GetText("23"), new string[]{
                 roomsAndSuitesPath + "E) CLUB_",
-                roomsAndSuitesPath + "E) CLUB"
+                roomsAndSuitesPath + "E) CLUB",
+                roomsAndSuitesPath + "E) CLUB FRONT"
                 }),
             new Room(17, LanguageManager.Instance.GetText("24"), new string[]{
                 roomsAndSuitesPath + "F) CLUB EIFFEL TOWER",
