@@ -176,50 +176,33 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 underOneRoofPath + "Mayo 2",
                 underOneRoofPath + "Mayo 3",
                 underOneRoofPath + "Mayo 4",
-                //underOneRoofPath + "C) LOBBY RESTAURANT",
-                //underOneRoofPath + "B) LOBBY BAR",
-                //underOneRoofPath + "B) LOBBY BAR -_TOP_CHANGE",
-                //underOneRoofPath + "C) LOBBY RESTAURANT - TOP_CHANGE",
-                //underOneRoofPath + "C) LOBBY RESTAURANT_RIGHT _CHANGE"
             }),
             new Room(3, LanguageManager.Instance.GetText("8"), new string[]{
                 underOneRoofPath + "D) MAYO",
                 underOneRoofPath + "D) MARKET",
-                //underOneRoofPath + "D) LOBBY MARKET_TOP_CHANGE"
             }),
             new Room(4, LanguageManager.Instance.GetText("9"), new string[]{
                 underOneRoofPath + "E) PANORAMIC BAR",
                 underOneRoofPath + "E) New Bar",
-                //underOneRoofPath + "E) PANORAMIC BAR_FRONT"
             }),
             new Room(5, LanguageManager.Instance.GetText("10"), new string[]{underOneRoofPath + "F) REGENCY CLUB"}),
             new Room(6, LanguageManager.Instance.GetText("12"), new string[]{
                 underOneRoofPath + "G) FITNESS CENTER",
-                //underOneRoofPath + "G) FITNESS CENTER_RIGHT",
-                //underOneRoofPath + "G) FITNESS CENTER_TOP"
             }),
             new Room(7, LanguageManager.Instance.GetText("13"), new string[]{
                 underOneRoofPath + "H) METRO ACCESS 1",
                 underOneRoofPath + "H) METRO ACCESS 2"
-                //underOneRoofPath + "H) METRO ACCESS_TOP",
                 }),
             new Room(8, LanguageManager.Instance.GetText("14"), new string[]{
                 underOneRoofPath + "I) PARKING ACCESS_TOP"
-                //underOneRoofPath + "I) PARKING"
             }),
             new Room(9, LanguageManager.Instance.GetText("15"), new string[]{
                 underOneRoofPath + "J) AIRPORT SHUTTLE"
-                //underOneRoofPath + "J) AIRPORT SHUTLE_TOP_CHANGE"
             }),
             new Room(10, LanguageManager.Instance.GetText("16"), new string[]{
                 underOneRoofPath + "K) CONGRESS CENTER BOUTIQUES",
-                //underOneRoofPath + "K) PALAIS DES CONGRES-BOUTIQUES_LEFT_CHANGE",
-                //underOneRoofPath + "K) PALAIS DES CONGRES-BOUTIQUES_RIGHT_CHANGE"
-                //underOneRoofPath + "K) PALAIS DES CONGRES-BOUTIQUES_TOP_CHANGE",
             }),
             new Room(11, LanguageManager.Instance.GetText("17"), new string[]{
-                //underOneRoofPath + "L) MOVIE THEATER_LEFT_CHANGE",
-                //underOneRoofPath + "L) MOVIE THEATER_RIGHT_CHANGE",
                 underOneRoofPath + "L) MOVIE THEATER",
                 underOneRoofPath + "L) MOVIE THEATER_TOP_CHANGE"
             })
@@ -285,9 +268,6 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
         {
             new Room(24, LanguageManager.Instance.GetText("32"), new string[]{
                 eventSpacesPath + "B) Plan LAB",
-                //eventSpacesPath + "B) LAB MEETING SPACES (2)",
-                //eventSpacesPath + "B) LABS MEETING SPACES_LEFT",
-                //eventSpacesPath + "B) LABS MEETING SPACES_RIGHT",
                 eventSpacesPath + "B) LABS MEETING SPACES_TOP_CHANGE",
                 eventSpacesPath + "B) Capacites Tower"
             }),
@@ -298,43 +278,20 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
                 eventSpacesPath + "C) STUDIO MEETING SPACES_CONGRESS CORRIDOR",
                 eventSpacesPath + "C) STUDIO MEETING SPACES_CONGRESS ENTRY",
                 eventSpacesPath + "C) STUDIO MEETING SPACES_meeting room_1",
-                //eventSpacesPath + "C) STUDIO MEETING SPACES_TOILET LOUNGE AREA",
-                //eventSpacesPath + "C) STUDIO MEETING SPACES_LEFT",
                 eventSpacesPath + "C) STUDIO MEETING SPACES_TOP_CHANGE",
-                //eventSpacesPath + "C) STUDIO MEETING SPACES_RIGHT",
-                //eventSpacesPath + "C) STUDIO MEETING SPACES_2",
                 eventSpacesPath + "C) Plans REGENCY",
                 eventSpacesPath + "C) Capacités Regency ",
                 }),
             new Room(26, LanguageManager.Instance.GetText("34"), new string[]{
                 eventSpacesPath + "D) Plan TOWER",
                 eventSpacesPath + "D) Capacités TOWER",
-                //eventSpacesPath + "D) TOWER MEETING SPACES_FRONT",
-                //eventSpacesPath + "D) TOWER MEETING SPACES_RIGHT"
                 }),
             new Room(23, LanguageManager.Instance.GetText("31"), new string[] {
-                //eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES",
-                //eventSpacesPath + "A1) GRAND AMPHITHEATRE",
                 eventSpacesPath + "A12) AMPHITHEATRE  bordeaux",
-                //eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES (2)",
-                //eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES_TOP",
-                //eventSpacesPath + "a) CONGRESS CENTER MEETING SPACES_RIGHT CHANGE",
-                //eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_",
                 eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_0",
                 eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_1",
                 eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_2",
                 eventSpacesPath + "A) CONGRESS CENTER MEETING SPACES_3"
-                //eventSpacesPath + "A2) HALL NEULLY",
-                //eventSpacesPath + "A3) HALL TERNES",
-                //eventSpacesPath + "A4) HALL PARIS",
-                //eventSpacesPath + "A5) HALL PASSY",
-                //eventSpacesPath + "A6) SALLE PASSY",
-                //eventSpacesPath + "A7) HALL MAILLOT",
-                //eventSpacesPath + "A8) SALLE MAILLOT",
-                //eventSpacesPath + "A9) AMPHITHEATRE BLEU",
-                //eventSpacesPath + "A10) hall BORDEAUX",
-                //eventSpacesPath + "A11) hall havana",
-                //eventSpacesPath + "A13) AMPHITHEATRE HAVANE"
                 }),
         };
 
