@@ -171,7 +171,11 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
         {
             new Room(0, LanguageManager.Instance.GetText("5"), new string[]{underOneRoofPath + "A) LOBBY SPACE"}),
             new Room(1, LanguageManager.Instance.GetText("6"), new string[]{
-                underOneRoofPath + "C) MAYO RESTAURANT"
+                underOneRoofPath + "C) MAYO RESTAURANT",
+                underOneRoofPath + "Mayo 1",
+                underOneRoofPath + "Mayo 2",
+                underOneRoofPath + "Mayo 3",
+                underOneRoofPath + "Mayo 4",
                 //underOneRoofPath + "C) LOBBY RESTAURANT",
                 //underOneRoofPath + "B) LOBBY BAR",
                 //underOneRoofPath + "B) LOBBY BAR -_TOP_CHANGE",
@@ -180,14 +184,12 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
             }),
             new Room(3, LanguageManager.Instance.GetText("8"), new string[]{
                 underOneRoofPath + "D) MAYO",
-                underOneRoofPath + "Mayo 1",
-                underOneRoofPath + "Mayo 2",
-                underOneRoofPath + "Mayo 3",
-                //underOneRoofPath + "D) MARKET",
+                underOneRoofPath + "D) MARKET",
                 //underOneRoofPath + "D) LOBBY MARKET_TOP_CHANGE"
             }),
             new Room(4, LanguageManager.Instance.GetText("9"), new string[]{
                 underOneRoofPath + "E) PANORAMIC BAR",
+                underOneRoofPath + "E) New Bar",
                 //underOneRoofPath + "E) PANORAMIC BAR_FRONT"
             }),
             new Room(5, LanguageManager.Instance.GetText("10"), new string[]{underOneRoofPath + "F) REGENCY CLUB"}),
