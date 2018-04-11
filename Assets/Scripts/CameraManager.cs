@@ -59,6 +59,11 @@ public class CameraManager : MonoBehaviour
         InputManager.DoubleClickTriggered += ToggleCameraZoom;
     }
 
+    private void OnDestroy()
+    {
+        InputManager.DoubleClickTriggered -= ToggleCameraZoom;
+    }
+
     private void Update()
     {
         //if (CurrentPinchState == PinchState.Pinching)
@@ -102,25 +107,28 @@ public class CameraManager : MonoBehaviour
 
     private void ToggleCameraZoom()
     {
-        if (!_isZoomedIn)
+        if (AppManager.Instance._currentScreen == AppManager.Screen.HotelView)
         {
-            // Center the camera where the user clicked
-            // https://stackoverflow.com/questions/9605556/how-to-project-a-point-onto-a-plane-in-3d#comment12186019_9605695
-            RaycastHit raycastHit;
-            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycastHit, Mathf.Infinity))
+            if (!_isZoomedIn)
             {
-                Vector3 cameraHitVector = raycastHit.point - transform.position;
-                float distanceBetweenHitAndCameraPlane = Vector3.Dot(cameraHitVector, transform.forward);
-                Vector3 newCameraPos = raycastHit.point - distanceBetweenHitAndCameraPlane * transform.forward;
-                _targetPosition = transform.forward * _maxZoomValue + newCameraPos;
+                // Center the camera where the user clicked
+                // https://stackoverflow.com/questions/9605556/how-to-project-a-point-onto-a-plane-in-3d#comment12186019_9605695
+                RaycastHit raycastHit;
+                if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycastHit, Mathf.Infinity))
+                {
+                    Vector3 cameraHitVector = raycastHit.point - transform.position;
+                    float distanceBetweenHitAndCameraPlane = Vector3.Dot(cameraHitVector, transform.forward);
+                    Vector3 newCameraPos = raycastHit.point - distanceBetweenHitAndCameraPlane * transform.forward;
+                    _targetPosition = transform.forward * _maxZoomValue + newCameraPos;
+                }
+                ZoomIn();
             }
-            ZoomIn();
+            else
+            {
+                Reset();
+            }
+            _isZoomedIn = !_isZoomedIn; 
         }
-        else
-        {
-            Reset();
-        }
-        _isZoomedIn = !_isZoomedIn;
     }
     
     private void ZoomIn()

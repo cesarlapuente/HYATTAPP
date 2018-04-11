@@ -7,6 +7,8 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
 
     private InterestPoint _currentInterestPoint;
 
+    public Screen _currentScreen;
+
     [Header("Menu")]
     public GameObject _hotelModel;
     public SpriteChanger _hotelSprite;
@@ -52,6 +54,7 @@ public class AppManager : MonoBehaviourSingleton<AppManager>
 
     public void ChangeScreen(Screen screen)
     {
+        _currentScreen = screen;
         switch (screen)
         {
             case Screen.HotelView:
